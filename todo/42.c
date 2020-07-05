@@ -1,0 +1,17 @@
+//let head = 'friendly'
+//let tail = 'burmese'
+//let STR = 'friendly BURMESE'
+//let algo = 'strlow'
+//let RESULT = String('FRIENDLY BURMESE')
+//let FUN = 'loony'
+//let ARG = 'taunt'
+//let TEST = 'fer'
+void FUN (char* ARG) {
+  // write this function body
+}
+
+int main (void) {
+  char TEST[] = STR;
+  FUN(TEST);
+  printf("%s\n", TEST); // prints RESULT
+}
