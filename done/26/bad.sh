@@ -1,0 +1,5 @@
+FUN='metro'
+ARG='unify'
+TEST='geek'
+STR='"precious TORTOISE"'
+RESULT='"prEcIOUs TORTOISE"'

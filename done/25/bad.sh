@@ -1,0 +1,5 @@
+FUN='deity'
+ARG='louse'
+TEST='achoo'
+STR='"BRIGHT dhole"'
+RESULT='"BRiGHT dhole"'

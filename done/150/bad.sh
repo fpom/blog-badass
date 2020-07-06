@@ -1,0 +1,5 @@
+FUN='ink'
+ARG='vogue'
+TEST='mote'
+STR='"jolly DUNKER"'
+RESULT='"JOLLY DUNKER"'

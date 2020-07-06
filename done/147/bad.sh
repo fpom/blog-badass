@@ -1,0 +1,5 @@
+FUN='are'
+ARG='vote'
+TEST='sac'
+STR='"CHARMING sheep"'
+RESULT='"CHaRMiNG shEEp"'

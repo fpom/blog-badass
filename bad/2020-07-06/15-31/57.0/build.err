@@ -1,0 +1,4 @@
+run.c: In function ‘mummy’:
+run.c:9:5: error: expected ‘,’ or ‘;’ before ‘while’
+     while (chaine[i]!='\0')
+     ^~~~~

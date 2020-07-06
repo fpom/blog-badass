@@ -1,0 +1,18 @@
+run.c: In function ‘chomp’:
+run.c:8:26: warning: implicit declaration of function ‘my_pinlen’ [-Wimplicit-function-declaration]
+      int const pin_len = my_pinlen(pin);
+                          ^~~~~~~~~
+run.c:9:22: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+      char *new_pin = malloc( (pin_len + 1 ) * sizeof(char));
+                      ^~~~~~
+run.c:9:22: warning: incompatible implicit declaration of built-in function ‘malloc’
+run.c:9:22: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+run.c:12:16: warning: ‘return’ with a value, in function returning void
+         return NULL;
+                ^~~~
+run.c:7:7: note: declared here
+  void chomp (char* pin) {
+       ^~~~~
+/tmp/ccNkBl0w.o: In function `chomp':
+run.c:(.text+0x19): undefined reference to `my_pinlen'
+collect2: error: ld returned 1 exit status

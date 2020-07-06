@@ -1,0 +1,5 @@
+FUN='pewee'
+ARG='lean'
+TEST='coke'
+STR='"WRONG otter"'
+RESULT='"wrong OTTER"'

@@ -1,0 +1,5 @@
+FUN='know'
+ARG='smog'
+TEST='ached'
+STR='"joyous DODO"'
+RESULT='"jOYOUs DoDo"'

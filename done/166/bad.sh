@@ -1,0 +1,5 @@
+FUN='tub'
+ARG='thou'
+TEST='tide'
+STR='"better MOLLY"'
+RESULT='"BETTER MOLLY"'

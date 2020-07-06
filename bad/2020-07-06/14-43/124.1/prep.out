@@ -1,0 +1,49 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void cider (char* ozone) {
+// écrivez le corps de cette fonction
+
+    for(int i=0 ; ozone[i] !=  '\0' ; i++) {
+
+     if(ozone[i] >= 'A'  && ozone[i] <='Z') {
+
+         ozone[i] +=32;
+     }
+    }
+ }
+
+
+
+
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char soil[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  cider(soil);
+  int _cmp = strcmp(soil, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

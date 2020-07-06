@@ -1,0 +1,7 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘beard’ [-Wimplicit-function-declaration]
+   beard(yokel);
+   ^~~~~
+/tmp/ccXenJPZ.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `beard'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,5 @@
+FUN='trite'
+ARG='fray'
+TEST='album'
+STR='"VAST tiffany"'
+RESULT='"VAST tIffAnY"'

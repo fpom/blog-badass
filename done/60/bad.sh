@@ -1,0 +1,5 @@
+FUN='gamed'
+ARG='crier'
+TEST='seed'
+STR='"LONG panther"'
+RESULT='"LoNG pAnthEr"'

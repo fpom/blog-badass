@@ -1,0 +1,5 @@
+FUN='brick'
+ARG='tin'
+TEST='bake'
+STR='"motionless FOSSA"'
+RESULT='"MoTioNLeSS fOssA"'

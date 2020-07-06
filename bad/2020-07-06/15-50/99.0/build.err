@@ -1,0 +1,12 @@
+run.c: In function ‘bend’:
+run.c:8:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ int j ;
+ ^~~
+run.c:18:1: error: ‘else’ without a previous ‘if’
+ else if (acme[j] >= 'a' && acme[j] <= 'z')
+ ^~~~
+run.c:21:14: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+ for (j=0 ; j<strlen(acme); j++)
+              ^~~~~~
+run.c:21:14: warning: incompatible implicit declaration of built-in function ‘strlen’
+run.c:21:14: note: include ‘<string.h>’ or provide a declaration of ‘strlen’

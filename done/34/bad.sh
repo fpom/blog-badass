@@ -1,0 +1,5 @@
+FUN='fare'
+ARG='cut'
+TEST='crude'
+STR='"tasty DREVER"'
+RESULT='"TASTY DREVER"'

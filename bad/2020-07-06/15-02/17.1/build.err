@@ -1,0 +1,9 @@
+run.c: In function ‘loony’:
+run.c:9:12: error: ‘i’ undeclared (first use in this function)
+   if(taunt[i] >= 'a' && taunt[i] <= 'z'){
+            ^
+run.c:9:12: note: each undeclared identifier is reported only once for each function it appears in
+run.c: At top level:
+run.c:25:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^

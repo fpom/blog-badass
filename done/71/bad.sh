@@ -1,0 +1,5 @@
+FUN='leave'
+ARG='head'
+TEST='shtik'
+STR='"OUTRAGEOUS caracal"'
+RESULT='"OUTRAGEOUS CARACAL"'

@@ -1,0 +1,5 @@
+FUN='cider'
+ARG='ozone'
+TEST='soil'
+STR='"FOOLISH grasshopper"'
+RESULT='"FOOLISH GRASSHOPPER"'

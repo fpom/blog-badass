@@ -1,0 +1,5 @@
+FUN='rusty'
+ARG='fiber'
+TEST='tiara'
+STR='"POWERFUL kingfisher"'
+RESULT='"POWERFUL KINGFISHER"'

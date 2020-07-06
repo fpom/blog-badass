@@ -1,0 +1,5 @@
+FUN='safer'
+ARG='mirth'
+TEST='mall'
+STR='"BEAUTIFUL warthog"'
+RESULT='"BeauTiFuL warthog"'

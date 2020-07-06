@@ -1,0 +1,4 @@
+run.c: In function ‘yolk’:
+run.c:17:23: warning: multi-character character constant [-Wmultichar]
+   while (chaine[i] != '/0')
+                       ^~~~

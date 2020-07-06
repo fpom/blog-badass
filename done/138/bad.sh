@@ -1,0 +1,5 @@
+FUN='roost'
+ARG='wart'
+TEST='tower'
+STR='"amused NIGHTINGALE"'
+RESULT='"AmUsEd NIGHTINGALE"'

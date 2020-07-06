@@ -1,0 +1,4 @@
+run.c: In function ‘lent’:
+run.c:10:18: error: request for member ‘length’ in something not a structure or union
+ for (i=0; i<graft.length; i++) {
+                  ^

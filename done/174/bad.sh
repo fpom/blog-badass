@@ -1,0 +1,5 @@
+FUN='shape'
+ARG='acing'
+TEST='waver'
+STR='"MOTIONLESS dormouse"'
+RESULT='"MoTioNLeSS dOrmOUsE"'

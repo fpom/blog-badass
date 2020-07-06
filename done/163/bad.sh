@@ -1,0 +1,5 @@
+FUN='iced'
+ARG='match'
+TEST='unbar'
+STR='"silly CUSCUS"'
+RESULT='"SILLY CUSCUS"'

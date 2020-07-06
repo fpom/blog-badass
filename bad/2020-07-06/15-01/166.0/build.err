@@ -1,0 +1,12 @@
+run.c: In function ‘tub’:
+run.c:12:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+  for (int i=0;i<strlen(thou);i++)
+                 ^~~~~~
+run.c:12:17: warning: incompatible implicit declaration of built-in function ‘strlen’
+run.c:12:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+run.c:16:43: warning: return makes pointer from integer without a cast [-Wint-conversion]
+            case 'a' ... 'z':return thou[i]=thou[i]+'a'+'A' ;
+                                    ~~~~~~~^~~~~~~~~~~~~~~~
+run.c:17:43: warning: return makes pointer from integer without a cast [-Wint-conversion]
+            case 'A' ... 'Z':return thou[i]=thou[i]  ;
+                                    ~~~~~~~^~~~~~~~

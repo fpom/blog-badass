@@ -16,7 +16,6 @@
     str[i]=str[i] -32;
     str[i]='g';
     str[i]=str[i] -32;
-    main();
  }
 
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS

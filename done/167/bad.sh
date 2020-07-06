@@ -1,0 +1,5 @@
+FUN='cider'
+ARG='scald'
+TEST='greed'
+STR='"COMFORTABLE leopard"'
+RESULT='"CoMFoRTaBLe lEOpArd"'

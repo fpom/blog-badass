@@ -1,0 +1,49 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+ char begot (char* tyro) {
+   unsigned int i;
+   int f;
+
+   for (i=0; i<=12; i++){
+   if (tyro [i] ='b', 'c', 'd' ,'f' ,'g', 'h' ,'j' ,'k' ,'l', 'm', 'n', 'p' ,'q', 'r', 's' ,'t', 'v' ,'w' ,'x' ,'z' ){
+      f= 'i' - 'a' + 'A';
+       return f;
+   }
+    else if (tyro [i]= 'B' ,'C', 'D', 'E', 'F', 'G', 'H' ,'J', 'K' ,'L', 'M', 'N' ,'P', 'Q' ,'R', 'S', 'T', 'V' ,'W', 'X', 'Z' ){
+        f='i' - 'A' + 'a';
+        return f;
+    }
+   }
+
+
+// écrivez le corps de cette fonction
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS1
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char state[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  begot(state);
+  int _cmp = strcmp(state, "8:Tc=n>weoM6xD^y)b4eQN]iFjR|Z.rfH!C5<o#uk2*pG&;lKqza%?sg79d}@/~_JaSV$0(LtX+W,h[P{u3-iyvmB1");
+  assess(test, _cmp == 0);
+}

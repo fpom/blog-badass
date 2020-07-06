@@ -1,0 +1,26 @@
+run.c: In function ‘welch’:
+run.c:10:17: error: subscripted value is neither array nor pointer nor vector
+     while (karat[i] != '\0')
+                 ^
+run.c:16:18: error: subscripted value is neither array nor pointer nor vector
+         if (karat[i]  = 98 &&  karat[i] = 122 && karat[i] != 105)
+                  ^
+run.c:16:37: error: subscripted value is neither array nor pointer nor vector
+         if (karat[i]  = 98 &&  karat[i] = 122 && karat[i] != 105)
+                                     ^
+run.c:16:55: error: subscripted value is neither array nor pointer nor vector
+         if (karat[i]  = 98 &&  karat[i] = 122 && karat[i] != 105)
+                                                       ^
+run.c:19:18: error: subscripted value is neither array nor pointer nor vector
+             karat[i] = karat[i] - 32;
+                  ^
+run.c:19:29: error: subscripted value is neither array nor pointer nor vector
+             karat[i] = karat[i] - 32;
+                             ^
+run.c: In function ‘main’:
+run.c:38:9: warning: passing argument 1 of ‘welch’ makes integer from pointer without a cast [-Wint-conversion]
+   welch(daub);
+         ^~~~
+run.c:6:6: note: expected ‘char’ but argument is of type ‘char *’
+ void welch (char karat) {
+      ^~~~~

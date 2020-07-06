@@ -1,0 +1,33 @@
+#include <stdio.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+void canoe(char *pasta)
+{
+    int i = 0;
+    while (*(pasta + i) != '\0')
+    {
+        i++;
+        if (*(pasta + i - 1) >= 'a' && *(pasta + i - 1) <= 'z')
+        {
+            *(pasta + i - 1) = *(pasta + i - 1) - ('a' - 'A');
+            continue;
+        }
+    }
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char slier[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  canoe(slier);
+  int _cmp = strcmp(slier, "8:TC=N>WEOM6XD^Y)B4EQN]IFJR|Z.RFH!C5<O#UK2*PG&;LKQZA%?SG79D}@/~_JASV$0(LTX+W,H[P{U3-IYVMB1");
+  assess(test, _cmp == 0);
+}

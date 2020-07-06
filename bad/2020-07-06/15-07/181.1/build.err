@@ -1,0 +1,10 @@
+run.c:2:11: error: #include expects "FILENAME" or <FILENAME>
+ # include >stdlib.h>
+           ^
+run.c: In function ‘stank’:
+run.c:12:107: error: expected ‘)’ before ‘{’ token
+      if (*(wise + i - 1) == 'a' || *(wise + i-1 ) == 'e' || *(wise + i-1 ) =='i'  || *(wise + i-1 ) =='o' {
+                                                                                                           ^
+run.c:22:2: error: expected expression before ‘}’ token
+  }
+  ^

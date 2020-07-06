@@ -1,0 +1,35 @@
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+void tout (char* civet) {
+// écrivez le corps de cette fonction
+    int i=0;
+    while (civet[i] != '\0'){
+        if (civet[i] == 'a'||civet[i] == 'e'
+        || civet[i] == 'i'
+        || civet[i] == 'o'
+        || civet[i] == 'u'){
+            civet[i] = civet[i]-32;
+        }
+        i++;
+    }
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char paler[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  tout(paler);
+  int _cmp = strcmp(paler, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

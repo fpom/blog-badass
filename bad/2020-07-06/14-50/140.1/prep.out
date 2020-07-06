@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+//NE CHANGEZ PAS CETTE DECLARATION
+void know (char* smog){
+//Ã©crivez le corps de cette fonction
+int i = 0;
+while (smog[i] != '\0')
+{
+    //On regarde si c'est une voyelle minuscule
+    if (smog[i]  == 97   smog[i]  == 101   smog[i]  == 105  smog[i]  == 111   smog[i]  == 117 ||  smog[i]  == 121 )
+        //On la met en majuscule
+        smog[i] = smog[i] - 32
+}
+
+    //On regarde si c'est une voyelle en majuscule
+    if (smog[i]  == 65   smog[i]  == 69   smog[i]  == 73  smog[i]  == 79   smog[i]  == 85 ||  smog[i]  == 89 )
+        //On la met en minuscule
+        smog[i] = smog[i] + 32
+    }
+
+}
+
+}
+
+//NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char ached[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  know(ached);
+  int _cmp = strcmp(ached, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

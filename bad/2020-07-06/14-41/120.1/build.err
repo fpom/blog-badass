@@ -1,0 +1,23 @@
+run.c: In function ‘call’:
+run.c:8:19: error: expected expression before ‘char’
+  for (int i=0; i< char forth[] ; i++)
+                   ^~~~
+run.c:9:6: error: expected expression before ‘char’
+  if (char forth[i] == 'i')
+      ^~~~
+run.c:10:6: error: lvalue required as left operand of assignment
+  'i' = 'I';
+      ^
+run.c:11:11: error: expected expression before ‘char’
+  else if (char forth[i] == 'E')
+           ^~~~
+run.c:12:8: error: ‘e’ undeclared (first use in this function)
+  'E' = e ;
+        ^
+run.c:12:8: note: each undeclared identifier is reported only once for each function it appears in
+run.c:13:11: error: expected expression before ‘char’
+  else if (char forth[i] == 'O')
+           ^~~~
+run.c:14:6: error: lvalue required as left operand of assignment
+  'O' = 'o';
+      ^

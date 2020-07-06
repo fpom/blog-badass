@@ -1,0 +1,5 @@
+FUN='razor'
+ARG='yip'
+TEST='saner'
+STR='"mysterious JELLYFISH"'
+RESULT='"MYSTERIOUS JELLYFISH"'

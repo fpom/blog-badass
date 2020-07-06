@@ -1,0 +1,5 @@
+FUN='notch'
+ARG='pin'
+TEST='avian'
+STR='"misty WOLVERINE"'
+RESULT='"MISTY WOLVERINE"'

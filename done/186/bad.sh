@@ -1,0 +1,5 @@
+FUN='sleek'
+ARG='amend'
+TEST='steam'
+STR='"open DORMOUSE"'
+RESULT='"OpEn DoRMouSe"'

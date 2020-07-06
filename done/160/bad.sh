@@ -1,0 +1,5 @@
+FUN='pity'
+ARG='swill'
+TEST='redid'
+STR='"LUCKY macaw"'
+RESULT='"LuCKy macaw"'

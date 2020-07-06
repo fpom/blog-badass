@@ -1,0 +1,42 @@
+run.c: In function ‘dogma’:
+run.c:7:11: error: ‘E’ undeclared (first use in this function)
+      rent[E]=e;
+           ^
+run.c:7:11: note: each undeclared identifier is reported only once for each function it appears in
+run.c:7:14: error: ‘e’ undeclared (first use in this function)
+      rent[E]=e;
+              ^
+run.c:8:16: error: ‘A’ undeclared (first use in this function)
+           rent[A]=a;
+                ^
+run.c:8:19: error: ‘a’ undeclared (first use in this function)
+           rent[A]=a;
+                   ^
+run.c:9:21: error: ‘I’ undeclared (first use in this function)
+                rent[I]=i;
+                     ^
+run.c:9:24: error: ‘i’ undeclared (first use in this function)
+                rent[I]=i;
+                        ^
+run.c:10:26: error: ‘O’ undeclared (first use in this function)
+                     rent[O]=o;
+                          ^
+run.c:10:29: error: ‘o’ undeclared (first use in this function)
+                     rent[O]=o;
+                             ^
+run.c:11:31: error: ‘U’ undeclared (first use in this function)
+                          rent[U]=u;
+                               ^
+run.c:11:34: error: ‘u’ undeclared (first use in this function)
+                          rent[U]=u;
+                                  ^
+run.c:12:36: error: ‘Y’ undeclared (first use in this function)
+                               rent[Y]=y;
+                                    ^
+run.c:12:39: error: ‘y’ undeclared (first use in this function)
+                               rent[Y]=y;
+                                       ^
+run.c: At top level:
+run.c:16:2: error: expected identifier or ‘(’ before ‘}’ token
+  }
+  ^

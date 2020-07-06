@@ -1,0 +1,5 @@
+FUN='thyme'
+ARG='lilac'
+TEST='wreck'
+STR='"filthy FISH"'
+RESULT='"FiLTHy fIsh"'

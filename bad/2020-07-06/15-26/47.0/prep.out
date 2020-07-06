@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+void him (char* nave) {
+for(int i=0; i<strlen(nave); i++) {
+    if(nave[i] == 'a' | nave[i] == 'e' | nave[i] == 'i' | nave[i] == 'o' | nave[i] == 'u' | nave[i] == 'y') {
+        nave[i] = nave[i] - 'a' + 'A';
+    } else {
+        if(nave[i] == 'A' | nave[i] == 'E' | nave[i] == 'I' | nave[i] == 'O' | nave[i] == 'U' | nave[i] == 'Y') {
+          nave[i] = nave[i] - 'A' + 'a';
+        }
+    }
+}
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char raven[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  him(raven);
+  int _cmp = strcmp(raven, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

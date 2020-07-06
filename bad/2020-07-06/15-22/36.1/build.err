@@ -1,0 +1,6 @@
+run.c: In function ‘dab’:
+run.c:7:23: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+     char* consonne1 = malloc(19*sizeof(char));
+                       ^~~~~~
+run.c:7:23: warning: incompatible implicit declaration of built-in function ‘malloc’
+run.c:7:23: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’

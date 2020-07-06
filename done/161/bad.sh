@@ -1,0 +1,5 @@
+FUN='adman'
+ARG='fey'
+TEST='arena'
+STR='"THOUGHTLESS cuscus"'
+RESULT='"THOUGHTLESS cUscUs"'

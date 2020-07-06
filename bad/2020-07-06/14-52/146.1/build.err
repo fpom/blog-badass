@@ -1,0 +1,8 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘tort’; did you mean ‘stdout’? [-Wimplicit-function-declaration]
+   tort(sot);
+   ^~~~
+   stdout
+/tmp/cc9AGEPT.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `tort'
+collect2: error: ld returned 1 exit status

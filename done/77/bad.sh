@@ -1,0 +1,5 @@
+FUN='siege'
+ARG='inset'
+TEST='batty'
+STR='"ANNOYED gecko"'
+RESULT='"AnnOYEd GeCKo"'

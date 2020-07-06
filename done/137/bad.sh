@@ -1,0 +1,5 @@
+FUN='gruel'
+ARG='diner'
+TEST='bate'
+STR='"DANGEROUS caracal"'
+RESULT='"dAngErOUs caracal"'

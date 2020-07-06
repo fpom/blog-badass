@@ -1,0 +1,5 @@
+FUN='bode'
+ARG='ivy'
+TEST='mica'
+STR='"DRAB nightingale"'
+RESULT='"drAb nightingale"'

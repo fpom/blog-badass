@@ -1,0 +1,5 @@
+FUN='tzar'
+ARG='lava'
+TEST='paint'
+STR='"beautiful PEKINGESE"'
+RESULT='"bEAUtIfUl PeKiNGeSe"'

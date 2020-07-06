@@ -1,0 +1,5 @@
+FUN='taken'
+ARG='cliff'
+TEST='gulf'
+STR='"ZANY iguana"'
+RESULT='"zAnY iGuaNa"'

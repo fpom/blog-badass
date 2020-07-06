@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+
+ void chomp (char* pin) {
+     int const pin_len = my_pinlen(pin);
+     char *new_pin = malloc( (pin_len + 1 ) * sizeof(char));
+
+    if (!pin || !new_pin)
+        return NULL;
+    for (int i = 0; pin[i]; i++) {
+        if (pin[i] < 'z' && pin[i] > 'a')
+            new_pin[i] = pin[i] - 32;
+        else
+            new_pin[i] = pin[i];
+    }
+
+     // écrivez le corps de cette fonction
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char bunt[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  chomp(bunt);
+  int _cmp = strcmp(bunt, "8:TC=N>WEOM6XD^Y)B4EQN]IFJR|Z.RFH!C5<O#UK2*PG&;LKQZA%?SG79D}@/~_JASV$0(LTX+W,H[P{U3-IYVMB1");
+  assess(test, _cmp == 0);
+}

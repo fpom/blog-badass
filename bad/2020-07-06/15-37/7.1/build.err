@@ -1,0 +1,5 @@
+run.c: In function ‘snipe’:
+run.c:9:12: error: ‘curst’ undeclared (first use in this function)
+ for(l = 0; curst[l] != '\0';l++){
+            ^~~~~
+run.c:9:12: note: each undeclared identifier is reported only once for each function it appears in

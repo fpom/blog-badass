@@ -1,0 +1,5 @@
+FUN='slew'
+ARG='feint'
+TEST='veto'
+STR='"lucky ANTEATER"'
+RESULT='"LUCKY anteater"'

@@ -1,0 +1,11 @@
+run.c: In function ‘nib’:
+run.c:73:17: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+          printf(hubby[j]);
+                 ^~~~~
+In file included from run.c:1:0:
+/usr/include/stdio.h:318:12: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern int printf (const char *__restrict __format, ...);
+            ^~~~~~
+run.c:73:10: warning: format not a string literal and no format arguments [-Wformat-security]
+          printf(hubby[j]);
+          ^~~~~~

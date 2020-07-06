@@ -1,0 +1,20 @@
+run.c:8:1: error: expected identifier or ‘(’ before ‘while’
+ while (sat[i]!= \0 );
+ ^~~~~
+run.c:8:17: error: stray ‘\’ in program
+ while (sat[i]!= \0 );
+                 ^
+run.c:9:1: error: expected identifier or ‘(’ before ‘if’
+ if (sat [i] >= 97  sat[i]<=122);
+ ^~
+run.c:10:1: warning: data definition has no type or storage class
+ sat [i]=sat [i] - 32 ;
+ ^~~
+run.c:10:1: warning: type defaults to ‘int’ in declaration of ‘sat’ [-Wimplicit-int]
+run.c:10:1: error: variably modified ‘sat’ at file scope
+run.c:10:9: error: invalid initializer
+ sat [i]=sat [i] - 32 ;
+         ^~~
+run.c:12:2: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+ i++;
+  ^~

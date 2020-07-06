@@ -1,0 +1,5 @@
+FUN='cabin'
+ARG='giant'
+TEST='asp'
+STR='"BEWILDERED whippet"'
+RESULT='"BeWiLDeReD whIppEt"'

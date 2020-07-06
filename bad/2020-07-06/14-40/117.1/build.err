@@ -1,0 +1,4 @@
+run.c: In function ‘miser’:
+run.c:16:15: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int maj = ("B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Z");
+               ^

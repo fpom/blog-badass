@@ -1,0 +1,25 @@
+run.c: In function ‘gash’:
+run.c:10:1: error: expected ‘,’ or ‘;’ before ‘for’
+ for (int i=0;i<
+ ^~~
+run.c:10:14: error: ‘i’ undeclared (first use in this function)
+ for (int i=0;i<
+              ^
+run.c:10:14: note: each undeclared identifier is reported only once for each function it appears in
+run.c:11:8: error: ‘carter’ undeclared (first use in this function); did you mean ‘cater’?
+ sizeof(carter)/sizeof(char); i++)
+        ^~~~~~
+        cater
+run.c:11:33: error: expected ‘;’ before ‘)’ token
+ sizeof(carter)/sizeof(char); i++)
+                                 ^
+run.c:11:33: error: expected statement before ‘)’ token
+run.c:14:22: error: request for member ‘c’ in something not a structure or union
+     sizeof(CONSTCONS). c++)
+                      ^
+run.c:14:27: error: expected ‘;’ before ‘)’ token
+     sizeof(CONSTCONS). c++)
+                           ^
+run.c:15:1: error: expected expression before ‘}’ token
+ }
+ ^

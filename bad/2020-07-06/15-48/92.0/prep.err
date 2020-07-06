@@ -1,0 +1,18 @@
+load main.c
+ --- main
+Traceback (most recent call last):
+  File "/home/franck/.anaconda3/bin/badass", line 11, in <module>
+    load_entry_point('not-so-badass==0.6', 'console_scripts', 'badass')()
+  File "/home/franck/.local/lib/python3.7/site-packages/badass/__main__.py", line 373, in main
+    badcli(args)
+  File "/home/franck/.local/lib/python3.7/site-packages/badass/__main__.py", line 47, in __call__
+    cmd(args)
+  File "/home/franck/.local/lib/python3.7/site-packages/badass/__main__.py", line 15, in wrapper
+    ret = method(self, args)
+  File "/home/franck/.local/lib/python3.7/site-packages/badass/__main__.py", line 63, in do_patch
+    getattr(self, "_do_patch_" + cmd)(base, arg)
+  File "/home/franck/.local/lib/python3.7/site-packages/badass/__main__.py", line 69, in _do_patch_del
+    del base[name]
+  File "/home/franck/.local/lib/python3.7/site-packages/badass/c/source.py", line 74, in __delitem__
+    decl = self.d[name]
+KeyError: 'main'

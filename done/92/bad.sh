@@ -1,0 +1,5 @@
+FUN='piled'
+ARG='quart'
+TEST='downy'
+STR='"LONG horse"'
+RESULT='"LONG HORSE"'

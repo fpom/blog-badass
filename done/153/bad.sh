@@ -1,0 +1,5 @@
+FUN='equip'
+ARG='dusty'
+TEST='snort'
+STR='"ENCOURAGING bullfrog"'
+RESULT='"eNCouRaGiNG bUllfrOg"'

@@ -1,0 +1,5 @@
+FUN='strep'
+ARG='peril'
+TEST='buy'
+STR='"inexpensive FISH"'
+RESULT='"inexpensive FiSH"'

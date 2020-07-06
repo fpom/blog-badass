@@ -1,0 +1,8 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘trite’; did you mean ‘fwrite’? [-Wimplicit-function-declaration]
+   trite(album);
+   ^~~~~
+   fwrite
+/tmp/ccnpGrwC.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `trite'
+collect2: error: ld returned 1 exit status

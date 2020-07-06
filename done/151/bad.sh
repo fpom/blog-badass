@@ -1,0 +1,5 @@
+FUN='gone'
+ARG='lad'
+TEST='flunk'
+STR='"ALIVE dolphin"'
+RESULT='"ALIVE DoLPHiN"'

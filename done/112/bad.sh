@@ -1,0 +1,5 @@
+FUN='bane'
+ARG='toned'
+TEST='stab'
+STR='"gorgeous POODLE"'
+RESULT='"gOrgEOUs PooDLe"'

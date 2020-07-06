@@ -1,0 +1,5 @@
+FUN='bosun'
+ARG='wined'
+TEST='later'
+STR='"ANNOYING abyssinian"'
+RESULT='"ANNOYING AbYssInIAn"'

@@ -1,0 +1,27 @@
+run.c: In function ‘nixed’:
+run.c:14:13: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+     scanf("%s,&lettre");
+            ~^
+run.c:15:9: error: ‘i’ undeclared (first use in this function)
+     for(i=0;i<sterlen(lettreMAj);i++);
+         ^
+run.c:15:9: note: each undeclared identifier is reported only once for each function it appears in
+run.c:15:15: warning: implicit declaration of function ‘sterlen’ [-Wimplicit-function-declaration]
+     for(i=0;i<sterlen(lettreMAj);i++);
+               ^~~~~~~
+run.c:16:18: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+     lettreMAj[i]=tolower(lettreMAj[i]);
+                  ^~~~~~~
+run.c:18:15: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+     for(i=0;i<strlen(lettremminis);i++);
+               ^~~~~~
+run.c:18:15: warning: incompatible implicit declaration of built-in function ‘strlen’
+run.c:18:15: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+run.c:18:22: error: ‘lettremminis’ undeclared (first use in this function); did you mean ‘lettreminis’?
+     for(i=0;i<strlen(lettremminis);i++);
+                      ^~~~~~~~~~~~
+                      lettreminis
+run.c: In function ‘main’:
+run.c:31:3: warning: implicit declaration of function ‘harp’ [-Wimplicit-function-declaration]
+   harp(paged);
+   ^~~~

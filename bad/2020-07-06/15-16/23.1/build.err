@@ -1,0 +1,4 @@
+run.c: In function ‘ani’:
+run.c:13:5: error: ‘else’ without a previous ‘if’
+     else (below[i] == 'A' || below[i] == 'Y' || below[i]=='I'|| below[i]=='O'|| below[i]=='U'|| below[i]=='E');
+     ^~~~

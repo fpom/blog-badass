@@ -1,0 +1,7 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘page’ [-Wimplicit-function-declaration]
+   page(licit);
+   ^~~~
+/tmp/ccPzoWG5.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `page'
+collect2: error: ld returned 1 exit status

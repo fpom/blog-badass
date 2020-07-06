@@ -1,0 +1,37 @@
+
+# include <stdio.h>
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void pod (char* lunch) {
+ // écrivez le corps de cette fonction
+ if(char >= 65 && char <= 90){
+     char = char + 32;
+       return char;
+ } else if(char >= 90 && char <= 122){
+     char = char - 32;
+     return char;
+ } else {
+      printf(" Ce n'est pas une lettre du code ascii\n");
+      return 0;
+ }
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char carol[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  pod(carol);
+  int _cmp = strcmp(carol, "8:Tc=n>weoM6xD^y)b4EQN]IFjR|Z.rfH!C5<O#uk2*pG&;lKqzA%?sg79d}@/~_JaSV$0(LtX+W,h[P{U3-iYvmB1");
+  assess(test, _cmp == 0);
+}

@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DECLARATION
+void* gybed (char* cilia){
+    int i = 0;
+    while(cilia[i] != 0){
+        if(cilia[i] >= 'a'){
+            if(cilia[i] == 'a' ||cilia[i] == 'e' || cilia[i] == 'i' || cilia[i] == 'o' || cilia[i] == 'u' || cilia[i] == 'y') {
+                cilia[i] -= 32;
+            }
+        } else {
+            if(cilia[i] == 'A' ||cilia[i] == 'E' || cilia[i] == 'I' || cilia[i] == 'O' || cilia[i] == 'U' || cilia[i] == 'Y') {
+                cilia[i] += 32;
+            }
+        }
+        i++;
+    }
+    return cilia;
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char voted[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  gybed(voted);
+  int _cmp = strcmp(voted, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

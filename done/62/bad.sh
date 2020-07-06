@@ -1,0 +1,5 @@
+FUN='amen'
+ARG='radon'
+TEST='ruled'
+STR='"EAGER donkey"'
+RESULT='"EAGER DONKEY"'

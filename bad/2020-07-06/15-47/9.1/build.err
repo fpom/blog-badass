@@ -1,0 +1,12 @@
+run.c: In function ‘swing’:
+run.c:8:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+     for (i=0; i<strlen(skip);i++){
+                 ^~~~~~
+run.c:8:17: warning: incompatible implicit declaration of built-in function ‘strlen’
+run.c:8:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+run.c:10:21: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+             skip[i]=tolower(skip[i]);
+                     ^~~~~~~
+run.c:11:22: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+         else skip[i]=toupper(skip[i]);
+                      ^~~~~~~

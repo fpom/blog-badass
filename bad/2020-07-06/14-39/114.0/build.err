@@ -1,0 +1,4 @@
+run.c:3:10: fatal error: min.h: No such file or directory
+ #include "min.h"
+          ^~~~~~~
+compilation terminated.

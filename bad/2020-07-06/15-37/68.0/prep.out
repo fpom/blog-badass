@@ -1,0 +1,32 @@
+# include <stdio.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+void quiz (char* ham) {
+    int i= 0;
+
+    while (ham[ i ]!= '\0')
+    {
+        if (ham[i] >= 97 && ham[i]<= 122)
+
+            ham[i]= ham[i] - 32;
+        i++;
+    }
+
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char jock[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  quiz(jock);
+  int _cmp = strcmp(jock, "8:TC=N>WEOM6XD^Y)B4EQN]IFJR|Z.RFH!C5<O#UK2*PG&;LKQZA%?SG79D}@/~_JASV$0(LTX+W,H[P{U3-IYVMB1");
+  assess(test, _cmp == 0);
+}

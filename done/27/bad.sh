@@ -1,0 +1,5 @@
+FUN='swear'
+ARG='decaf'
+TEST='waved'
+STR='"ALERT chicken"'
+RESULT='"ALERT CHICKEN"'

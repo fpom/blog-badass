@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+
+char* are (char* vote) {
+    int taille=strlen(vote);
+    for(int i=0;i<taille;i++){
+        if((vote[i])=='A' || vote[i]=='E' ||vote[i]=='I'||vote[i]=='O'||vote[i]=='U'||vote[i]=='Y'){
+           vote[i]=vote[i]+32;
+        }
+
+    }
+    return vote;
+}
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char sac[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  are(sac);
+  int _cmp = strcmp(sac, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

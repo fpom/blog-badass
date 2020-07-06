@@ -1,0 +1,5 @@
+FUN='dare'
+ARG='dart'
+TEST='dash'
+STR='"smiling INDRI"'
+RESULT='"smIlIng iNDRi"'

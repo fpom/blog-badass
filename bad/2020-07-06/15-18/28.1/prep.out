@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+void man(char* flank){
+int i =0;
+  for (int i=0; i<len(flank); i++){
+   switch (i) {
+   case "a": i= i-"A"+ "a";
+   case "e" :i= i-"A"+ "a";
+   case "i" : i= i-"A"+ "a";
+   case "o" : i= i-"A"+ "a";
+   case "u" :i= i-"A"+ "a";
+   case "y" : i= i-"A"+ "a";
+   case "A" :i= i-"a"+ "A";
+   case "E" :i= i-"a"+ "A";
+   case "I" :i= i-"a"+ "A";
+   case "O" :i= i-"a"+ "A";
+   case "U" :i= i-"a"+ "A";
+   case "Y" : i= i-"a"+ "A";
+   }
+   default {
+     i=i;
+    }
+  }
+}
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char heck[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  man(heck);
+  int _cmp = strcmp(heck, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

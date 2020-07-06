@@ -1,0 +1,5 @@
+FUN='ecru'
+ARG='prow'
+TEST='glide'
+STR='"splendid STARFISH"'
+RESULT='"SPLeNDiD stArfIsh"'

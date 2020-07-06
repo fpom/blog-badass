@@ -1,0 +1,5 @@
+FUN='dab'
+ARG='arose'
+TEST='glove'
+STR='"fancy ANT"'
+RESULT='"FaNCy ANT"'

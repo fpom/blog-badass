@@ -1,0 +1,5 @@
+FUN='call'
+ARG='renew'
+TEST='forth'
+STR='"smiling GECKO"'
+RESULT='"smiling GeCKo"'

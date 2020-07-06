@@ -1,0 +1,5 @@
+FUN='kilo'
+ARG='shop'
+TEST='gnarl'
+STR='"long AVOCET"'
+RESULT='"LoNG AVOCET"'

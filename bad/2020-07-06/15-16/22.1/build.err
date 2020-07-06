@@ -1,0 +1,13 @@
+run.c: In function ‘thank’:
+run.c:9:21: error: request for member ‘c’ in something not a structure or union
+     for (i=0; i<gist.c; i++){
+                     ^
+run.c:11:13: warning: comparison between pointer and integer
+         if(m>"A" && m<"Z"){
+             ^
+run.c:11:22: warning: comparison between pointer and integer
+         if(m>"A" && m<"Z"){
+                      ^
+run.c:16:9: error: expected ‘;’ before ‘}’ token
+         }
+         ^

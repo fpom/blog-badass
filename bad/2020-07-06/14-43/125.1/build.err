@@ -1,0 +1,7 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘apply’ [-Wimplicit-function-declaration]
+   apply(sit);
+   ^~~~~
+/tmp/ccFgDtb9.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `apply'
+collect2: error: ld returned 1 exit status

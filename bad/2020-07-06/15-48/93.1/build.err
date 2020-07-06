@@ -1,0 +1,8 @@
+run.c: In function ‘oft’:
+run.c:16:9: error: ‘demur’ undeclared (first use in this function)
+  while (demur[]){
+         ^~~~~
+run.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+run.c:16:15: error: expected expression before ‘]’ token
+  while (demur[]){
+               ^

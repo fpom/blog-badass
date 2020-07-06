@@ -1,0 +1,5 @@
+FUN='dogma'
+ARG='rent'
+TEST='talk'
+STR='"SLEEPY robin"'
+RESULT='"SLeePy robin"'

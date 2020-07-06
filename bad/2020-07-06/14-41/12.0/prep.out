@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSOUS
+
+// NE CHANGEZ PAS CETTE DECLARATION
+void* give (char* rigor){
+    int i = 0;
+    while(rigor[i] != 0){
+        if(rigor[i] >= 'a'){
+            if(rigor[i] == 'a' ||rigor[i] == 'e' || rigor[i] == 'i' || rigor[i] == 'o' || rigor[i] == 'u' || rigor[i] == 'y') {
+                rigor[i] -= 32;
+            }
+        } else {
+            if(rigor[i] == 'A' ||rigor[i] == 'E' || rigor[i] == 'I' || rigor[i] == 'O' || rigor[i] == 'U' || rigor[i] == 'Y') {
+                rigor[i] += 32;
+            }
+        }
+        i++;
+    }
+    return rigor;
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSOUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char rigor[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  give(rigor);
+  int _cmp = strcmp(rigor, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

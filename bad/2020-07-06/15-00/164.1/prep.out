@@ -1,0 +1,41 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+ void merge (char* mogul) {
+     int i=0;
+
+ while (mogul[i] != '\0')
+  {
+     if (mogul[i] >= 97 && mogul[i] <= 122)
+     //convertir en minuscule
+     mogul[i] = mogul[i] + 32;
+     i++;
+    }
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char quest[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  merge(quest);
+  int _cmp = strcmp(quest, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

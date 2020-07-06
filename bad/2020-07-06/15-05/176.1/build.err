@@ -1,0 +1,7 @@
+run.c: In function ‘buxom’:
+run.c:17:12: warning: ‘return’ with a value, in function returning void
+     return mocha;
+            ^~~~~
+run.c:7:6: note: declared here
+ void buxom (char* mocha) {
+      ^~~~~

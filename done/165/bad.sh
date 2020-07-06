@@ -1,0 +1,5 @@
+FUN='sash'
+ARG='john'
+TEST='gab'
+STR='"UNINTERESTED cuscus"'
+RESULT='"UnIntErEstEd cuscus"'

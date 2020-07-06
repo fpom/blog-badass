@@ -1,0 +1,29 @@
+run.c: In function ‘bane’:
+run.c:7:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  toned= 'a', 'e', 'i', 'o', 'u', 'y';
+       ^
+run.c:9:2: error: called object ‘Maj’ is not a function or function pointer
+  Maj(toned)= 'A','E', 'I', 'O', 'U', 'Y';
+  ^~~
+run.c:8:7: note: declared here
+  char Maj;
+       ^~~
+run.c:10:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘-’ token
+  char(toned)-toned+Maj(toned)= Maj(char(toned));
+             ^
+run.c:10:13: error: wrong type argument to unary minus
+run.c:10:20: error: called object ‘Maj’ is not a function or function pointer
+  char(toned)-toned+Maj(toned)= Maj(char(toned));
+                    ^~~
+run.c:8:7: note: declared here
+  char Maj;
+       ^~~
+run.c:10:36: error: expected expression before ‘char’
+  char(toned)-toned+Maj(toned)= Maj(char(toned));
+                                    ^~~~
+run.c:10:32: error: called object ‘Maj’ is not a function or function pointer
+  char(toned)-toned+Maj(toned)= Maj(char(toned));
+                                ^~~
+run.c:8:7: note: declared here
+  char Maj;
+       ^~~

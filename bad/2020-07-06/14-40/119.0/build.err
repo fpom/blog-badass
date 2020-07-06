@@ -1,0 +1,12 @@
+run.c: In function ‘surly’:
+run.c:7:13: error: ‘tared’ undeclared (first use in this function)
+ for(int i=0;tared[i]!='\0';i++){
+             ^~~~~
+run.c:7:13: note: each undeclared identifier is reported only once for each function it appears in
+run.c:8:8: error: ‘str’ undeclared (first use in this function)
+     if(str[i]>='a'&& str[i]<='z'){
+        ^~~
+run.c:9:9: error: ‘tares’ undeclared (first use in this function); did you mean ‘tared’?
+         tares[i]=tared[i]-'a'+'A';
+         ^~~~~
+         tared

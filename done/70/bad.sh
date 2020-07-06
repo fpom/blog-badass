@@ -1,0 +1,5 @@
+FUN='tome'
+ARG='bred'
+TEST='rouse'
+STR='"PRICKLY vulture"'
+RESULT='"prIcklY VuLTuRe"'

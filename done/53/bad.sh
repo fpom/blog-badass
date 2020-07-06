@@ -1,0 +1,5 @@
+FUN='acid'
+ARG='armor'
+TEST='lit'
+STR='"HAPPY barracuda"'
+RESULT='"HAPPY BARRACUDA"'

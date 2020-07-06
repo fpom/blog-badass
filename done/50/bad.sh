@@ -1,0 +1,5 @@
+FUN='craft'
+ARG='sox'
+TEST='breed'
+STR='"ELATED coyote"'
+RESULT='"ELATED cOYOtE"'

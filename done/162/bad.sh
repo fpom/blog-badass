@@ -1,0 +1,5 @@
+FUN='theta'
+ARG='ruing'
+TEST='berg'
+STR='"DRAB peacock"'
+RESULT='"drab PEACOCK"'

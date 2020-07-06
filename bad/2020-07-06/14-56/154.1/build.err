@@ -1,0 +1,8 @@
+run.c: In function ‘main’:
+run.c:37:3: warning: implicit declaration of function ‘puppy’; did you mean ‘stpcpy’? [-Wimplicit-function-declaration]
+   puppy(aphid);
+   ^~~~~
+   stpcpy
+/tmp/ccZqNkQX.o: In function `main':
+run.c:(.text+0x15a): undefined reference to `puppy'
+collect2: error: ld returned 1 exit status

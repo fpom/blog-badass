@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void tomb (char* gable)
+{
+ int i ;
+ for(int i=0 ; gable[i]!='\0';i++)
+   {
+     if(gable[i]>='A' && gable[i]<='Z')
+     {
+         gable[i]=gable[i]+'a'-'A';
+     }
+   }
+}
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char punk[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  tomb(punk);
+  int _cmp = strcmp(punk, "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1");
+  assess(test, _cmp == 0);
+}

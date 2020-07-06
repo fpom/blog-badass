@@ -1,0 +1,5 @@
+FUN='tizzy'
+ARG='dined'
+TEST='taut'
+STR='"naughty LLAMA"'
+RESULT='"NAUGHTY LLAMA"'

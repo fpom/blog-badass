@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <string.h>
+
+void revue (char * poesy){
+    int i;
+    for (i = 0; poesy[i]!='\0'; i++) {
+     // si les caractères sont en minuscules, convertissez-les en majuscules
+     // en soustrayant 32 de leur valeur ASCII.
+      if (poesy[i]  >= 97 &&  poesy[i] <= 122) {
+        poesy[i] = poesy[i] - 32; i++; }
+   }
+   printf("\n La chaîne en majuscule = %s", poesy);
+}
+
+
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char merit[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  revue(merit);
+  int _cmp = strcmp(merit, "8:TC=N>WEOM6XD^Y)B4eQN]iFJR|Z.RFH!C5<o#UK2*PG&;LKQZa%?SG79D}@/~_JASV$0(LTX+W,H[P{u3-IyVMB1");
+  assess(test, _cmp == 0);
+}

@@ -1,0 +1,5 @@
+FUN='lest'
+ARG='crow'
+TEST='label'
+STR='"tough QUAIL"'
+RESULT='"TOUGH quail"'

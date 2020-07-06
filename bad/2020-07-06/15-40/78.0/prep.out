@@ -1,0 +1,43 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby,
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+// NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGER PAS CETTE DECLARATION
+void tzar(char*lava){
+
+
+}
+    // ECRIVER le corps de cette fonction
+
+}
+
+// NE MODIFIER PAS CE COMMENTAIRE NI RIEN EN-DESSOUS
+
+
+
+
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char paint[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  tzar(paint);
+  int _cmp = strcmp(paint, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

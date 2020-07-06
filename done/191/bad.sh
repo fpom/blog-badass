@@ -1,0 +1,5 @@
+FUN='dicey'
+ARG='handy'
+TEST='gazed'
+STR='"ASHAMED zebra"'
+RESULT='"ashamed ZEBRA"'

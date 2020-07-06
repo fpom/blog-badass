@@ -1,0 +1,29 @@
+# include <stdio.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+void amen (char* radon) {
+    int i = 0;
+    for (i = 0; radon[i] != '\0'; i ++)
+    {
+        if (radon[i]  >= 'a' &&  radon[i] <= 'z')
+         radon[i] -=  'a' - 'A';
+
+    }
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char ruled[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  amen(ruled);
+  int _cmp = strcmp(ruled, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

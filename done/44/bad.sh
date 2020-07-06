@@ -1,0 +1,5 @@
+FUN='revue'
+ARG='poesy'
+TEST='merit'
+STR='"ENVIOUS manatee"'
+RESULT='"ENVIOUS MaNaTee"'

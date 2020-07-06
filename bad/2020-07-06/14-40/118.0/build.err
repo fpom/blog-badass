@@ -1,0 +1,7 @@
+run.c: In function ‘charm’:
+run.c:10:9: warning: conversion lacks type at end of format [-Wformat=]
+ scanf("%m",a);
+         ^
+run.c:10:7: warning: too many arguments for format [-Wformat-extra-args]
+ scanf("%m",a);
+       ^~~~

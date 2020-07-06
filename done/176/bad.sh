@@ -1,0 +1,5 @@
+FUN='buxom'
+ARG='mocha'
+TEST='fruit'
+STR='"stormy GAR"'
+RESULT='"stOrmY GAR"'

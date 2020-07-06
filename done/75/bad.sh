@@ -1,0 +1,5 @@
+FUN='ride'
+ARG='soggy'
+TEST='fray'
+STR='"bright BOOBY"'
+RESULT='"BRIGHT BOOBY"'

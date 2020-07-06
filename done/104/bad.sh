@@ -1,0 +1,5 @@
+FUN='squab'
+ARG='wrist'
+TEST='one'
+STR='"enchanting MARKHOR"'
+RESULT='"ENCHANTING markhor"'

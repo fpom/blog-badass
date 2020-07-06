@@ -1,0 +1,8 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘meow’; did you mean ‘feof’? [-Wimplicit-function-declaration]
+   meow(pew);
+   ^~~~
+   feof
+/tmp/ccKefVZ7.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `meow'
+collect2: error: ld returned 1 exit status

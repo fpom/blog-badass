@@ -1,0 +1,5 @@
+FUN='weer'
+ARG='redid'
+TEST='lamed'
+STR='"dull PUG"'
+RESULT='"DULL PUG"'

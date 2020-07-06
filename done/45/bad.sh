@@ -1,0 +1,5 @@
+FUN='preen'
+ARG='grab'
+TEST='grist'
+STR='"LONG magpie"'
+RESULT='"LONG MAGPIE"'

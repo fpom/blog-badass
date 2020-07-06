@@ -1,0 +1,5 @@
+FUN='slat'
+ARG='hefty'
+TEST='limn'
+STR='"filthy OCELOT"'
+RESULT='"filthy OcElOt"'

@@ -1,0 +1,5 @@
+FUN='twerp'
+ARG='cozen'
+TEST='deuce'
+STR='"clever WALLABY"'
+RESULT='"clever wAllAbY"'

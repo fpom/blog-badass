@@ -1,0 +1,5 @@
+FUN='onto'
+ARG='puree'
+TEST='staid'
+STR='"fair BARB"'
+RESULT='"fAIr BaRB"'

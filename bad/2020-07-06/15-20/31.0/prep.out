@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE D�LARATION
+ void gash (char* cater) {
+ // �crivez le corps de cette fonction
+char CONSTCONS[] =
+"bcdefjhijklmnqrstuvwxyz"
+for (int i=0;i<
+sizeof(carter)/sizeof(char); i++)
+{
+    for(int c = 0; c <
+    sizeof(CONSTCONS). c++)
+}
+
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char decor[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  gash(decor);
+  int _cmp = strcmp(decor, "8:Tc=n>weoM6xD^y)b4eQN]iFjR|Z.rfH!C5<o#uk2*pG&;lKqza%?sg79d}@/~_JaSV$0(LtX+W,h[P{u3-iyvmB1");
+  assess(test, _cmp == 0);
+}

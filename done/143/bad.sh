@@ -1,0 +1,5 @@
+FUN='faked'
+ARG='pink'
+TEST='nadir'
+STR='"FRIENDLY labradoodle"'
+RESULT='"FRIENDLY LABRADOODLE"'

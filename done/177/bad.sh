@@ -1,0 +1,5 @@
+FUN='sadly'
+ARG='loft'
+TEST='lay'
+STR='"POISED molly"'
+RESULT='"poised MOLLY"'

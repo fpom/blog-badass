@@ -1,0 +1,13 @@
+run.c: In function ‘trout’:
+run.c:7:14: warning: initializer-string for array of chars is too long
+ char maj[18]={"b,c,d,f,g,h,j,k,l,m,n,q,r,s,t,v,w,z"};
+              ^
+run.c:10:19: error: expected expression before ‘char’
+ for(i=0 ;i<strlen(char*lunar); i++) {
+                   ^~~~
+run.c:11:8: error: expected expression before ‘char’
+     if(char*lunar==char[maj]){
+        ^~~~
+run.c:12:10: error: expected identifier or ‘(’ before ‘[’ token
+      char[lunar]=tolower((char[lunar]);
+          ^

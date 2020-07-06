@@ -1,0 +1,5 @@
+FUN='mossy'
+ARG='sieve'
+TEST='gorge'
+STR='"BLUE-EYED woodlouse"'
+RESULT='"BLue-eyeD wOOdlOUsE"'

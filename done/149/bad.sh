@@ -1,0 +1,5 @@
+FUN='corn'
+ARG='byway'
+TEST='roved'
+STR='"RICH crocodile"'
+RESULT='"RICH CROCODILE"'

@@ -1,0 +1,13 @@
+run.c: In function ‘puffy’:
+run.c:12:10: error: redefinition of ‘caractere’
+     char caractere = 'e';
+          ^~~~~~~~~
+run.c:10:10: note: previous definition of ‘caractere’ was here
+     char caractere = 'a';
+          ^~~~~~~~~
+run.c:14:10: error: redefinition of ‘caractere’
+     char caractere = 'i';
+          ^~~~~~~~~
+run.c:12:10: note: previous definition of ‘caractere’ was here
+     char caractere = 'e';
+          ^~~~~~~~~

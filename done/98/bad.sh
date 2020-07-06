@@ -1,0 +1,5 @@
+FUN='raja'
+ARG='rob'
+TEST='crew'
+STR='"weary UGUISU"'
+RESULT='"weary uGuiSu"'

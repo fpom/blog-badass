@@ -1,0 +1,5 @@
+FUN='veep'
+ARG='savor'
+TEST='waded'
+STR='"thoughtful AKITA"'
+RESULT='"THouGHTFuL AkItA"'

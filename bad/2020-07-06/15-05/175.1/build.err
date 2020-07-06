@@ -1,0 +1,7 @@
+run.c: In function ‘maria’:
+run.c:14:11: warning: ‘return’ with a value, in function returning void
+    return 0;
+           ^
+run.c:6:6: note: declared here
+ void maria (char* gummy) {
+      ^~~~~

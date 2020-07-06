@@ -1,0 +1,5 @@
+FUN='grip'
+ARG='dumpy'
+TEST='stem'
+STR='"funny WOODPECKER"'
+RESULT='"funny wOOdpEckEr"'

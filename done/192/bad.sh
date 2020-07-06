@@ -1,0 +1,5 @@
+FUN='motor'
+ARG='arena'
+TEST='bang'
+STR='"DISTURBED antelope"'
+RESULT='"DiSTuRBeD antelope"'

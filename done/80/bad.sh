@@ -1,0 +1,5 @@
+FUN='gybed'
+ARG='cilia'
+TEST='voted'
+STR='"bright CAIMAN"'
+RESULT='"brIght CaiMaN"'

@@ -1,0 +1,5 @@
+FUN='heard'
+ARG='cheer'
+TEST='meted'
+STR='"confused AFFENPINSCHER"'
+RESULT='"confused AffEnpInschEr"'

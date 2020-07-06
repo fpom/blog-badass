@@ -1,0 +1,5 @@
+FUN='mummy'
+ARG='podia'
+TEST='there'
+STR='"DOUBTFUL squirrel"'
+RESULT='"DOUBTFUL sqUIrrEl"'

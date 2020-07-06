@@ -1,0 +1,5 @@
+FUN='ani'
+ARG='below'
+TEST='salve'
+STR='"average WOLVERINE"'
+RESULT='"AvErAgE WoLVeRiNe"'

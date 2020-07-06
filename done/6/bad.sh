@@ -1,0 +1,5 @@
+FUN='whale'
+ARG='milch'
+TEST='psalm'
+STR='"anxious BIRMAN"'
+RESULT='"ANXIOUS BIRMAN"'

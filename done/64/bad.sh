@@ -1,0 +1,5 @@
+FUN='begot'
+ARG='tyro'
+TEST='state'
+STR='"PRICKLY lizard"'
+RESULT='"prIcklY LiZaRD"'

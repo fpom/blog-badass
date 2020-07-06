@@ -1,0 +1,5 @@
+FUN='quest'
+ARG='flout'
+TEST='old'
+STR='"SMOGGY skunk"'
+RESULT='"smOggY skunk"'

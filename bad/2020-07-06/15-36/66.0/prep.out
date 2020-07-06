@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+void hut (char* had){
+    // écrivez le corps de cette fonction
+    int i;
+    char* s;
+    scanf("%s", s);
+    gets(s);
+    for (i=0; s[i]; i++){
+
+        if ((s[i]>='A')&&(s[i]<='z')){
+            s[i]=s[i]-'A'+'a';
+        }
+        else if((s[i]>='a')&&(s[i]<='z')){
+            s[i]-'a'+'A';
+        }
+
+    }
+return 0;
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char lit[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  hut(lit);
+  int _cmp = strcmp(lit, "8:Tc=n>weoM6xD^y)b4EQN]IFjR|Z.rfH!C5<O#uk2*pG&;lKqzA%?sg79d}@/~_JaSV$0(LtX+W,h[P{U3-iYvmB1");
+  assess(test, _cmp == 0);
+}

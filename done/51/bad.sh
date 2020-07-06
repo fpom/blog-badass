@@ -1,0 +1,5 @@
+FUN='daft'
+ARG='bride'
+TEST='tor'
+STR='"UNINTERESTED cheetah"'
+RESULT='"UNINTERESTED CHeeTaH"'

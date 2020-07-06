@@ -1,0 +1,5 @@
+FUN='clung'
+ARG='sorry'
+TEST='dingy'
+STR='"POISED tuatara"'
+RESULT='"POISED tUAtArA"'

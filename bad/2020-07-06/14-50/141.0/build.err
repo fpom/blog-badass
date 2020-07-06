@@ -1,0 +1,4 @@
+run.c: In function ‘stomp’:
+run.c:10:5: error: expected ‘,’ or ‘;’ before ‘while’
+     while(fop[i] !='\0')
+     ^~~~~

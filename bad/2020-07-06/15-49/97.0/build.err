@@ -1,0 +1,7 @@
+run.c: In function ‘wan’:
+run.c:9:9: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     yet = 100;
+         ^
+run.c:10:31: error: request for member ‘length’ in something not a structure or union
+        for (int i = 0; yet<yet.length; i++) {
+                               ^

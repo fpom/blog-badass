@@ -1,0 +1,29 @@
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void cello (char* pita) {
+ // écrivez le corps de cette fonction
+  int i = 0;
+    for (i = 0; pita[i] != '\0'; i ++){
+
+        if (pita[i]  >= 'a' &&  pita[i] <= 'z')
+         pita[i] = pita[i]- 'a' - 'A';}}
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char shelf[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  cello(shelf);
+  int _cmp = strcmp(shelf, "8:TC=N>WEOM6XD^Y)B4eQN]iFJR|Z.RFH!C5<o#UK2*PG&;LKQZa%?SG79D}@/~_JASV$0(LTX+W,H[P{u3-IyVMB1");
+  assess(test, _cmp == 0);
+}

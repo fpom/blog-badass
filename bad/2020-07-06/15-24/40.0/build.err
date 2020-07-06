@@ -1,0 +1,13 @@
+run.c: In function ‘quest’:
+run.c:6:11: error: expected expression before ‘char’
+   switch (char*){
+           ^~~~
+run.c:8:10: error: lvalue required as left operand of assignment
+      'S' += 32;
+          ^~
+run.c:10:10: error: lvalue required as left operand of assignment
+      'M' += 32;
+          ^~
+run.c:12:10: error: lvalue required as left operand of assignment
+      'G' += 32;
+          ^~

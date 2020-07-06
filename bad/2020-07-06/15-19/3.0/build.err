@@ -1,0 +1,4 @@
+run.c: In function ‘majuscule’:
+run.c:14:20: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+          chug[i] = toupper("frog");
+                    ^~~~~~~

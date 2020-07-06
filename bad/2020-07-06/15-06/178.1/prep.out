@@ -1,0 +1,43 @@
+#include <stdio.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+void slink(char *geld)
+{
+    int i = 0;
+    while (*(geld + i) != '\0')
+    {
+        i++;
+        if (*(geld + i - 1) >= 'a' && *(geld + i - 1) <= 'z')
+        {
+            if (*(geld + i - 1) != 'a' && *(geld + i - 1) != 'e' && *(geld + i - 1) != 'i' && *(geld + i - 1) != 'o' && *(geld + i - 1) != 'u' && *(geld + i - 1) != 'y')
+            {
+                *(geld + i - 1) = *(geld + i - 1) - ('a' - 'A');
+                continue;
+            }
+        }
+        if (*(geld + i - 1) >= 'A' && *(geld + i - 1) <= 'Z')
+        {
+            if (*(geld + i - 1) != 'A' && *(geld + i - 1) != 'E' && *(geld + i - 1) != 'I' && *(geld + i - 1) != 'O' && *(geld + i - 1) != 'U' && *(geld + i - 1) != 'Y')
+            {
+                *(geld + i - 1) = *(geld + i - 1) + ('a' - 'A');
+            }
+        }
+    }
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char load[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  slink(load);
+  int _cmp = strcmp(load, "8:Tc=n>weoM6xD^y)b4eQN]iFjR|Z.rfH!C5<o#uk2*pG&;lKqza%?sg79d}@/~_JaSV$0(LtX+W,h[P{u3-iyvmB1");
+  assess(test, _cmp == 0);
+}

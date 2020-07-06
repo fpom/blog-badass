@@ -1,0 +1,19 @@
+run.c: In function ‘swear’:
+run.c:12:7: error: ‘decaf’ redeclared as different kind of symbol
+ char *decaf[100];
+       ^~~~~
+run.c:11:19: note: previous definition of ‘decaf’ was here
+ void swear (char* decaf){
+                   ^~~~~
+run.c:15:17: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+ for(i=0;decaf[i]!='\0';i++){
+                 ^~
+run.c:15:9: note: did you mean to dereference the pointer?
+ for(i=0;decaf[i]!='\0';i++){
+         ^
+run.c:16:18: warning: comparison between pointer and integer
+     if (decaf [i]>='a'&&decaf[i]<='z'){
+                  ^~
+run.c:16:33: warning: comparison between pointer and integer
+     if (decaf [i]>='a'&&decaf[i]<='z'){
+                                 ^~

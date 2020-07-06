@@ -1,0 +1,5 @@
+FUN='salvo'
+ARG='eddy'
+TEST='noun'
+STR='"FIERCE dormouse"'
+RESULT='"FIERCE DoRMouSe"'

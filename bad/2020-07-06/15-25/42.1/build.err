@@ -1,0 +1,8 @@
+run.c: In function ‘drag’:
+run.c:15:5: error: ‘mot’ undeclared (first use in this function)
+     mot=puffy
+     ^~~
+run.c:15:5: note: each undeclared identifier is reported only once for each function it appears in
+run.c:16:5: error: expected ‘;’ before ‘for’
+     for i in range(i=0;i<strlen(mot);i++){
+     ^~~

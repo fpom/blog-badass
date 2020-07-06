@@ -1,0 +1,5 @@
+FUN='yolk'
+ARG='iffy'
+TEST='bosun'
+STR='"bored QUOLL"'
+RESULT='"BoReD QUOLL"'

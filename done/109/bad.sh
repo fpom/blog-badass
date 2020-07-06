@@ -1,0 +1,5 @@
+FUN='blur'
+ARG='redo'
+TEST='meal'
+STR='"gifted WARTHOG"'
+RESULT='"gifted wArthOg"'

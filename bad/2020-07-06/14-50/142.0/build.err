@@ -1,0 +1,10 @@
+run.c: In function ‘sloop’:
+run.c:8:20: error: expected identifier or ‘(’ before 'c'
+  int consonne= 'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z';
+                    ^~~
+run.c:9:20: error: expected identifier or ‘(’ before 'b'
+  int alphabet= 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z';
+                    ^~~
+run.c:12:6: warning: implicit declaration of function ‘upper’ [-Wimplicit-function-declaration]
+      upper();
+      ^~~~~

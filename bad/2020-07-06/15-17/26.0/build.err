@@ -1,0 +1,9 @@
+run.c: In function ‘metro’:
+run.c:17:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+     for (i=0; i<strlen(unify); i++) {
+                 ^~~~~~
+run.c:17:17: warning: incompatible implicit declaration of built-in function ‘strlen’
+run.c:17:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+run.c:18:18: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+         unify[i]=toupper(unify[i]);
+                  ^~~~~~~

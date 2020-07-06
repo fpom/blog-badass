@@ -1,0 +1,5 @@
+FUN='shift'
+ARG='slice'
+TEST='clue'
+STR='"THOUGHTFUL robin"'
+RESULT='"THOUGHTFUL RoBiN"'

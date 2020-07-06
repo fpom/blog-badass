@@ -1,0 +1,38 @@
+run.c: In function ‘affix’:
+run.c:7:8: error: expected identifier or ‘(’ before ‘*=’ token
+    char*= meat;
+        ^~
+run.c:8:17: error: ‘m’ undeclared (first use in this function)
+    char cote[1]=m;
+                 ^
+run.c:8:17: note: each undeclared identifier is reported only once for each function it appears in
+run.c:9:9: error: conflicting types for ‘cote’
+    char cote[2]=e;
+         ^~~~
+run.c:8:9: note: previous definition of ‘cote’ was here
+    char cote[1]=m;
+         ^~~~
+run.c:9:17: error: ‘e’ undeclared (first use in this function)
+    char cote[2]=e;
+                 ^
+run.c:10:9: error: conflicting types for ‘cote’
+    char cote[3]=a;
+         ^~~~
+run.c:9:9: note: previous definition of ‘cote’ was here
+    char cote[2]=e;
+         ^~~~
+run.c:10:17: error: ‘a’ undeclared (first use in this function)
+    char cote[3]=a;
+                 ^
+run.c:11:9: error: conflicting types for ‘cote’
+    char cote[4]=t;
+         ^~~~
+run.c:10:9: note: previous definition of ‘cote’ was here
+    char cote[3]=a;
+         ^~~~
+run.c:11:17: error: ‘t’ undeclared (first use in this function)
+    char cote[4]=t;
+                 ^
+run.c:12:8: error: expected identifier or ‘(’ before ‘=’ token
+    char= "dead BEAVER";
+        ^

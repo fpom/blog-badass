@@ -1,0 +1,5 @@
+FUN='berry'
+ARG='frisk'
+TEST='ever'
+STR='"COURAGEOUS pelican"'
+RESULT='"cOUrAgEOUs pelican"'

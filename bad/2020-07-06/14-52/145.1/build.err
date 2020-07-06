@@ -1,0 +1,7 @@
+run.c:2:1: error: expected identifier or ‘(’ before numeric constant
+ 2
+ ^
+run.c: In function ‘main’:
+run.c:32:3: warning: implicit declaration of function ‘wick’ [-Wimplicit-function-declaration]
+   wick(icing);
+   ^~~~

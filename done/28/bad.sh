@@ -1,0 +1,5 @@
+FUN='man'
+ARG='flank'
+TEST='heck'
+STR='"energetic SHEEP"'
+RESULT='"EnErgEtIc SHeeP"'

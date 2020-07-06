@@ -1,0 +1,5 @@
+FUN='stomp'
+ARG='fop'
+TEST='piked'
+STR='"SHINY tang"'
+RESULT='"SHINY TANG"'

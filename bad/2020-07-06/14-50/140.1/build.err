@@ -1,0 +1,20 @@
+run.c: In function ‘know’:
+run.c:12:26: error: expected ‘)’ before ‘smog’
+     if (smog[i]  == 97   smog[i]  == 101   smog[i]  == 105  smog[i]  == 111   smog[i]  == 117 ||  smog[i]  == 121 )
+                          ^~~~
+run.c:15:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+run.c:18:26: error: expected ‘)’ before ‘smog’
+     if (smog[i]  == 65   smog[i]  == 69   smog[i]  == 73  smog[i]  == 79   smog[i]  == 85 ||  smog[i]  == 89 )
+                          ^~~~
+run.c:21:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+run.c: At top level:
+run.c:23:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+run.c:25:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^

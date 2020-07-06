@@ -1,0 +1,8 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘safer’; did you mean ‘stderr’? [-Wimplicit-function-declaration]
+   safer(mall);
+   ^~~~~
+   stderr
+/tmp/cccr2afS.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `safer'
+collect2: error: ld returned 1 exit status

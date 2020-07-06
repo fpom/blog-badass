@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+void pat (char* lost) {
+    // écrivez le corps de cette fonction
+    int i = 0;
+    while(lost[i] != '\0')
+    {
+
+  //changer les voyelles en minuscules
+    if (lost[i] == 97 || lost[i] == 101 ||lost[i] == 105 || lost[i] == 111
+    || lost [i] == 117 || lost[i] == 121)
+
+    lost [i] = lost [i] - 32;
+    i++;
+     }
+     }
+
+     // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char sired[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  pat(sired);
+  int _cmp = strcmp(sired, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

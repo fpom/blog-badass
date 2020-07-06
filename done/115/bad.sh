@@ -1,0 +1,5 @@
+FUN='gloom'
+ARG='spoke'
+TEST='lend'
+STR='"HORRIBLE hippopotamus"'
+RESULT='"HORRIBLE hIppOpOtAmUs"'

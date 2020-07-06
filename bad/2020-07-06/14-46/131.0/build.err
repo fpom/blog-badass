@@ -1,0 +1,7 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘razor’ [-Wimplicit-function-declaration]
+   razor(saner);
+   ^~~~~
+/tmp/ccpJHAJ7.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `razor'
+collect2: error: ld returned 1 exit status

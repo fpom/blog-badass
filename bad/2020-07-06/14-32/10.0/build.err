@@ -1,0 +1,4 @@
+run.c: In function ‘dare’:
+run.c:9:17: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+         tipi[i]=tolower(tipi[i]);}
+                 ^~~~~~~

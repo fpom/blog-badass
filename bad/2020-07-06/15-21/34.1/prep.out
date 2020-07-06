@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉCLARATION
+void fare (char*cut) {
+    // écrivez le corps de cette fonction
+    while(compteur < 26)
+    printf("%c\n", 'a' & 'a'+= 'a'+1 )
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char crude[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  fare(crude);
+  int _cmp = strcmp(crude, "8:TC=N>WEOM6XD^Y)B4EQN]IFJR|Z.RFH!C5<O#UK2*PG&;LKQZA%?SG79D}@/~_JASV$0(LTX+W,H[P{U3-IYVMB1");
+  assess(test, _cmp == 0);
+}

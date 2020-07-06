@@ -1,0 +1,8 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘neon’; did you mean ‘feof’? [-Wimplicit-function-declaration]
+   neon(spoil);
+   ^~~~
+   feof
+/tmp/cc2mHj0o.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `neon'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,5 @@
+FUN='slink'
+ARG='geld'
+TEST='load'
+STR='"LONELY chipmunk"'
+RESULT='"lOnElY CHiPMuNK"'

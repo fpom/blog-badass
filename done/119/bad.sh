@@ -1,0 +1,5 @@
+FUN='surly'
+ARG='dig'
+TEST='lath'
+STR='"FUNNY puffin"'
+RESULT='"FUNNY PUFFIN"'

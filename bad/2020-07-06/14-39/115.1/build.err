@@ -1,0 +1,9 @@
+run.c: In function ‘gloom’:
+run.c:7:10: error: ‘chaine’ undeclared (first use in this function); did you mean ‘char’?
+   while (chaine[i] != '\0')
+          ^~~~~~
+          char
+run.c:7:10: note: each undeclared identifier is reported only once for each function it appears in
+run.c:7:17: error: ‘i’ undeclared (first use in this function)
+   while (chaine[i] != '\0')
+                 ^

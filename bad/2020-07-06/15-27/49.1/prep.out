@@ -1,0 +1,38 @@
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+void mile (char* block) {
+ // écrivez le corps de cette fonction
+ int i=0;
+ while(block[i] != '\0'){
+        if ((block[i] > 'a')&&(block[i]<='z')){
+            if ((block[i] != 'e')&&(block[i] != 'i')&&(block[i] != 'o')&&(block[i] != 'u')&&(block[i] != 'y')){
+                block[i]= block[i] - 'a' + 'A';
+            }
+
+        }
+    i++;
+ }
+
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char yeast[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  mile(yeast);
+  int _cmp = strcmp(yeast, "8:TC=N>WEOM6XD^Y)B4eQN]iFJR|Z.RFH!C5<o#UK2*PG&;LKQZa%?SG79D}@/~_JASV$0(LTX+W,H[P{u3-IyVMB1");
+  assess(test, _cmp == 0);
+}

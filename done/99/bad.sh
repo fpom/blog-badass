@@ -1,0 +1,5 @@
+FUN='bend'
+ARG='acme'
+TEST='raved'
+STR='"shiny RAT"'
+RESULT='"shiny RaT"'

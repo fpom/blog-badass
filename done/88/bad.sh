@@ -1,0 +1,5 @@
+FUN='waled'
+ARG='iamb'
+TEST='clink'
+STR='"precious MOUSE"'
+RESULT='"PRECIOUS MOUSE"'

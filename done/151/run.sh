@@ -1,0 +1,2 @@
+STR='"8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1"'
+RESULT='"8:TC=N>WEOM6XD^Y)B4eQN]iFJR|Z.RFH!C5<o#UK2*PG&;LKQZa%?SG79D}@/~_JASV$0(LTX+W,H[P{u3-IyVMB1"'

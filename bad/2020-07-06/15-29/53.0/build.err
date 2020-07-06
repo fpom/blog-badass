@@ -1,0 +1,7 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘acid’ [-Wimplicit-function-declaration]
+   acid(lit);
+   ^~~~
+/tmp/ccwqeKlt.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `acid'
+collect2: error: ld returned 1 exit status

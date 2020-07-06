@@ -1,0 +1,5 @@
+FUN='mowed'
+ARG='sneak'
+TEST='peppy'
+STR='"DETERMINED bulldog"'
+RESULT='"DETERMINED BULLDOG"'

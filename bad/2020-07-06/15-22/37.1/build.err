@@ -1,0 +1,13 @@
+run.c: In function ‘job’:
+run.c:9:26: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+         pivot[i]=pivot[i]-"A"+"a"
+                  ~~~~~~~~^
+run.c:11:5: error: expected ‘;’ before ‘}’ token
+     } else if (pivot[i]=='E'){
+     ^
+run.c:12:26: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+         pivot[i]=pivot[i]-"A"+"a"
+                  ~~~~~~~~^
+run.c:13:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^

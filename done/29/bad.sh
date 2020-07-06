@@ -1,0 +1,5 @@
+FUN='seen'
+ARG='aorta'
+TEST='plate'
+STR='"innocent AKBASH"'
+RESULT='"InnOcEnt aKBaSH"'

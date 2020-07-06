@@ -1,0 +1,11 @@
+run.c: In function ‘clung’:
+run.c:10:9: error: ‘dingy’ undeclared (first use in this function)
+     if (dingy [i] == a )
+         ^~~~~
+run.c:10:9: note: each undeclared identifier is reported only once for each function it appears in
+run.c:11:8: error: expected expression before ‘char’
+        char a = a+A;
+        ^~~~
+run.c:13:8: error: expected expression before ‘char’
+        char u = u+A;
+        ^~~~

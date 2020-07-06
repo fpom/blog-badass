@@ -1,0 +1,5 @@
+FUN='stank'
+ARG='wise'
+TEST='towel'
+STR='"impossible AVOCET"'
+RESULT='"IMPOSSIBLE AVOCET"'

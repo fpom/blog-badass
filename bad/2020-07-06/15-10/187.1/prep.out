@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+#include <string.h>
+
+// NE CHANGEZ PAS CETTE DECLARATION
+void slat (char* hefty) {
+    int x;
+    for(int i=0; i<strlen(hefty); i++){
+        x=hefty[i];
+        if ((x<91)&&(x>64)&&(x!='A')&&(x!='E')&&(x!='I')&&(x!='O')&&(x!='U')&&(x!='Y')){
+            x=x+32;
+            hefty[i]=x;
+        }
+    }
+}
+
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char limn[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  slat(limn);
+  int _cmp = strcmp(limn, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

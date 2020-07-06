@@ -1,0 +1,5 @@
+FUN='elate'
+ARG='glee'
+TEST='gaged'
+STR='"BLUSHING lynx"'
+RESULT='"blushing LYNX"'

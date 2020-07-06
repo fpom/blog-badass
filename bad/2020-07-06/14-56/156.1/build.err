@@ -1,0 +1,8 @@
+run.c:1:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ include <stdio.h>
+         ^
+run.c: In function ‘main’:
+run.c:24:3: warning: implicit declaration of function ‘strep’; did you mean ‘strsep’? [-Wimplicit-function-declaration]
+   strep(buy);
+   ^~~~~
+   strsep

@@ -1,0 +1,41 @@
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+void whale (char* milch) {
+// écrivez le corps de cette fonction
+    int i =0;
+    //ci-dessous (ligne 12) pour ne pas limiter à 14 il faut faire : si le charactère est différent de \0
+    //while (milch[i]=!'\0'){
+    //l'instruction ci-dessus ne compile pas correctement
+        for(i;i<14;i++){
+            //il ne faut pas modifier les espaces donc on continue seulement si le charactère est différent d'un espaces
+            //if(milch[i]=!' '){
+            //l'instruction ci-dessus ne compile pas correctement
+            if(milch[i]<'a'){
+                //'a'-'A'=32
+            milch[i] = milch[i]+32;
+            }
+            //}
+        }
+    //}
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char psalm[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  whale(psalm);
+  int _cmp = strcmp(psalm, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

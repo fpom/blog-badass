@@ -1,0 +1,5 @@
+FUN='weak'
+ARG='sage'
+TEST='dye'
+STR='"frightened COCKROACH"'
+RESULT='"FRIGHTENED COCKROACH"'

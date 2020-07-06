@@ -1,0 +1,5 @@
+FUN='loony'
+ARG='taunt'
+TEST='fer'
+STR='"friendly BURMESE"'
+RESULT='"FRIENDLY BURMESE"'

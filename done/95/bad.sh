@@ -1,0 +1,5 @@
+FUN='squat'
+ARG='haiku'
+TEST='scant'
+STR='"old-fashioned DOG"'
+RESULT='"OLD-FASHIONED DOG"'

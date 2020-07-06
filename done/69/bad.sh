@@ -1,0 +1,5 @@
+FUN='aced'
+ARG='mossy'
+TEST='very'
+STR='"shy GORILLA"'
+RESULT='"SHY GORILLA"'

@@ -1,0 +1,5 @@
+FUN='cello'
+ARG='pita'
+TEST='shelf'
+STR='"evil KUDU"'
+RESULT='"eViL KUDU"'

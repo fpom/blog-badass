@@ -1,0 +1,7 @@
+run.c: In function ‘main’:
+run.c:7:3: warning: implicit declaration of function ‘piled’ [-Wimplicit-function-declaration]
+   piled(downy);
+   ^~~~~
+/tmp/ccR00Rr7.o: In function `main':
+run.c:(.text+0xe2): undefined reference to `piled'
+collect2: error: ld returned 1 exit status

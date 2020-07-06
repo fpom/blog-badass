@@ -1,0 +1,5 @@
+FUN='dried'
+ARG='pump'
+TEST='straw'
+STR='"MOTIONLESS siberian"'
+RESULT='"MoTioNLeSS siberian"'

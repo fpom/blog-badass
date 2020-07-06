@@ -1,0 +1,5 @@
+FUN='nib'
+ARG='hubby'
+TEST='leaf'
+STR='"thoughtful LEOPARD"'
+RESULT='"THouGHTFuL lEOpArd"'

@@ -1,0 +1,5 @@
+FUN='puffy'
+ARG='any'
+TEST='reply'
+STR='"SMILING salamander"'
+RESULT='"SMiLiNG sAlAmAndEr"'

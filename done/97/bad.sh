@@ -1,0 +1,5 @@
+FUN='wan'
+ARG='yet'
+TEST='drank'
+STR='"CALM chicken"'
+RESULT='"CaLM chIckEn"'

@@ -1,0 +1,5 @@
+FUN='swing'
+ARG='skip'
+TEST='elm'
+STR='"eager AKBASH"'
+RESULT='"eaGeR AkbAsh"'

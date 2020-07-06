@@ -1,0 +1,5 @@
+FUN='harp'
+ARG='blend'
+TEST='paged'
+STR='"BRIGHT opossum"'
+RESULT='"BRIGHT OPOSSUM"'

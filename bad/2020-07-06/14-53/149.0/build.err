@@ -1,0 +1,4 @@
+run.c: In function ‘corn’:
+run.c:18:19: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+         byway[i]= toupper(byway[i]);
+                   ^~~~~~~

@@ -1,0 +1,5 @@
+FUN='wed'
+ARG='memo'
+TEST='cozen'
+STR='"ANNOYED chameleon"'
+RESULT='"AnnOYEd chameleon"'

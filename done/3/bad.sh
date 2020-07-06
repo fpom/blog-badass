@@ -1,0 +1,5 @@
+FUN='tyke'
+ARG='jilt'
+TEST='chug'
+STR='"TROUBLED frog"'
+RESULT='"troubled FROG"'

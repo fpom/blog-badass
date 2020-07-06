@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+//NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+//NE CHANGEZ PS CETTE DECLARATION
+void maria (char* gummy) {
+    //écrivez le corps de cette fonction
+   int nbre;
+   for (nbre = 0; gummy[nbre]!='\0'; nbre++) {
+      if(gummy[nbre] >= 'a' && gummy[nbre] <= 'z') {
+         gummy[nbre] = gummy[nbre] - 'a' + 'A';
+      }
+   }
+   return 0;
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char coy[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  maria(coy);
+  int _cmp = strcmp(coy, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

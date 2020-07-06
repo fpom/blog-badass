@@ -1,0 +1,5 @@
+FUN='soon'
+ARG='amen'
+TEST='cubic'
+STR='"GENTLE bandicoot"'
+RESULT='"gentle BANDICOOT"'

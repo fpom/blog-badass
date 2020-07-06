@@ -1,0 +1,5 @@
+FUN='hut'
+ARG='had'
+TEST='lit'
+STR='"STRANGE hippopotamus"'
+RESULT='"strange HIPPOPOTAMUS"'

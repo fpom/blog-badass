@@ -1,0 +1,5 @@
+FUN='marsh'
+ARG='fall'
+TEST='kazoo'
+STR='"RELIEVED bird"'
+RESULT='"RELIEVED BIRD"'

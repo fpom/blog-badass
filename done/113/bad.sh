@@ -1,0 +1,5 @@
+FUN='gust'
+ARG='slum'
+TEST='hilt'
+STR='"LUCKY kangaroo"'
+RESULT='"LuCKy kangaroo"'

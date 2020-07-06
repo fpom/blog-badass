@@ -1,0 +1,5 @@
+FUN='urge'
+ARG='pared'
+TEST='dingy'
+STR='"GORGEOUS lionfish"'
+RESULT='"gorgeous LIONFISH"'

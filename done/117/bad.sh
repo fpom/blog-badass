@@ -1,0 +1,5 @@
+FUN='miser'
+ARG='issue'
+TEST='vinyl'
+STR='"PRICKLY kangaroo"'
+RESULT='"prIcklY kangaroo"'

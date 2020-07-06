@@ -1,0 +1,5 @@
+FUN='skyed'
+ARG='aside'
+TEST='circa'
+STR='"exuberant UGUISU"'
+RESULT='"ExUbErAnt uGuiSu"'

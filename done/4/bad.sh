@@ -1,0 +1,5 @@
+FUN='past'
+ARG='tared'
+TEST='unset'
+STR='"good MOLLY"'
+RESULT='"GOOD MOLLY"'

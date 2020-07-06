@@ -1,0 +1,5 @@
+FUN='affix'
+ARG='meat'
+TEST='cote'
+STR='"dead BEAVER"'
+RESULT='"dead bEAvEr"'

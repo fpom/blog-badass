@@ -1,0 +1,5 @@
+FUN='salt'
+ARG='ooze'
+TEST='balsa'
+STR='"MUDDY insect"'
+RESULT='"MUDDY INSECT"'

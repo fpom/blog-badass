@@ -1,0 +1,4 @@
+run.c: In function ‘soon’:
+run.c:9:23: warning: unknown escape sequence: '\o'
+     for (i=0;amen[i]!='\o';i++)
+                       ^~~~

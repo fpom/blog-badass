@@ -1,0 +1,5 @@
+FUN='train'
+ARG='expel'
+TEST='vine'
+STR='"happy CHINCHILLA"'
+RESULT='"happy CHiNCHiLLa"'

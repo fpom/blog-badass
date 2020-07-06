@@ -1,0 +1,5 @@
+FUN='trout'
+ARG='lunar'
+TEST='crude'
+STR='"VICTORIOUS indri"'
+RESULT='"vIctOrIOUs indri"'

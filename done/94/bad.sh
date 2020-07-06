@@ -1,0 +1,5 @@
+FUN='prong'
+ARG='stent'
+TEST='meal'
+STR='"FAITHFUL baboon"'
+RESULT='"FaiTHFuL bAbOOn"'

@@ -1,0 +1,5 @@
+FUN='macro'
+ARG='rick'
+TEST='truer'
+STR='"CRUEL beetle"'
+RESULT='"crUEl BeeTLe"'

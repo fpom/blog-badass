@@ -1,0 +1,5 @@
+FUN='fiery'
+ARG='bale'
+TEST='slaw'
+STR='"witty LEMUR"'
+RESULT='"wIttY LEMUR"'

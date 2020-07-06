@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+void bend (char* acme)
+{
+char(asme)
+int j ;
+
+scanf("%s", acme);
+
+for(j=0;acme[j];j++)
+    {
+if(acme[j]>= 'A' && acme[j] <= 'Z')
+    acme[j] = acme[j] - 'A' + 'a' ;
+    }
+
+else if (acme[j] >= 'a' && acme[j] <= 'z')
+    acme[j]=acme[j]- 'a' +'A';
+
+for (j=0 ; j<strlen(acme); j++)
+    {
+    acme[j]= toupper (acme[j]);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char raved[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  bend(raved);
+  int _cmp = strcmp(raved, "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1");
+  assess(test, _cmp == 0);
+}

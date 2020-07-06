@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE D�LARATION
+void trout(char*lunar){
+char maj[18]={"b,c,d,f,g,h,j,k,l,m,n,q,r,s,t,v,w,z"};
+int i;
+// char lunar repr�sente ici la chaine de charact�re crude
+for(i=0 ;i<strlen(char*lunar); i++) {
+    if(char*lunar==char[maj]){
+     char[lunar]=tolower((char[lunar]);
+     // tolower est une fonction qui passe une majuscule en minuscule
+
+}
+}
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char crude[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  trout(crude);
+  int _cmp = strcmp(crude, "8:tc=n>weom6xd^y)b4eqn]ifjr|z.rfh!c5<o#uk2*pg&;lkqza%?sg79d}@/~_jasv$0(ltx+w,h[p{u3-iyvmb1");
+  assess(test, _cmp == 0);
+}

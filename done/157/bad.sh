@@ -1,0 +1,5 @@
+FUN='fruit'
+ARG='era'
+TEST='hied'
+STR='"FANTASTIC siberian"'
+RESULT='"FaNTaSTiC sIbErIAn"'

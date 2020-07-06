@@ -1,0 +1,33 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+# include <stdio.h>
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void veep (char* savor) {
+ // écrivez le corps de cette fonction
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char waded[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  veep(waded);
+  int _cmp = strcmp(waded, "8:Tc=n>weoM6xD^y)b4eQN]iFjR|Z.rfH!C5<o#uk2*pG&;lKqza%?sg79d}@/~_JaSV$0(LtX+W,h[P{u3-iyvmB1");
+  assess(test, _cmp == 0);
+}

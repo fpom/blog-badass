@@ -1,0 +1,5 @@
+FUN='nylon'
+ARG='tenon'
+TEST='team'
+STR='"INEXPENSIVE squirrel"'
+RESULT='"INEXPENSIVE SQUIRREL"'

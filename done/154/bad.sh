@@ -1,0 +1,5 @@
+FUN='puppy'
+ARG='seven'
+TEST='aphid'
+STR='"DIFFICULT drever"'
+RESULT='"DIFFICULT DREVER"'

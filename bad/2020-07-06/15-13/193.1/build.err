@@ -1,0 +1,12 @@
+run.c:21:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘tolower’
+ tolower(SPONGE);
+ ^~~~~~~
+run.c:23:1: error: expected identifier or ‘(’ before ‘for’
+ for(i=0; i<sitar(sitar); i++){
+ ^~~
+run.c:23:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ for(i=0; i<sitar(sitar); i++){
+           ^
+run.c:23:27: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+ for(i=0; i<sitar(sitar); i++){
+                           ^~

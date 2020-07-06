@@ -1,0 +1,79 @@
+run.c: In function ‘man’:
+run.c:7:19: warning: implicit declaration of function ‘len’ [-Wimplicit-function-declaration]
+   for (int i=0; i<len(flank); i++){
+                   ^~~
+run.c:9:4: error: case label does not reduce to an integer constant
+    case "a": i= i-"A"+ "a";
+    ^~~~
+run.c:9:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "a": i= i-"A"+ "a";
+                  ^
+run.c:10:4: error: case label does not reduce to an integer constant
+    case "e" :i= i-"A"+ "a";
+    ^~~~
+run.c:10:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "e" :i= i-"A"+ "a";
+                  ^
+run.c:11:4: error: case label does not reduce to an integer constant
+    case "i" : i= i-"A"+ "a";
+    ^~~~
+run.c:11:19: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "i" : i= i-"A"+ "a";
+                   ^
+run.c:12:4: error: case label does not reduce to an integer constant
+    case "o" : i= i-"A"+ "a";
+    ^~~~
+run.c:12:19: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "o" : i= i-"A"+ "a";
+                   ^
+run.c:13:4: error: case label does not reduce to an integer constant
+    case "u" :i= i-"A"+ "a";
+    ^~~~
+run.c:13:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "u" :i= i-"A"+ "a";
+                  ^
+run.c:14:4: error: case label does not reduce to an integer constant
+    case "y" : i= i-"A"+ "a";
+    ^~~~
+run.c:14:19: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "y" : i= i-"A"+ "a";
+                   ^
+run.c:15:4: error: case label does not reduce to an integer constant
+    case "A" :i= i-"a"+ "A";
+    ^~~~
+run.c:15:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "A" :i= i-"a"+ "A";
+                  ^
+run.c:16:4: error: case label does not reduce to an integer constant
+    case "E" :i= i-"a"+ "A";
+    ^~~~
+run.c:16:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "E" :i= i-"a"+ "A";
+                  ^
+run.c:17:4: error: case label does not reduce to an integer constant
+    case "I" :i= i-"a"+ "A";
+    ^~~~
+run.c:17:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "I" :i= i-"a"+ "A";
+                  ^
+run.c:18:4: error: case label does not reduce to an integer constant
+    case "O" :i= i-"a"+ "A";
+    ^~~~
+run.c:18:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "O" :i= i-"a"+ "A";
+                  ^
+run.c:19:4: error: case label does not reduce to an integer constant
+    case "U" :i= i-"a"+ "A";
+    ^~~~
+run.c:19:18: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "U" :i= i-"a"+ "A";
+                  ^
+run.c:20:4: error: case label does not reduce to an integer constant
+    case "Y" : i= i-"a"+ "A";
+    ^~~~
+run.c:20:19: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    case "Y" : i= i-"a"+ "A";
+                   ^
+run.c:22:12: error: expected ‘:’ before ‘{’ token
+    default {
+            ^

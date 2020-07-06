@@ -1,0 +1,4 @@
+run.c: In function ‘cabin’:
+run.c:9:13: error: expected expression before ‘)’ token
+         if ()
+             ^

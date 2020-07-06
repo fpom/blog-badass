@@ -1,0 +1,5 @@
+FUN='dent'
+ARG='frier'
+TEST='faxed'
+STR='"arrogant PEKINGESE"'
+RESULT='"ARROGANT PEKINGESE"'

@@ -1,0 +1,5 @@
+FUN='met'
+ARG='rouse'
+TEST='these'
+STR='"anxious DRAGONFLY"'
+RESULT='"ANXIOUS DRAGONFLY"'

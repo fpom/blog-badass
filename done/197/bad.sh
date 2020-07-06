@@ -1,0 +1,5 @@
+FUN='ocher'
+ARG='adept'
+TEST='glove'
+STR='"MOTIONLESS ladybug"'
+RESULT='"mOtIOnlEss ladybug"'

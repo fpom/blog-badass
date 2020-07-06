@@ -1,0 +1,5 @@
+FUN='quiz'
+ARG='ham'
+TEST='jock'
+STR='"FRIGHTENED zebu"'
+RESULT='"FRIGHTENED ZEBU"'

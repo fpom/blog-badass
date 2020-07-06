@@ -1,0 +1,26 @@
+run.c: In function ‘guyed’:
+run.c:8:15: error: expected identifier or ‘(’ before ‘int’
+         char (int s = '83'; e = 69; l = 76; f = 70; i = 73; s = 83; h = 72;);
+               ^~~
+run.c:8:23: warning: multi-character character constant [-Wmultichar]
+         char (int s = '83'; e = 69; l = 76; f = 70; i = 73; s = 83; h = 72;);
+                       ^~~~
+run.c:9:16: error: expected ‘)’ before ‘=’ token
+         int (r =trans(s); r =trans(e); r =trans(l); r =trans(f); r =trans(s); r =trans(h););
+                ^
+run.c:10:9: error: ‘cout’ undeclared (first use in this function)
+         cout<<r<<endl;
+         ^~~~
+run.c:10:9: note: each undeclared identifier is reported only once for each function it appears in
+run.c:10:15: error: ‘r’ undeclared (first use in this function)
+         cout<<r<<endl;
+               ^
+run.c:10:18: error: ‘endl’ undeclared (first use in this function)
+         cout<<r<<endl;
+                  ^~~~
+run.c:11:16: warning: ‘return’ with a value, in function returning void
+         return 0 ;
+                ^
+run.c:6:8: note: declared here
+   void guyed (char* mean) {
+        ^~~~~

@@ -1,0 +1,5 @@
+FUN='stab'
+ARG='label'
+TEST='cawed'
+STR='"troubled GIRAFFE"'
+RESULT='"troubled gIrAffE"'

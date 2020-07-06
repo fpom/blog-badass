@@ -1,0 +1,5 @@
+FUN='exam'
+ARG='label'
+TEST='rifer'
+STR='"doubtful PHEASANT"'
+RESULT='"DOUBTFUL pheasant"'

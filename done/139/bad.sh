@@ -1,0 +1,5 @@
+FUN='poser'
+ARG='blurb'
+TEST='here'
+STR='"old-fashioned TORTOISE"'
+RESULT='"oLD-FaSHioNeD tOrtOIsE"'

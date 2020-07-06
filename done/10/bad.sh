@@ -1,0 +1,5 @@
+FUN='dare'
+ARG='tipi'
+TEST='musk'
+STR='"muddy OLM"'
+RESULT='"muddy Olm"'

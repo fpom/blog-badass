@@ -1,0 +1,11 @@
+run.c:6:1: error: unknown type name ‘Void’; did you mean ‘void’?
+ Void hutch(char*sclold){
+ ^~~~
+ void
+run.c: In function ‘hutch’:
+run.c:7:10: error: assignment to expression with array type
+ if ("a+1"="b")
+          ^
+run.c:8:20: error: expected identifier before ‘(’ token
+     if ("f"<"z")&& ("w">="e")
+                    ^

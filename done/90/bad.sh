@@ -1,0 +1,5 @@
+FUN='page'
+ARG='lain'
+TEST='licit'
+STR='"kind OCELOT"'
+RESULT='"kind OcElOt"'

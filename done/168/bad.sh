@@ -1,0 +1,5 @@
+FUN='woe'
+ARG='amaze'
+TEST='sum'
+STR='"itchy RATTLESNAKE"'
+RESULT='"ITCHY rattlesnake"'

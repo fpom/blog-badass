@@ -1,0 +1,5 @@
+FUN='charm'
+ARG='credo'
+TEST='model'
+STR='"FUNNY rattlesnake"'
+RESULT='"FUNNY RATTLESNAKE"'

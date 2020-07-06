@@ -1,0 +1,5 @@
+FUN='erupt'
+ARG='poach'
+TEST='awol'
+STR='"scary DOG"'
+RESULT='"SCaRy dOg"'

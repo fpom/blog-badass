@@ -1,0 +1,5 @@
+FUN='apply'
+ARG='mama'
+TEST='sit'
+STR='"exuberant RABBIT"'
+RESULT='"EXUBERANT RABBIT"'

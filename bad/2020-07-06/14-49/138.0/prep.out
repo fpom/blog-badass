@@ -1,0 +1,43 @@
+# include <stdio.h>
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+char* roost(char* wart) {
+
+    int nombreDeCaracteres = 0;
+    char caractereActuel = 0;
+
+    do
+    {
+        caractereActuel = wart[nombreDeCaracteres];
+        nombreDeCaracteres++;
+    }
+    while(caractereActuel != '\0');
+
+    for(int i=0;i<nombreDeCaracteres;i++){
+
+        if(wart[i]=='a' || wart[i]=='e' || wart[i]=='i' || wart[i]=='o' || wart[i]=='u' || wart[i]=='y'){
+                wart[i]=wart[i]-'b'+'B';
+        }
+    }
+    return wart;
+ }
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char tower[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  roost(tower);
+  int _cmp = strcmp(tower, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

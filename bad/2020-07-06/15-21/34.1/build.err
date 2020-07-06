@@ -1,0 +1,11 @@
+run.c: In function ‘fare’:
+run.c:8:11: error: ‘compteur’ undeclared (first use in this function)
+     while(compteur < 26)
+           ^~~~~~~~
+run.c:8:11: note: each undeclared identifier is reported only once for each function it appears in
+run.c:9:29: error: lvalue required as left operand of assignment
+     printf("%c\n", 'a' & 'a'+= 'a'+1 )
+                             ^~
+run.c:10:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^

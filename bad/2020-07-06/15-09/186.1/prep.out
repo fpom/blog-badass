@@ -1,0 +1,34 @@
+# include <stdio.h>
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void sleek (char* amend) {
+    for(int i = 0;i<15;i++){
+        if(amend[i]=='a' ||amend[i]=='e' ||amend[i]=='i' ||amend[i]=='o' ||amend[i]=='u' ||amend[i]=='y' || amend[i]=='A' ||amend[i]=='E' ||amend[i]=='I' ||amend[i]=='O' ||amend[i]=='U' ||amend[i]=='Y'){
+            if(amend[i]=='A' || amend[i]=='E' || amend[i]=='I' || amend[i]=='O' || amend[i]=='U' ||amend[i]=='Y'){
+                amend[i]=amend[i]-'A'+'a';
+            }else if (amend[i]<'z'){
+                amend[i]=amend[i]-'a'+'A';
+            }
+        }
+    }
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+
+
+
+
+
+#include "badass.h"
+#include <string.h>
+
+int main (void) {
+  char steam[] = "8:tC=N>WEOm6Xd^Y)B4eqn]ifJr|z.RFh!c5<o#UK2*Pg&;LkQZa%?SG79D}@/~_jAsv$0(lTx+w,H[p{u3-IyVMb1";
+  assopen("run.ass");
+  sleek(steam);
+  int _cmp = strcmp(steam, "8:tC=N>WEOm6Xd^Y)B4Eqn]IfJr|z.RFh!c5<O#UK2*Pg&;LkQZA%?SG79D}@/~_jAsv$0(lTx+w,H[p{U3-IYVMb1");
+  assess(test, _cmp == 0);
+}

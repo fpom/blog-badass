@@ -1,0 +1,5 @@
+FUN='human'
+ARG='lurch'
+TEST='adobe'
+STR='"good BULLDOG"'
+RESULT='"GooD bUlldOg"'

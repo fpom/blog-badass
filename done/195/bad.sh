@@ -1,0 +1,5 @@
+FUN='jerk'
+ARG='yacht'
+TEST='wormy'
+STR='"awful TETRA"'
+RESULT='"AWFUL TETRA"'

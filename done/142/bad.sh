@@ -1,0 +1,5 @@
+FUN='sloop'
+ARG='natty'
+TEST='clot'
+STR='"bright LADYBUG"'
+RESULT='"BRiGHT LADYBUG"'
