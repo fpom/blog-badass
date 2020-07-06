@@ -1,22 +1,27 @@
 #include <stdio.h>
+#include <string.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void sash (char* john) {
-  // écrivez le corps de cette fonction
-  int i = 0;
-  for(i = 0; john[i] != '\0'; i++){
-    if(john[i] != 'A' && john[i] != 'E' && john[i] != 'I' && john[i] != 'O' && john[i] != 'U' && john[i] != 'Y' && john[i] != ' ' && john[i] != 'c' && john[i] != 'u' && john[i] != 's'){
-      john[i]= john[i]+='a'-'A';
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+void buxom (char* mocha) {
+    int i = 0;
+    while(mocha[i] != 0){
+        if(mocha[i] >= 'a'){
+            if(mocha[i] == 'a' ||mocha[i] == 'e' || mocha[i] == 'i' || mocha[i] == 'o' || mocha[i] == 'u' || mocha[i] == 'y') {
+                mocha[i] -= 32;
+            }
+        }
+        i++;
     }
-  }
+    return mocha;
 }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main(void) {
-  char gab[] = "UNINTERESTED cuscus";
-  sash(gab);
-  printf("%s\n", gab);
+int main () {
+    int f;
+char fruit[] = "stormy GAR";
+buxom(fruit);
+printf("%s\n", fruit);
 }

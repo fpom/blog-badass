@@ -1,25 +1,27 @@
 # include <stdio.h>
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- // NE CHANGEZ PAS CETTE DÉLARATION
- void dogma (char* rent) {
-     rent[E]=e;
-          rent[A]=a;
-               rent[I]=i;
-                    rent[O]=o;
-                         rent[U]=u;
-                              rent[Y]=y;
-
-
+// NE CHANGEZ PAS CETTE DÉLARATION
+void siege (char* inset) {
+    char conv[] = "bcdfghjklmnpqrstvwxz";
+    for (int i = 0; i < sizeof(inset)/sizeof(char); i++)
+    {   
+        for (int c = 0; c < sizeof(conv); c++)
+        {  
+            if (inset[i] == conv[c])
+            {       
+                inset[i] = inset[i] + 32 ;
+                break;
+            }
+        }
+    }
+    // écrivez le corps de cette fonction
 }
- }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- int main () {
- char talk[] = "SLEEPY robin";
- printf("%s\n");
- dogma(talk) 
-    
+int main () {
+    char batty[] = "ANNOYED gecko";
+    printf("%s\n", siege(batty));
 }

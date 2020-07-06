@@ -1,27 +1,34 @@
-# include <stdio.h>
+ # include <stdio.h>
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- // NE CHANGEZ PAS CETTE DÃ‰LARATION
- void tyke (char* jilt) 
- { void majuscule(char* chug)
-{
-    int i = 0;
-    for (i = 0; chug[i] != '\0'; i ++)
+// NE CHANGEZ PAS CETTE DÉLARATION
+void seen (char* aorta) {
+     int i = 0;
+
+
+   while (aorta[i] != '\0')
     {
-        if (chug[i]  >= 'a' &&  chug[i] <= 'z')
-         chug[i] -=  'a' - 'A';
-         chug[i] = toupper("frog");
-    }
+
+        if (aorta[i]  >= 97 &&  aorta[i] <= 122)
+
+
+            aorta[i] = aorta[i] - 32;
+        i++;
+
+         if (aorta[i]  >= 65 &&  aorta[i] <= 90)
+
+
+            aorta[i] = aorta[i] + 32;
+        i++;
 }
- // Ã©crivez le corps de cette fonction
+ // écrivez le corps de cette fonction
  }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- int main () {
- char chug[] = "TROUBLED frog";
- tyke (chug);
- printf("%s\n", chug);
- 
- }
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main () {
+    char plate[] = "innocent AKBASH";
+    printf("%s\n", plate);
+}

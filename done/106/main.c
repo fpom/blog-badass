@@ -1,21 +1,32 @@
 #include <stdio.h>
-#include <ctype.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void waled (char* iamb) {
-// écrivez le corps de cette fonction
-    int i = 0;
-    for (i = 0 ; iamb[i] != '\0' ; i++){
-            iamb[i] = toupper(iamb[i]);
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+    void apple (char* snore) {
+// Ã©crivez le corps de cette fonction
+   int i = 0;
+ 
+    //Tant que nous ne sommes pas arrivÃ©s a la fin de la chaine, continuer
+    while (snore[i] != '\0')
+    {
+        /*si chaine[1] est une minuscule
+         *Car les minuscules se situent entre 97 et 122 inclusivement
+         */
+        if (snore[i]  !=  97 ||  snore[i] ||  !==   105|| snore[i]  !=  117 || snore [i]  != 121   || snore[i]  != 101 ||  snore[i]  != 111 )
+        //Convertir en majuscules
+            snore[i] = snore[i] - 32;{
+
+        i++;
+
     }
 }
+
+
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-    char clink[] = "precious MOUSE";
-    waled(clink);
-    printf("%s\n", clink);
-}
+    char cram[] = "FAIR ostrich";
+printf("%s\n", apple(cram));
+    }

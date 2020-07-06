@@ -1,21 +1,20 @@
-# include <stdio.h>
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
-void past (char* tared) {
+void aisle (char* ship) {
+    
+     int i =0 ; 
+     for (i=0; ship[i]!='\0'; i++){
+         if (ship[i] >= 'a' && ship[i]<='z')
+         ship[i]-='a'- 'A' ; }
+     
+     
+     
+         
+     }
  // écrivez le corps de cette fonction
-for(int i=0;tared[i]!='\0';i++){
-    if(tared[i]>='a'&& tared[i]<='z'){
-        tared[i]=tared[i]-'a'+'A';
-    }
-}
  }
 
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
  int main () {
- char unset[] = "good MOLLY";
-
- printf("%s\n", past(unset));
-}
+ char glaze[] = "UNINTERESTED hedgehog";
+ aisle(glaze) ; 
+ printf("%s\n", glaze);

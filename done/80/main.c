@@ -1,26 +1,28 @@
 #include <stdio.h>
-#include<stdlib.h>
-#include<string.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
-// NE CHANGEZ PAS CETTE DÉLARATION
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-char* erupt (char* poach) {
-    int t=strlen(poach);
-    for(int i=0;i<t;i++){
-        if((poach[i]!='A' || poach[i]=='E' ||poach[i]=='I'||poach[i]=='O'||poach[i]=='U'||poach[i]=='Y')&&(poach[i]>=65&&poach[i]<=90)){
-           poach[i]=poach[i]+32; 
+// NE CHANGEZ PAS CETTE DECLARATION
+void* gybed (char* cilia){
+    int i = 0;
+    while(cilia[i] != 0){
+        if(cilia[i] >= 'a'){
+            if(cilia[i] == 'a' ||cilia[i] == 'e' || cilia[i] == 'i' || cilia[i] == 'o' || cilia[i] == 'u' || cilia[i] == 'y') {
+                cilia[i] -= 32;
+            }
+        } else {
+            if(cilia[i] == 'A' ||cilia[i] == 'E' || cilia[i] == 'I' || cilia[i] == 'O' || cilia[i] == 'U' || cilia[i] == 'Y') {
+                cilia[i] += 32;
+            }
         }
-         
+        i++;
     }
-    return poach;
+    return cilia;
 }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
- int main () {
-   char awol[] = "scary DOG";
-   printf("%s\n", erupt(awol));
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+int main()
+{
+    char voted[] = "bright CAIMAN";
+    printf("%s\n",gybed(voted));
 }
-
-
-

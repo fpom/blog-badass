@@ -1,31 +1,32 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
 #include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+//NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void hut (char* had){
-    // écrivez le corps de cette fonction
-    int i;
-    char* s;
-    scanf("%s", s);
-    gets(s);
-    for (i=0; s[i]; i++){
-
-        if ((s[i]>='A')&&(s[i]<='z')){
-            s[i]=s[i]-'A'+'a';
+//NE CHANGEZ PAS CETTE DECLARATION
+void macro (char* rick) {
+    //Ã©crivez le corps de cette fonction
+    for (i= 0, i<20, i++){ 
+        if (char == "b ","c ","d ","f ","g ","h ","j ","k ","l ","m ","n", "p","q" ,"r" ,"s" ,"t" ,"v" ,"w" ,"x" ,"z"){
+            printf ("B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Z");
         }
-        else if((s[i]>='a')&&(s[i]<='z')){
-            s[i]-'a'+'A';
+        else if ( char == "B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Z"){
+            printf("b ","c ","d ","f ","g ","h ","j ","k ","l ","m ","n", "p","q" ,"r" ,"s" ,"t" ,"v" ,"w" ,"x" ,"z");
         }
-
-    }
-return 0;
-}
+         
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main() {
-    char lit[] = "STRANGE hippopotamus";
-    hut(lit);
-    printf("%s\n", lit);
+int main (){
+    char truer [] = "CRUEL beetle";
+    macro(rick);
+    printf("%s\n", macro);
+
 }

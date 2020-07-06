@@ -1,11 +1,11 @@
-//let head = 'alive'
-//let tail = 'dolphin'
-//let STR = 'ALIVE dolphin'
-//let algo = 'strcup'
-//let RESULT = String('ALIVE DoLPHiN')
-//let FUN = 'gone'
-//let ARG = 'lad'
-//let TEST = 'flunk'
+//let head = String('friendly')
+//let tail = String('burmese')
+//let STR = String('friendly BURMESE')
+//let algo = 'strlow'
+//let RESULT = String('FRIENDLY BURMESE')
+//let FUN = 'loony'
+//let ARG = 'taunt'
+//let TEST = 'fer'
 void FUN (char* ARG) {
   // write this function body
 }

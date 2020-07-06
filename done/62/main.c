@@ -1,24 +1,19 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
-#include <stdio.h>
-void nixed(char*agar){
-    int a;
-    char lettreMAj;
-    char lettreminis;
-    scanf("%s,&lettre");
-    for(i=0;i<sterlen(lettreMAj);i++);
-    lettreMAj[i]=tolower(lettreMAj[i]);
-    scanf("%s",&lettreminis);
-    for(i=0;i<strlen(lettremminis);i++);
-    
+# include <stdio.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÉLARATION
+void amen (char* radon) {
+    int i = 0;
+    for (i = 0; radon[i] != '\0'; i ++)
+    {
+        if (radon[i]  >= 'a' &&  radon[i] <= 'z')
+         radon[i] -=  'a' - 'A';
+        
+    }
 }
-int main(){
-    charbulge[]="NNN";
-    printf("%s",nixe(bulge));
-}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+ int main () {
+ char ruled[] = "EAGER donkey";
+ printf("%s\n", amen(ruled));
+ }
+ 

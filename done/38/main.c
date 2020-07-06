@@ -1,26 +1,24 @@
-# include <stdio.h>
+/******************************************************************************
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-
-void exam (char* label) {
-int	i;
-
-i = 0;
-while (label[i]) {
-	if (label[i] >= 'a' && label[i] <= 'z')
-		label[i] -= 32;
-	else if (label[i] >= 'A' && label[i] <= 'Z')
-		label[i] += 32;
-	i++;
+*******************************************************************************/
+#include <stdio.h>
+void nixed(char*agar){
+    int a;
+    char lettreMAj;
+    char lettreminis;
+    scanf("%s,&lettre");
+    for(i=0;i<sterlen(lettreMAj);i++);
+    lettreMAj[i]=tolower(lettreMAj[i]);
+    scanf("%s",&lettreminis);
+    for(i=0;i<strlen(lettremminis);i++);
+    
 }
-}
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
-char rifer[] = "doubtful PHEASANT";
-exam(rifer);
-printf("%s\n", rifer);
+int main(){
+    charbulge[]="NNN";
+    printf("%s",nixe(bulge));
 }

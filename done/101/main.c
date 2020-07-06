@@ -1,23 +1,27 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 # include <stdio.h>
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- // NE CHANGEZ PAS CETTE DÃ‰LARATION
- void shift (char* slice) {
- 
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void swat (char* thing) {
+    char str[256];
+    int i = 0;
+    str[i]='t';
+    str[i]=str[i] -32;
+    str[i]='h';
+    str[i]=str[i] -32;
+    str[i]='i';
+    str[i]=str[i] -32;
+    str[i]='n';
+    str[i]=str[i] -32;
+    str[i]='g';
+    str[i]=str[i] -32;
+    main();
  }
 
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- int main () {
-    char clue[] = "THOUGHTFUL robin";
-    printf("%s\n", shift(clue));
- }
+int main () {
+  char parch[] = "NUTTY stoat";
+ printf("%s\n", swat(parch));
+}

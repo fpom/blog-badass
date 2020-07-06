@@ -1,24 +1,25 @@
-#include <stdio.h>
+# include <stdio.h>
+2
+3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+4
+5 // NE CHANGEZ PAS CETTE DÉLARATION
+6 void wick (char* venal) {
+7 // écrivez le corps de cette fonction
+       
+       int i=0;
+       for(i=0;venal[i])!='\0';i++){
+           venal[i]=wick(venal[i]);
+           
+       }
+    
+    
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE D�LARATION
-void dent (char* frier) {
+ }
 
-    for(int i = 0; frier[i] != '\0'; i++){
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-        if(frier[i] >= 'A' && frier[i] <='Z'){
-
-            frier[i] += 32;
-        }
-    }
-}
-
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
- char faxed[] = "arrogant PEKINGESE";
- dent(faxed);
- printf("%s\n", faxed);
-}
+ int main () {
+ char icing[] = "REPULSIVE chinchilla";
+ printf("%s\n", wick(icing));
+ }

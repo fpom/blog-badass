@@ -1,25 +1,23 @@
-# include <stdio.h>
+#include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+//NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void iced (char* match) {
-    // écrivez le corps de cette fonction
-    for(int compteur=0; compteur<12; compteur++){
-        if (match[compteur] - 'a'<= 26){
-            match[compteur] = match[compteur] - 'a' + 'A';
-        } else if (match[compteur] - 'A'<= 26){
-            match[compteur] = match[compteur] - 'A' + 'a';
-        } else {
-            match[compteur] = match[compteur];
-        }
-    }
+//NE CHANGEZ PS CETTE DECLARATION
+void maria (char* gummy) {
+    //�crivez le corps de cette fonction
+   int nbre;
+   for (nbre = 0; gummy[nbre]!='\0'; nbre++) {
+      if(gummy[nbre] >= 'a' && gummy[nbre] <= 'z') {
+         gummy[nbre] = gummy[nbre] - 'a' + 'A';
+      }
+   }
+   return 0;
 }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
-    char unbar[] = "silly CUSCUS";
-    iced(unbar);
-    printf("%s\n", unbar);
+int main (){
+    char coy [] = "ANXIOUS crocodile";
+    maria(coy);
+    printf("%s\n", coy);
 }

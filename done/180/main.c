@@ -1,22 +1,23 @@
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 # include <stdio.h>
 
- // NE CHANGEZ PAS CETTE DÉLARATION
- void heard (char* cheer) {
-   int i = 0;
-   while (cheer[i] != '\0'){
-       if (cheer[i]>= 97 && cheer[i] <= 122)
-            cheer[i]=cheer[i]-32;
-        i++;
-   }
-   return cheer;
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// écrivez le corps de cette fonction
+ // NE CHANGEZ PAS CETTE DÃ‰LARATION
+ void veep (char* savor) {
+ // Ã©crivez le corps de cette fonction
  }
 
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
  int main () {
-char meted[] = "confused AFFENPINSCHER";
- heard(meted);
-printf("%s\n", meted);
+ char waded[] = "thoughtful AKITA";
+ printf("%s\n", veep(waded));
  }

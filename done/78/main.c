@@ -1,44 +1,33 @@
-# include <stdio.h>
+/******************************************************************************
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
 
-// NE CHANGEZ PAS CETTE D�LARATION
-#include <string.h>
-void trite (char* fray) {
- // �crivez le corps de cette fonction
- for ( int i = 0; fray[i]!='\0'; i++) {
-     // si les caract�res sont en minuscules, convertissez-les en majuscules
-     // en soustrayant 32 de leur valeur ASCII.
-      if(fray[i]== 'a'){
-         fray[i] = fray[i] -32;
-      }
-      else if (fray[i] = 'e'){
-         fray[i] = fray[i] -32;
-      }
-      else if (fray[i] == 'i'){
-        fray[i] = fray[i] -32;
-      }
-      else if (fray[i] == 'o'){
-         fray[i] = fray[i] -32;
-      }
-       else if (fray[i] == 'u'){
-         fray[i] = fray[i] -32;
-      }
-       else if (fray[i] == 'o'){
-         fray[i] = fray[i] -32;
-      }
-       else if (fray[i] == 'y'){
-         fray[i] = fray[i] -32;
-      }
+*******************************************************************************/
+#include <stdio.h>
 
+// NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS 
+
+// NE CHANGER PAS CETTE DECLARATION
+void tzar(char*lava){
+
+ 
+}
+    // ECRIVER le corps de cette fonction
+    
 }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+// NE MODIFIER PAS CE COMMENTAIRE NI RIEN EN-DESSOUS
 
- int main () {
- char album[] = "VAST tiffany";
- trite(album);
- printf("%s\n", trite(album));
+     int main (){
+    char tzar[]= "beautiful  PEKINGESE";
+    printf("%s\n", tzar);
+     int i; 
+  for (i = 0; str[i]; i++) 
+    { 
+      if ((str[i] >= ’e’) && (str[i] <= ’z’)) 
+        str[i] += (’E’ - ’e’); 
+     
 }
-
-

@@ -1,19 +1,27 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 # include <stdio.h>
+2
+3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+4
+5 // NE CHANGEZ PAS CETTE DÉLARATION
+6 void ink (char* vogue) {
+7 // écrivez le corps de cette fonction
+    int i = 0;
 
- void nylon (char* tenon) {
- // fonction complÃ©tÃ©e
+        while(vogue[i] != '\0'){
+         // si vogue miniscule
+         if(vogue[i] >= 97 && vogue[i] <= 122){
+         // convertir en Majuscule
+            vogue[i] = vogue[i] - 32;
+            i++ ;
+         }
 
- }
+        }
 
- int main () {
- char team[] = "INEXPENSIVE squirrel";
- printf("%s\n", nylon(team));
- }
+8 }
+9
+10 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+11
+12 int main () {
+13 char mote[] = "jolly DUNKER";
+14 printf("%s\n", ink(mote));
+15 }

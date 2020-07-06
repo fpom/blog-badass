@@ -1,19 +1,12 @@
-# include <stdio.h>
+ # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
- void cello (char* pita) {
- // écrivez le corps de cette fonction
-  int i = 0;
-    for (i = 0; pita[i] != '\0'; i ++){
-
-        if (pita[i]  >= 'a' &&  pita[i] <= 'z')
-         pita[i] = pita[i]- 'a' - 'A';}}
-
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
+ void razor (char* yip) {
+     Char yip [100];
+     int i;
+     for (i=0; yip[i]=!'\0'; i++)
+         if(yip)[i]>= 'a' && yip>='z')
+             yip[i]= yip[i] -32;
  int main () {
- char shelf[] = "evil KUDU";
- printf("%s\n", cello(shelf));
- }
+   char saner[] = "mysterious JELLYFISH";
+   printf("%s\n", razor(saner));
+}

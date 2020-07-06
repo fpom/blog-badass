@@ -1,15 +1,22 @@
-# include <stdio.h>
-2
-3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-4
-5 // NE CHANGEZ PAS CETTE DÃ‰LARATION
-6 void elate (char* glee) {
-7 // Ã©crivez le corps de cette fonction
-8 }
-9
-10 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-11
-12 int main () {
-13 char gaged[] = "BLUSHING lynx";
-14 printf("%s\n", elate(gaged));
-15 }
+ # include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void charm (char* credo) {
+ // écrivez le corps de cette fonction
+int a=0;
+printf("Ecrire une lettre Majsucule: ");
+scanf("%m",a);
+
+
+
+ }
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main ()
+{
+char model[]="FUNNY rattlesnake";
+charm(model);
+printf("%s\n", model);
+}

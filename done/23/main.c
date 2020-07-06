@@ -1,26 +1,26 @@
-#include<stdio.h>
+# include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
-#include<stdlib.h>
-#include<string.h>
-// NE CHANGEZ PAS CETTE DÉLARATION
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-char* dicey (char* handy) {
-
-    for(int i=0;i<strlen(handy);i++){
-        if((handy[i])>=65 && handy[i]<=90){
-           handy[i]=handy[i]+32; 
-        }
-         if((handy[i])>=97 && handy[i]<=122){
-           handy[i]=handy[i]-32; 
-        }
-
-    }
-    return handy;
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void ani (char* below) {
+int i = 0;
+for (i = 0; below[i] != '\0'; i ++)
+{
+    if (below[i] == 'a' || below[i] == 'y' || below[i]=='i'|| below[i]=='o'|| below[i]=='u'|| below[i]=='e');
+           below[i] == below[i] - 32; 
+           
+    else (below[i] == 'A' || below[i] == 'Y' || below[i]=='I'|| below[i]=='O'|| below[i]=='U'|| below[i]=='E');
+           below[i] == below[i] + 32;
 }
 
+ }
+    
+
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
- int main () {
-   char gazed[] = "ASHAMED zebra";
-   printf("%s\n", dicey(gazed));
+
+int main () {
+char salve[] = "average WOLVERINE";
+ani(salve);
+  printf("%s\n",(salve);
 }

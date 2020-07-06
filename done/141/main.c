@@ -1,27 +1,28 @@
-#include <stdio.h>
+# include <stdio.h>
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
- 
- // NE CHANGEZ PAS CETTE DÉLARATION
- 
- void chomp (char* pin) {
-     int const pin_len = my_pinlen(pin);
-     char *new_pin = malloc( (pin_len + 1 ) * sizeof(char));
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-    if (!pin || !new_pin)
-        return NULL;
-    for (int i = 0; pin[i]; i++) {
-        if (pin[i] < 'z' && pin[i] > 'a')
-            new_pin[i] = pin[i] - 32;
-        else
-            new_pin[i] = pin[i];
+// NE CHANGEZ PAS CETTE DÉLARATION
+void stomp (char* fop) {
+
+// écrivez le corps de cette fonction 
+    int i=0
+    while(fop[i] !='\0')
+    {
+        if (fop[i] >= 97 && fop[i]<= 122)
+           fop[i] = fop[i] -32;
+        i++;
+        
     }
 
-     // écrivez le corps de cette fonction
- }
- 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+    
+}
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 int main () {
-    char bunt[] = "MOTIONLESS chameleon";
-    printf("%s\n", chomp(bunt));
+    char piked[] = "SHINY tang";
+    stomp(piked)
+    printf("%s\n", piked);
+    
 }

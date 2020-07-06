@@ -1,26 +1,19 @@
-# include <stdio.h>
+ # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void squat (char* haiku) {
-// écrivez le corps de cette fonction
-    int i = 0;
+// NE CHANGEZ PAS CETTE D�LARATION
+ void bane (char* toned) {
+ toned= 'a', 'e', 'i', 'o', 'u', 'y';
+ char Maj;
+ Maj(toned)= 'A','E', 'I', 'O', 'U', 'Y';
+ char(toned)-toned+Maj(toned)= Maj(char(toned));
+ }
 
-        for (i = 0 ; haiku[i] != '\0' ; i++)
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-        {
-            if (haiku[i]>='a' && haiku[i]<='z')
-            {
-                haiku[i] = haiku[i] - 'a' + 'A';
-            }
-    
-        }
-}
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
-    char scant[] = "old-fashioned DOG";
-    printf("%s\n", squat(scant));
-}
+ int main () {
+ char stab[] = "gorgeous POODLE";
+ lop(plop);
+ printf("%s\n", plop);
+ }

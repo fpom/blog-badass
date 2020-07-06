@@ -1,22 +1,21 @@
-# include <stdio.h>
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
-// NE CHANGEZ PAS CETTE DÃ‰LARATION
-void quiz (char* ham) {
-    int i= 0;
-    
-    while (ham[ i ]!= '\0')
-    {
-        if (ham[i] >= 97 && ham[i]<= 122)
-            
-            ham[i]= ham[i] - 32;
-        i++;
+#include <stdio.h>
+#include <ctype.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+void waled (char* iamb) {
+// écrivez le corps de cette fonction
+    int i = 0;
+    for (i = 0 ; iamb[i] != '\0' ; i++){
+            iamb[i] = toupper(iamb[i]);
     }
-    
 }
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
- 
-char jock[] = "FRIGHTENED zebu";
- 
-printf("%s\n", quiz(jock));
+    char clink[] = "precious MOUSE";
+    waled(clink);
+    printf("%s\n", clink);
+}

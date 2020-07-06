@@ -1,26 +1,35 @@
-#include <stdio.h>
+# include <stdio.h>
+
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-#include <string.h>
-
-// NE CHANGEZ PAS CETTE DECLARATION
-void slat (char* hefty) {
-    int x;
-    for(int i=0; i<strlen(hefty); i++){
-        x=hefty[i];
-        if ((x<91)&&(x>64)&&(x!='A')&&(x!='E')&&(x!='I')&&(x!='O')&&(x!='U')&&(x!='Y')){
-            x=x+32;
-            hefty[i]=x;
-        }
-    }
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void ocher (char* adept) {
+ // écrivez le corps de cette fonction
+int i,z;
+i=0;
+z='A';
+ while(adept[i] !='\0')
+ {
+ z='A';
+ 
+ 
+ if(adept [i] != 'A' && adept [i] != 'E'&& adept [i] != 'I'&& adept [i] != 'O'&& adept [i] != 'U'&&adept [i] != 'Y'&&adept[i]>z&&adept[i]<=z+25)
+ {
+ 	adept[i]=adept[i]-z+'a';
+ 	
+ 	
+ }
+ i=i+1;
 }
-
-
+ }
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-    char limn[] = "filthy OCELOT";
-    slat(limn);
-    printf("%s\n", limn);
-}
+	
+char glove[] = "MOTIONLESS ladybug";
+ocher(glove);
+
+printf("%s \n", glove);
+
+ }

@@ -1,36 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
+# include <stdio.h>
 
-void bend (char* acme)
-{
-char(asme)
-int j ;
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-scanf("%s", acme);
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void cello (char* pita) {
+ // écrivez le corps de cette fonction
+  int i = 0;
+    for (i = 0; pita[i] != '\0'; i ++){
 
-for(j=0;acme[j];j++)
-    {
-if(acme[j]>= 'A' && acme[j] <= 'Z')
-    acme[j] = acme[j] - 'A' + 'a' ;
-    }
+        if (pita[i]  >= 'a' &&  pita[i] <= 'z')
+         pita[i] = pita[i]- 'a' - 'A';}}
 
-else if (acme[j] >= 'a' && acme[j] <= 'z')
-    acme[j]=acme[j]- 'a' +'A';
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-for (j=0 ; j<strlen(acme); j++)
-    {
-    acme[j]= toupper (acme[j]);
-
-    }
-
-
-}
-
-int main()
-    {
-    char raved[] = "shiny RAT";
-    lop(bend(raved));
-    printf("%s\n", bend );
-    return 0;
-    }
+ int main () {
+ char shelf[] = "evil KUDU";
+ printf("%s\n", cello(shelf));
+ }

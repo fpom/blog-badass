@@ -1,33 +1,26 @@
 # include <stdio.h>
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- // NE CHANGEZ PAS CETTE DÉLARATION
-char* roost(char* wart) {
-
-    int nombreDeCaracteres = 0;
-    char caractereActuel = 0;
-
-    do
-    {
-        caractereActuel = wart[nombreDeCaracteres];
-        nombreDeCaracteres++;
-    }
-    while(caractereActuel != '\0');
-
-    for(int i=0;i<nombreDeCaracteres;i++){
-
-        if(wart[i]=='a' || wart[i]=='e' || wart[i]=='i' || wart[i]=='o' || wart[i]=='u' || wart[i]=='y'){
-                wart[i]=wart[i]-'b'+'B';
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void equip (char* dusty) {
+    int i = 0;
+    while(dusty[i] != '\0') {
+        if(dusty[i] == 97 || 101 || 105 || 111 || 117 || 121) {
+            dusty[i] = dusty[i] - 32;
         }
+        if(dusty[i] == 65 || 69 || 73 || 79 || 85 || 89) {
+            dusty[i] = dusty[i] + 32;
+        }
+        i++;
     }
-    return wart;
- }
+
+}
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- int main () {
- char tower[] = "amused NIGHTINGALE";
- printf("%s\n", roost(tower));
+int main () {
+    char snort[] = "ENCOURAGING bullfrog";
+    equip(snort);
+    printf("%s\n", snort);
 }
-

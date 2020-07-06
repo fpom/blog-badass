@@ -1,28 +1,45 @@
 #include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AUDESSUS
+ 
 
-// NE CHANGEZ PAS CETTE DECLARATION
-void onto (char* puree) {
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
+ 
 
-for (int i = 0; puree[i] != '\0';i++){
-     if (puree[i] >= 'A' && puree[i] <= 'Z'){
+// NE CHANGEZ PAS CETTE DÉLARATION
 
-      puree[i] +=32;
+void dryly (char* sitar) {
 
-
-     }
-}
-
+    // écrivez le corps de cette fonction
 
 }
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AUDESSUS
+
+int i 
+
+ 
+
+tolower(SPONGE);
+
+for(i=0; i<sitar(sitar); i++){
+
+    if skip i=tolower 
+
+}
+
+ 
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+ 
 
 int main () {
 
-char staid[] = "fair BARB";
-onto(staid);
-printf("%s\n",staid);
+ 
+
+    char boded[100] = "difficult SPONGE";
+
+    lop(plop);
+
+  printf("%s\n", plop);
 
 }

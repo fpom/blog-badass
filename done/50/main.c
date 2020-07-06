@@ -1,26 +1,44 @@
 # include <stdio.h>
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+#include <string.h>
 
- // NE CHANGEZ PAS CETTE DÉLARATION
- void deity (char* louse) {
- // écrivez le corps de cette fonction
- 
- 	
-  int j=0;
- while(louse[j]!='\0'){
- 	if(louse[j]=='A' || louse[j]=='E' || louse[j]=='I' || louse[j]=='O' || louse[j]=='U' || louse[j]=='Y') 
-	 louse[j]= louse[j]+32;
-	  j++ ;
- 	
- } 
-return louse;
 
- }
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 4
+
+ // NE CHANGEZ PAS CETTE DÃ‰LARATION
+
+ void craft (char* sox) {
+
+        int i;
+
+     char str[100];
+
+     gets(str);
+
+   for (i = 0; str[i]!='\0'; i++) {
+
+       if(str[i] = 'a' && str[i] = 'e' && str[i] = 'i' && str[i] = 'o'&& str[i] = 'u'&& str[i] = 'y') {
+
+         str[i] = str[i] -32;
+
+       }
+
+   }
+
+   printf("\n ELATED coyote = %s", str);
+
+   return 0;
+
+
+}
+
 
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
  int main () {
- char achoo[] = "BRIGHT dhole";
- printf("%s\n", deity(achoo));
- }
+
+   char breed[] = "ELATED coyote";
+
+   printf("%s\n", craft(breed));
+
+}

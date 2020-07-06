@@ -1,11 +1,11 @@
-//let head = 'repulsive'
-//let tail = 'grouse'
-//let STR = 'REPULSIVE grouse'
-//let algo = 'strvup'
-//let RESULT = String('REPULSIVE grOUsE')
-//let FUN = 'drag'
-//let ARG = 'puffy'
-//let TEST = 'lose'
+//let head = String('strange')
+//let tail = String('hippopotamus')
+//let STR = String('STRANGE hippopotamus')
+//let algo = 'strswap'
+//let RESULT = String('strange HIPPOPOTAMUS')
+//let FUN = 'hut'
+//let ARG = 'had'
+//let TEST = 'lit'
 void FUN (char* ARG) {
   // write this function body
 }

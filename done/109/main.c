@@ -1,27 +1,15 @@
 # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÃ‰LARATION  
-void kilo (char* shop) {
-    char CONSTCONS[] = "bcdfghjklmnpqrstvwxz";
-    for (int i = 0; i < sizeof(shop)/sizeof(char); i++)
-    {   
-        for (int c = 0; c < sizeof(CONSTCONS); c++)
-        {  
-            if (shop[i] == CONSTCONS[c])
-            {       
-                shop[i] = shop[i] - 32 ;
-                break;
-            }
-        }
-    }
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void blur (char* redo) {
+ // écrivez le corps de cette fonction
 }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-char gnarl[] = "long AVOCET";
-kilo(gnarl);
-printf("%s\n", gnarl);
+char meal[] = "gifted WARTHOG";
+printf("%s\n", blur(meal));
 }

@@ -1,26 +1,26 @@
-#include <stdio.h>
-  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
-   // NE CHANGEZ PAS CETTE DÉLARATION
+# include <stdio.h>
 
-char *stab (char *label) {
-	int i = 0;
-	
-	// écrivez le corps de cette fonction
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-	while (label[i] != '\0') {
-		if (label[i] >= 'A' && label[i] <= 'Z') {
-			if (label[i] == 'A' || label[i] == 'E' || label[i] == 'I' || label[i] == 'O' || label[i] == 'U' || label[i] == 'Y');
-			else
-				label[i] = label[i] + 32;
-		}
-		i = i + 1;
-	}
-	return label;
+// NE CHANGEZ PAS CETTE DÉLARATION
+
+void exam (char* label) {
+int	i;
+
+i = 0;
+while (label[i]) {
+	if (label[i] >= 'a' && label[i] <= 'z')
+		label[i] -= 32;
+	else if (label[i] >= 'A' && label[i] <= 'Z')
+		label[i] += 32;
+	i++;
+}
 }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main() {
-	char cawed[] = "troubled GIRAFFE";
-	printf("%s\n", stab(cawed));
+int main () {
+char rifer[] = "doubtful PHEASANT";
+exam(rifer);
+printf("%s\n", rifer);
 }

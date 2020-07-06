@@ -1,88 +1,83 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION 
-#include <string.h>
-void nib (char* hubby) { 
-     // écrivez le corps de cette fonction 
-     for (int i = 0; i <= strlen(hubby)-1; i++){
-         if (hubby[i] == 'b'){
-            hubby[i]= 'b' - 'a' + 'A';
-         }
-         if (hubby[i] == 'c'){
-            hubby[i]= 'c' - 'a' + 'A';
-         }
-         if (hubby[i] == 'd'){
-            hubby[i]= 'd' - 'a' + 'A';
-         }
-         if (hubby[i] == 'f'){
-            hubby[i]= 'f' - 'a' + 'A';
-         }
-         if (hubby[i] == 'g'){
-            hubby[i]= 'g' - 'a' + 'A';
-         }
-         if (hubby[i] == 'h'){
-            hubby[i]= 'h' - 'a' + 'A';
-         }
-         if (hubby[i] == 'j'){
-            hubby[i]= 'j' - 'a' + 'A';
-         }
-         if (hubby[i] == 'k'){
-            hubby[i]= 'k' - 'a' + 'A';
-         }
-         if (hubby[i] == 'l'){
-            hubby[i]= 'l' - 'a' + 'A';
-         }
-         if (hubby[i] == 'm'){
-            hubby[i]= 'm' - 'a' + 'A';
-         }
-         if (hubby[i] == 'n'){
-            hubby[i]= 'n' - 'a' + 'A';
-         }
-         if (hubby[i] == 'p'){
-            hubby[i]= 'p' - 'a' + 'A';
-         }
-         if (hubby[i] == 'q'){
-            hubby[i]= 'q' - 'a' + 'A';
-         }
-         if (hubby[i] == 'r'){
-            hubby[i]= 'r' - 'a' + 'A';
-         }
-         if (hubby[i] == 's'){
-            hubby[i]= 's' - 'a' + 'A';
-         }
-         if (hubby[i] == 't'){
-            hubby[i]= 't' - 'a' + 'A';
-         }
-         if (hubby[i] == 'v'){
-            hubby[i]= 'v' - 'a' + 'A';
-         }
-         if (hubby[i] == 'w'){
-            hubby[i]= 'w' - 'a' + 'A';
-         }
-         if (hubby[i] == 'x'){
-            hubby[i]= 'x' - 'a' + 'A';
-         }
-         if (hubby[i] == 'z'){
-            hubby[i]= 'z' - 'a' + 'A';
-         }
-         
-     }
-     for (int j = 0; j <= strlen(hubby)-1; j++){
-         printf(hubby[j]);
-     }
-} 
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS 
-
-int main () { 
-    char leaf[] = "thoughtful LEOPARD";
-    nib(yeast);
-    printf("%s\n", yeast);
+// NE CHANGEZ PAS CETTE D�LARATION
+void named (char* wily){
+    int i ;
+    for(i=0; ;i++){
+        if (wily[i]=='B'){
+            wily[i]=wily[i]-'B'+'b';
+        }
+        else if( wily[i]=='C'){
+            wily[i]=wily[i]-'C'+'c';
+        }
+         else if( wily[i]=='D'){
+            wily[i]=wily[i]-'D'+'d';
+        }
+         else if( wily[i]=='F'){
+            wily[i]=wily[i]-'F'+'f';
+        }
+        else if( wily[i]=='G'){
+            wily[i]=wily[i]-'G'+'g';
+        }
+        else if( wily[i]=='H'){
+            wily[i]=wily[i]-'H'+'h';
+        }
+        else if( wily[i]=='J'){
+            wily[i]=wily[i]-'J'+'j';
+        }
+        else if( wily[i]=='K'){
+            wily[i]=wily[i]-'K'+'k';
+        }
+        else if( wily[i]=='L'){
+            wily[i]=wily[i]-'L'+'l';
+        }
+        else if( wily[i]=='M'){
+            wily[i]=wily[i]-'M'+'m';
+        }
+        else if( wily[i]=='N'){
+            wily[i]=wily[i]-'N'+'n';
+        }
+        else if( wily[i]=='P'){
+            wily[i]=wily[i]-'P'+'p';
+        }
+        else if( wily[i]=='Q'){
+            wily[i]=wily[i]-'Q'+'q';
+        }
+        else if( wily[i]=='R'){
+            wily[i]=wily[i]-'R'+'r';
+        }
+        else if( wily[i]=='S'){
+            wily[i]=wily[i]-'S'+'s';
+        }
+        else if( wily[i]=='T'){
+            wily[i]=wily[i]-'T'+'t';
+        }
+        else if( wily[i]=='V'){
+            wily[i]=wily[i]-'V'+'v';
+        }
+        else if( wily[i]=='W'){
+            wily[i]=wily[i]-'W'+'w';
+        }
+        else if( wily[i]=='X'){
+            wily[i]=wily[i]-'X'+'x';
+        }
+        else if( wily[i]=='Z'){
+            wily[i]=wily[i]-'Z'+'z';
+        }
+        else if(wily[i]==' '){
+            wily[i]=' ';
+        }
+         else if( wily[i]=='\0'){
+            break;
+        }
+    }
 }
-
-
-
-
-
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIENs EN DESSOUS
+int main () {
+    char shirr[] = "lovely DODO";
+    named(shirr);
+    printf("%s\n",shirr);
+}

@@ -1,28 +1,26 @@
-#include <stdio.h>
-#include <stdlib.h>
+# include <stdio.h>
 
-int main()
-{
-    char cozen[]="ANNOYED chamelon";
-    printf("%s\n",chaine(cozen));
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-}
-
-
-void wed(char* chaine)
-{
+// NE CHANGEZ PAS CETTE DÉLARATION
+void squat (char* haiku) {
+// écrivez le corps de cette fonction
     int i = 0;
-    while (chaine[i] != '\0')
-    {
-        if (chaine[i]  = 66 || chaine[i]  = 67 || chaine[i]  = 68 || chaine[i]  = 70 || chaine[i]  = 71 || chaine[i]  = 72 || chaine[i]  = 90 || chaine[i]  = 74 || chaine[i]  = 75 || chaine[i]  = 76 || chaine[i]  = 77 || chaine[i]  = 78 || chaine[i]  = 80  chaine[i]  = 81  chaine[i]  = 82 || chaine[i]  = 83 || chaine[i]  = 84 || chaine[i]  = 86 || chaine[i]  = 87 || chaine[i]  = 88)
+
+        for (i = 0 ; haiku[i] != '\0' ; i++)
+
+        {
+            if (haiku[i]>='a' && haiku[i]<='z')
             {
-                chaine[i] = chaine[i] + 32;
-                i++;
+                haiku[i] = haiku[i] - 'a' + 'A';
             }
-    }
+    
+        }
 }
 
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-
-
-
+int main () {
+    char scant[] = "old-fashioned DOG";
+    printf("%s\n", squat(scant));
+}

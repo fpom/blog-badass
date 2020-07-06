@@ -1,21 +1,33 @@
-# include <stdio.h>
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void ninny (char* stair) {
-// écrivez le corps de cette fonction
+// NE CHANGEZ PAS CETTE DECLARATION
+void jerk (char* yacht) {
+    //écrivez le corps de cette fonction
+}
 
-for(int i=0; stair[i]!='\0'; i++){
-    if ((stair[i]!='A'&& stair[i]!='E' && stair[i]!='I' && stair[i]!='O' && stair[i]!='U' && stair[i]!='Y') && (stair[i]>='A' && stair[i]<='Z')){
-        stair[i] += 32;  
-    }
-}
-}
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-char valor[] = "inquisitive BULLDOG";
-ninny(valor);
-printf("%s\n", valor);
+  
+    char jerk[] = "awful TETRA";
+  str_case_up (char *str) 
+{ 
+  int i; 
+  for (i = 0; str[i]; i++) 
+    { 
+      if ((str[i] >= ’a’) && (str[i] <= ’z’)) 
+        str[i] += (’A’ - ’a’); 
+    } 
+}
+    printf("%s\n", jerk);
 }

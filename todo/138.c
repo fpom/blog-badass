@@ -1,11 +1,11 @@
-//let head = 'witty'
-//let tail = 'lemur'
-//let STR = 'witty LEMUR'
+//let head = String('amused')
+//let tail = String('nightingale')
+//let STR = String('amused NIGHTINGALE')
 //let algo = 'strvup'
-//let RESULT = String('wIttY LEMUR')
-//let FUN = 'fiery'
-//let ARG = 'bale'
-//let TEST = 'slaw'
+//let RESULT = String('AmUsEd NIGHTINGALE')
+//let FUN = 'roost'
+//let ARG = 'wart'
+//let TEST = 'tower'
 void FUN (char* ARG) {
   // write this function body
 }

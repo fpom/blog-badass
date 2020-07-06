@@ -1,23 +1,29 @@
-# include <stdio.h>
+#include <stdio.h>
+//mettre les caractères minuscule en majuscule
+ void rife (char* mogul) {
+     int i = 0;
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
-void twerp (char* cozen) {
-int i = 0;
-    for (i = 0; cozen[i] != '\0'; i ++)
+     while (mogul[i] != '\0')
     {
-        if (cozen[i]  >= 'B' &&  cozen[i] <= 'D' || cozen[i]  >= 'F' &&  cozen[i] <= 'H' || cozen[i]  >= 'J' &&  cozen[i] <= 'N'|| cozen[i]  >= 'P' &&  cozen[i] <= 'T' || cozen[i]  >= 'V' &&  cozen[i] <= 'Z' )
-         cozen[i] -=  'B' - 'b';
-    }
-    i++;
 
+        if (mogul[i]  >= 97 &&  mogul[i] <= 122)
+
+
+            mogul[i] = mogul[i] - 32;
+        i++;
+
+         if (mogul[i]  >= 65 &&  mogul[i] <= 90)
+
+
+            mogul[i] = mogul[i] + 32;
+        i++;
 }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ }
+
 
 int main () {
- char deuce[] = "clever WALLABY";
-  twerp(cozen);
-  printf("%s\n", cozen);
- }
+    char ahem[] = "HELPLESS mastiff";
+   rife(ahem);
+    printf("%s\n", ahem);
+}

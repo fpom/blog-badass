@@ -1,19 +1,28 @@
+
 #include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+4
+5 // NE CHANGEZ PAS CETTE DÃ‰LARATION
+6 void apply (char* mama) {
+7 char mama;
+    int compteur=0
+    
+    while (mama < compteur){
+        mama ++
+        if(mama = 'c'-'a'+'A'){
+            mama = 'C'
+        }
+        if(mama='X'-'A'+'a'){
+            mama='X'
+        }
+    }
+    
+8 }
 
-// NE CHANGEZ PAS CETTE DELARATION
-  void guyed (char* mean) {
-     //écrivez le corps de cette fonction
-        char (int s = '83'; e = 69; l = 76; f = 70; i = 73; s = 83; h = 72;);
-        int (r =trans(s); r =trans(e); r =trans(l); r =trans(f); r =trans(s); r =trans(h););
-        cout<<r<<endl;
-        return 0 ;
-}
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
- int main () {
-    char pouch [] = "SELFISH tang"
-    printf("%s\n", guyed(pouch));
-}
+10 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+11
+12 int main () {
+13 char sit[] = "exuberant RABBIT";
+14 printf("%s\n", apply(sit));
+15 }

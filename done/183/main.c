@@ -1,29 +1,28 @@
-# include <stdio.h>
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+#include <stdio.h>
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void file (char* loaf) {
-// écrivez le corps de cette fonction
-    int i = 0;
-    
-	while (loaf[i] != '\0')
-	{
-    	if (loaf[i] >= 97 && loaf[i] <= 122)
-    	    loaf[i] = loaf[i] - 32;
-    	i++;
-	}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AUDESSUS
 
-	while (loaf[i] != '\0')
-	{
-    	if (loaf[i] >= 65 && loaf[i] <= 90)
-      	  	loaf[i] = loaf[i] +32;
-    	i++;
-	}
+// NE CHANGEZ PAS CETTE DECLARATION
+void onto (char* puree) {
+
+
+for (int i = 0; puree[i] != '\0';i++){
+     if (puree[i] >= 'A' && puree[i] <= 'Z'){
+
+      puree[i] +=32;
+
+
+     }
+}
+
 
 }
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AUDESSUS
 
 int main () {
-char trot[] = "busy CATERPILLAR";
-printf("%s\n", file(trot));
+
+char staid[] = "fair BARB";
+onto(staid);
+printf("%s\n",staid);
+
 }

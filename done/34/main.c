@@ -1,31 +1,16 @@
-# include <stdio.h>
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
- void block (char* least) {
-       int i = 0;
- 
-    //Tant que nous ne sommes pas arrivés a la fin de la chaine, continuer
-    while (least[i] != '\0')
-    {
-        /*si least[1] est une minuscule
-         *Car les majuscules se situent entre 65 et 90 inclusivement
-         */
-        if (least[i]  >= 65 &&  least[i] <=90)
+// NE CHANGEZ PAS CETTE DÉCLARATION
+void fare (char*cut) {
+    // écrivez le corps de cette fonction
+    while(compteur < 26)
+    printf("%c\n", 'a' & 'a'+= 'a'+1 )   
+}    
 
-            //Convertir en minuscules
-            least[i] = least[i] + 32;
-        i++;
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-}
- // écrivez le corps de cette fonction
- }
-
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
- int main () {
- char nasal[] = "panicky GOAT";
-   block(nasal);
- printf("%s\n", nasal);
- }
+int main(){
+    char crude[] = "tasty DREVER";
+    printf("%s\n", fare(crude));

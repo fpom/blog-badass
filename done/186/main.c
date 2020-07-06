@@ -1,27 +1,24 @@
-#include <stdio.h>
-#include <string.h>
+# include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÃ‰LARATION
-void buxom (char* mocha) {
-    int i = 0;
-    while(mocha[i] != 0){
-        if(mocha[i] >= 'a'){
-            if(mocha[i] == 'a' ||mocha[i] == 'e' || mocha[i] == 'i' || mocha[i] == 'o' || mocha[i] == 'u' || mocha[i] == 'y') {
-                mocha[i] -= 32;
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void sleek (char* amend) {
+    for(int i = 0;i<15;i++){
+        if(amend[i]=='a' ||amend[i]=='e' ||amend[i]=='i' ||amend[i]=='o' ||amend[i]=='u' ||amend[i]=='y' || amend[i]=='A' ||amend[i]=='E' ||amend[i]=='I' ||amend[i]=='O' ||amend[i]=='U' ||amend[i]=='Y'){
+            if(amend[i]=='A' || amend[i]=='E' || amend[i]=='I' || amend[i]=='O' || amend[i]=='U' ||amend[i]=='Y'){
+                amend[i]=amend[i]-'A'+'a';
+            }else if (amend[i]<'z'){
+                amend[i]=amend[i]-'a'+'A';
             }
         }
-        i++;
     }
-    return mocha;
 }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-    int f;
-char fruit[] = "stormy GAR";
-buxom(fruit);
-printf("%s\n", fruit);
-}
+ char steam[] = "open DORMOUSE";
+ sleek(steam);
+ printf("%s\n", steam);
+ }

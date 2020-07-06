@@ -1,32 +1,24 @@
-/******************************************************************************
+# include <stdio.h>
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-*******************************************************************************/
-#include <stdio.h>
-
-//NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-//NE CHANGEZ PAS CETTE DECLARATION
-void macro (char* rick) {
-    //écrivez le corps de cette fonction
-    for (i= 0, i<20, i++){ 
-        if (char == "b ","c ","d ","f ","g ","h ","j ","k ","l ","m ","n", "p","q" ,"r" ,"s" ,"t" ,"v" ,"w" ,"x" ,"z"){
-            printf ("B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Z");
-        }
-        else if ( char == "B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Z"){
-            printf("b ","c ","d ","f ","g ","h ","j ","k ","l ","m ","n", "p","q" ,"r" ,"s" ,"t" ,"v" ,"w" ,"x" ,"z");
-        }
-         
+// NE CHANGEZ PAS CETTE DÉLARATION
+void job (char* pivot) {
+for(int i=0; i<16; i++){
+    if(pivot[i]=='A'){
+        pivot[i]=pivot[i]-"A"+"a"
+        
+    } else if (pivot[i]=='E'){
+        pivot[i]=pivot[i]-"A"+"a"
+    }
+}
+    
+}
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main (){
-    char truer [] = "CRUEL beetle";
-    macro(rick);
-    printf("%s\n", macro);
-
+int main () {
+char fall[] = "cheerful RAGDOLL";
+job (pivot);
+printf("%s\n",pivot);
 }

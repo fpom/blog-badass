@@ -1,22 +1,30 @@
-#include <stdio.h>
+# include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉCLARATION
-void poser (char* blurb) {
-    // écrivez le corps de cette fonction
-    int i=0;
-    while(blurb[i] != '\0') {
-        if (blurb[i] >= 97 && blurb[i] <= 122)
-            blurb[i] = blurb[i] - 32;
-            i++;
+// NE CHANGEZ PAS CETTE DÃ‰LARATION
+ void block (char* least) {
+   int i = 0;
+ 
+    //Tant que nous ne sommes pas arrivÃ©s a la fin de la il faut continuer
+    while (least[i] != '\0')
+    {
+        /*si least[1] est une majuscule
+         * les majuscul se situent entre 65 et 90 inclus
+         */
+        if (least[i]  >= 65 &&  least[i] <= 90 )
+
+            //Conversion en majuscules
+            least[i] = least[i] + 32;
+        i++;
     }
-}
+    //corps de cette fonction
+ }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main() {
-    char here[] = "old-fashioned TORTOISE";
-    poser(here);
-    printf("%s\n",here);
-}
+ int main () {
+ char puppy[] = "DIFFICULT drever";
+   block(puppy);
+ printf("%s\n", puppy);
+ }

@@ -1,17 +1,27 @@
-#include <stdio.h>
-// NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
+# include <stdio.h>
 
-// NE CHANGERR PAS CETTE DECLARARTION
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 4
 
-void ecru  (char* sat);
-int i= 0;
-while (sat[i]!= \0 );
-if (sat [i] >= 97  sat[i]<=122);
-sat [i]=sat [i] - 32 ;
+// NE CHANGEZ PAS CETTE DÉLARATION
+void gone (char* lad) {
+    // la fonction est void, mais le programme principal 
+    // main() interprete son appel comme %s, ce qui genère une erreur
+    int i=0;
+    for(i=0; i < sizeof(lad) ; i++){
+        if(lad[i] != 'a' && lad[i] != 'e' &&
+            lad[i] != 'i' && lad[i] != 'o' && 
+            lad[i] != 'u' && lad[i] != 'y' && 
+            lad[i] >= 'a' && lad[i] <= 'z'){
+            lad[i] = lad[i] - 'a' + 'A';
+        }
+    }
+}
 
-i++;
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main()
-{
-    char aped []= "ZANY zorse";
-    
+ int main () {
+   char flunk[] = "ALIVE dolphin";
+   gone(flunk);
+   printf("%s\n", (flunk));
+}
+

@@ -1,24 +1,41 @@
-# include <stdio.h>
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DC      LARATION
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void job (char* pivot) {
-for(int i=0; i<16; i++){
-    if(pivot[i]=='A'){
-        pivot[i]=pivot[i]-"A"+"a"
-        
-    } else if (pivot[i]=='E'){
-        pivot[i]=pivot[i]-"A"+"a"
+void
+yolk (char *iffy)
+{
+// C)crivez le corps de cette fonction
+
+  char chaine[3];
+  int i = 0;
+
+    chaine[0]='b';
+    chaine[1]='d';
+    chaine[2]='r';
+  while (chaine[i] != '/0')
+    {
+
+      if (chaine[0] == 'b')
+	chaine[0] = 'B';
+
+      if (chaine[2] == 'r')
+	chaine[2] = 'R';
+      if (chaine[1] == 'd')
+	chaine[1] = 'D';
     }
-}
-    
+
+
+
 }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+int
+main ()
+{
+  char bosun[] = "bored QUOLL";
 
-int main () {
-char fall[] = "cheerful RAGDOLL";
-job (pivot);
-printf("%s\n",pivot);
+  yolk (bosun);
+  printf ("%s\n", bosun);
 }

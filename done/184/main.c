@@ -1,19 +1,25 @@
-1 #include <stdio.h>
-2
-3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-4
-5	// NE CHANGEZ PAS CETTE DÃ‰LARATION
-6	void shape (char* acing) {
-7	scanf("%s",a,e,i,o,u,y);
-8	for (i=0; i<strlen(a,e,i,o,u); i++) {
-9	     mot[i]=toupper(a,e,i,o,u,y[i]);
-10	for (i=0; i<strlen(a,e,i,o,u); i)
-11	     mot[i]=tolower(a,e,i,o,u,y[i]);
-12	}}
-13 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-14
-15	int main () {
-16	char waver[] = "MOTIONLESS dormouse";
-17	shape(waver);
-18    printf("%s\n", waver);
-19	}
+# include <stdio.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+void tout (char* civet) {
+// écrivez le corps de cette fonction
+    int i=0;
+    while (civet[i] != '\0'){
+        if (civet[i] == 'a'||civet[i] == 'e'
+        || civet[i] == 'i'
+        || civet[i] == 'o'
+        || civet[i] == 'u'){
+            civet[i] = civet[i]-32;
+        }
+        i++;
+    }
+}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main () {
+    char paler[] = "PERFECT uguisu";
+    printf("%s\n", tout(paler));
+
+}

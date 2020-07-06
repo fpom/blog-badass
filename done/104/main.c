@@ -1,24 +1,14 @@
-# include <stdio.h>
-
+#include <stdio.h>
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+void squab (char*wrist){
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void lent (char* graft) {
-// écrivez le corps de cette fonction
-int i=0;
-char val=0;
-for (i=0; i<graft.length; i++) {
-    val = graft[i];
-    if (val <= 'z'){
-        val = val - 'a' + 'A';
-    }
-    graft[i] = val;
-}
-}
+int i 
+scanf("%");
+for(i=0; i<255; i++);
+int main();
+char one[]= "enchanting MARKHOR"
+printf (%s\n"; squab(one));
+    
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
-char darn[] = "mysterious BIRD";
-printf("%s\n", lent(darn));          
+    return 0;
 }

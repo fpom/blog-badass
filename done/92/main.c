@@ -1,23 +1,31 @@
 #include <stdio.h>
-#include <string.h>
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE D�LARATION
-void trout(char*lunar){
-char maj[18]={"b,c,d,f,g,h,j,k,l,m,n,q,r,s,t,v,w,z"};
-int i;
-// char lunar repr�sente ici la chaine de charact�re crude
-for(i=0 ;i<strlen(char*lunar); i++) {
-    if(char*lunar==char[maj]){
-     char[lunar]=tolower((char[lunar]);
-     // tolower est une fonction qui passe une majuscule en minuscule
-     
-}
-}
-}
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-int main () {
- char crude[] = "VICTORIOUS indri";
- trout(crude);
- printf("%s\n", trout);
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void piled (char* quart) 
+ {
+    int i = 0
+    while (char[i] != '\0')
+    {
+            if (char[i] == 'q')
+                char[i] = 'Q' ;
+                
+            if (char[i] == 'u')
+                char[i] = 'U' ;
+                
+            if (char[i] == 'a')
+                char[i] = 'A' ;
+                
+            if (char[i] == 'r')
+                char[i] = 'R' ;
+                
+            if (char[i] == 't')
+                char[i] = 'T' ;
+// écrivez le corps de cette fonction
+ } 
+  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS 
+ 
+ int main () { 
+ char downy[] = "LONG horse";
+ printf("%s\n", piled(downy)); 
  }

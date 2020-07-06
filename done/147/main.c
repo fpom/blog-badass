@@ -1,23 +1,27 @@
-#include <studio.h>
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+#include <stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
 // NE CHANGEZ PAS CETTE DÉLARATION
-void grip (char* dumpy) {
-int i = 1;
-//On continue jusqu'a la fin du mot"//
-while (dumpy[i] != '\0')
-{
-//si la première lettre est une consonne minuscule//
-if (dumpy[i] >= 97 && dumpy[i] <= 122)
-if(dumpy[i] !={97,101,105,111,117,121})
-//Convertir en majuscules
-dumpy[i] = dumpy[i] - 32;
-i++;
-}
-}
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-int main () {
-char stem[] = "funny WOODPECKER";
-printf("%s\n", grip(stem));
+
+char* are (char* vote) {
+    int taille=strlen(vote);
+    for(int i=0;i<taille;i++){
+        if((vote[i])=='A' || vote[i]=='E' ||vote[i]=='I'||vote[i]=='O'||vote[i]=='U'||vote[i]=='Y'){
+           vote[i]=vote[i]+32; 
+        }
+         
+    }
+    return vote;
 }
 
-
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ int main () {
+   char sac[] = "CHARMING sheep";
+   printf("%s\n", are(sac));
+}
+
+
+
+

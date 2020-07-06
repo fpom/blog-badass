@@ -1,31 +1,26 @@
-#include <stdio.h>
+/******************************************************************************
 
-// NE CHANGEZ PAS CETTE D�?LARATION
- void thyme (char* lilac) {
-     int i = 0;
- 
-     while (lilac[i] != '\0')
-    {
-        
-        if (lilac[i]  >= 97 &&  lilac[i] <= 122)
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
 
-            
-            lilac[i] = lilac[i] - 32;
-        i++;
-        
-         if (lilac[i]  >= 65 &&  lilac[i] <= 90)
+*******************************************************************************/
+# include <stdio.h>
 
-            
-            lilac[i] = lilac[i] + 32;
-        i++;
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void oft (char* redid) {
+// écrivez le corps de cette fonction
+ while (demur[]){
+     if ()
+ }
 }
- // écrivez le corps de cette fonction
- }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- int main () {
- char wreck[] = "filthy FISH";
-    thyme(wreck);
-printf("%s\n", wreck);
- }
+int main () {
+ char demur[] = "doubtful TIFFANY";
+ printf("%s\n", demur);
+}

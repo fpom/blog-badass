@@ -1,11 +1,11 @@
-//let head = 'kind'
-//let tail = 'ocelot'
-//let STR = 'kind OCELOT'
-//let algo = 'strclow'
-//let RESULT = String('kind OcElOt')
-//let FUN = 'page'
-//let ARG = 'lain'
-//let TEST = 'licit'
+//let head = String('blushing')
+//let tail = String('grasshopper')
+//let STR = String('BLUSHING grasshopper')
+//let algo = 'strvlow'
+//let RESULT = String('BLuSHiNG grasshopper')
+//let FUN = 'non'
+//let ARG = 'juicy'
+//let TEST = 'sassy'
 void FUN (char* ARG) {
   // write this function body
 }

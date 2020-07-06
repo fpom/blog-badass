@@ -1,11 +1,11 @@
-//let head = 'motionless'
-//let tail = 'chameleon'
-//let STR = 'MOTIONLESS chameleon'
+//let head = String('shiny')
+//let tail = String('tang')
+//let STR = String('SHINY tang')
 //let algo = 'strup'
-//let RESULT = String('MOTIONLESS CHAMELEON')
-//let FUN = 'chomp'
-//let ARG = 'pin'
-//let TEST = 'bunt'
+//let RESULT = String('SHINY TANG')
+//let FUN = 'stomp'
+//let ARG = 'fop'
+//let TEST = 'piked'
 void FUN (char* ARG) {
   // write this function body
 }

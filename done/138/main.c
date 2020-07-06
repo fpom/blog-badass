@@ -1,28 +1,33 @@
 # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
+ // NE CHANGEZ PAS CETTE D�LARATION
+char* roost(char* wart) {
 
-void fiery (char* bale) {
-  int i = 0;
-// écrivez le corps de cette fonction
- while (bale[i] != '\0')
+    int nombreDeCaracteres = 0;
+    char caractereActuel = 0;
+
+    do
     {
-      // verifier si la lettre est une voyelle
-        if (bale[i]  == 97 || bale[i] == 101 || bale[i] == 105 || bale[i] == 111|| bale[i] == 117 || bale[i] == 121)
+        caractereActuel = wart[nombreDeCaracteres];
+        nombreDeCaracteres++;
+    }
+    while(caractereActuel != '\0');
 
-            //Convertir en majuscules
-            bale[i] = bale[i] - 32;
-        i++;
+    for(int i=0;i<nombreDeCaracteres;i++){
 
-      }
-}
+        if(wart[i]=='a' || wart[i]=='e' || wart[i]=='i' || wart[i]=='o' || wart[i]=='u' || wart[i]=='y'){
+                wart[i]=wart[i]-'b'+'B';
+        }
+    }
+    return wart;
+ }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
-char slaw[] = "witty LEMUR";
-fiery(slaw);
-  printf("%s\n", slaw);
+ int main () {
+ char tower[] = "amused NIGHTINGALE";
+ printf("%s\n", roost(tower));
 }
+

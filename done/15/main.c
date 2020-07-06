@@ -1,27 +1,22 @@
-# include <stdio.h>
+ # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE D…LARATION
- void swat (char* thing) {
-    char str[256];
-    int i = 0;
-    str[i]='t';
-    str[i]=str[i] -32;
-    str[i]='h';
-    str[i]=str[i] -32;
-    str[i]='i';
-    str[i]=str[i] -32;
-    str[i]='n';
-    str[i]=str[i] -32;
-    str[i]='g';
-    str[i]=str[i] -32;
-    main();
+#include <string.h>
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 4
+ // NE CHANGEZ PAS CETTE DEÃÅLARATION
+ void slew (char* feint) {
+     char* resultat;
+     int i ;
+     for(i = 0; i< strlen(feint);i++){
+         resultat[i] = feint[i];
+         if (resultat[i]>='A' && resultat[i]<='Z')
+             resultat[i] = resultat[i] + 32;
+     }
+     
  }
 
  // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ int main () {
 
-int main () {
-  char parch[] = "NUTTY stoat";
- printf("%s\n", swat(parch));
-}
+ char veto[] = "lucky ANTEATER";
+   printf("%s\n", slew(veto));
+ }

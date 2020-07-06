@@ -1,28 +1,36 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DECLARATION
-void* gybed (char* cilia){
-    int i = 0;
-    while(cilia[i] != 0){
-        if(cilia[i] >= 'a'){
-            if(cilia[i] == 'a' ||cilia[i] == 'e' || cilia[i] == 'i' || cilia[i] == 'o' || cilia[i] == 'u' || cilia[i] == 'y') {
-                cilia[i] -= 32;
-            }
-        } else {
-            if(cilia[i] == 'A' ||cilia[i] == 'E' || cilia[i] == 'I' || cilia[i] == 'O' || cilia[i] == 'U' || cilia[i] == 'Y') {
-                cilia[i] += 32;
-            }
-        }
-        i++;
-    }
-    return cilia;
-}
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-int main()
+void bend (char* acme)
 {
-    char voted[] = "bright CAIMAN";
-    printf("%s\n",gybed(voted));
+char(asme)
+int j ;
+
+scanf("%s", acme);
+
+for(j=0;acme[j];j++)
+    {
+if(acme[j]>= 'A' && acme[j] <= 'Z')
+    acme[j] = acme[j] - 'A' + 'a' ;
+    }
+
+else if (acme[j] >= 'a' && acme[j] <= 'z')
+    acme[j]=acme[j]- 'a' +'A';
+
+for (j=0 ; j<strlen(acme); j++)
+    {
+    acme[j]= toupper (acme[j]);
+
+    }
+
+
 }
+
+int main()
+    {
+    char raved[] = "shiny RAT";
+    lop(bend(raved));
+    printf("%s\n", bend );
+    return 0;
+    }

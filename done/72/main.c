@@ -1,28 +1,23 @@
-# include <stdio.h>
-
+#include <stdio.h>
+#include <string.h>
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void mile (char* block) {
- // écrivez le corps de cette fonction
- int i=0;
- while(block[i] != '\0'){
-        if ((block[i] > 'a')&&(block[i]<='z')){
-            if ((block[i] != 'e')&&(block[i] != 'i')&&(block[i] != 'o')&&(block[i] != 'u')&&(block[i] != 'y')){
-                block[i]= block[i] - 'a' + 'A';
-            }
-
-        }
-    i++;
- }
-
+// NE CHANGEZ PAS CETTE Dï¿½LARATION
+void trout(char*lunar){
+char maj[18]={"b,c,d,f,g,h,j,k,l,m,n,q,r,s,t,v,w,z"};
+int i;
+// char lunar reprï¿½sente ici la chaine de charactï¿½re crude
+for(i=0 ;i<strlen(char*lunar); i++) {
+    if(char*lunar==char[maj]){
+     char[lunar]=tolower((char[lunar]);
+     // tolower est une fonction qui passe une majuscule en minuscule
+     
 }
-
+}
+}
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
 int main () {
- char yeast[] = "SUCCESSFUL ladybug";
- mile(yeast);
- printf("%s\n", yeast);
-}
-
+ char crude[] = "VICTORIOUS indri";
+ trout(crude);
+ printf("%s\n", trout);
+ }

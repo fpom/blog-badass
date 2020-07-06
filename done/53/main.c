@@ -1,31 +1,18 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-void man(char* flank){
-int i =0;
-  for (int i=0; i<len(flank); i++){
-   switch (i) {
-   case "a": i= i-"A"+ "a";
-   case "e" :i= i-"A"+ "a";
-   case "i" : i= i-"A"+ "a";
-   case "o" : i= i-"A"+ "a";
-   case "u" :i= i-"A"+ "a";
-   case "y" : i= i-"A"+ "a";
-   case "A" :i= i-"a"+ "A";
-   case "E" :i= i-"a"+ "A";
-   case "I" :i= i-"a"+ "A";
-   case "O" :i= i-"a"+ "A";
-   case "U" :i= i-"a"+ "A";
-   case "Y" : i= i-"a"+ "A";
-   }
-   default {
-     i=i;
-    }
-  }
+# include <stdio.h>
+2
+3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSOUS
+5 // NE CHANGEZ PAS CETTE DÉLARATION
+6 void acid (char* armor) {
+7 // écrivez le corps de cette fonction
+for(int i=armor[i])!='\0';i++)}
+armor[i]=armor[i]-'A'+a';
 }
-
-int main (){
-char heck[] = "energetic SHEEP";
-printf ("%s\n", man(heck));
 }
+8 }
+9
+10 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+11
+12 int main () {
+13 char lit[] = "HAPPY barracuda";
+14 printf("%s\n", acid(lit));
+15 }

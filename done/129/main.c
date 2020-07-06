@@ -1,17 +1,28 @@
+#include <stdio.h> 
 
-#include <stdio.h>
-#include "min.h"
-void nixed(char* agar){
-int i;
-for(i=0;i<agar.strlen;i++){
-if ((agar[i])<'A'|| (agar[i]>'Z'))
-agar[i]=agar[i]-'A'+'a';
-else if((agar[i])<'a'|| (agar[i]>'z'))
-agar[i]=agar[i]-'a'+'A';
-return 0;
-}
-}
-int main(){
-    char bulge[]="NASTY goose";
-    printf("%S\n",nixed(bulge));
-}
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
+
+ // NE CHANGEZ PAS CETTE DÉLARATION 
+void pat (char* lost) { 
+    // écrivez le corps de cette fonction 
+    int i = 0;
+    while(lost[i] != '\0')
+    {
+    
+  //changer les voyelles en minuscules
+    if (lost[i] == 97 || lost[i] == 101 ||lost[i] == 105 || lost[i] == 111
+    || lost [i] == 117 || lost[i] == 121)
+    
+    lost [i] = lost [i] - 32;
+    i++;
+     } 
+     }
+     
+     // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS 
+    
+    int main () { 
+         char sired[] = "bright PARROT";
+         pat(sired);
+         printf("%s\n", sired);
+      
+        }

@@ -1,34 +1,31 @@
- # include <stdio.h>
+#include <stdio.h>
+    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+    // NE CHANGEZ PAS CETTE DÃ‰LARATION
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
-void seen (char* aorta) {
-     int i = 0;
-
-
-   while (aorta[i] != '\0')
+    // Ã©crivez le corps de cette fonction
+    void notch (char* pin) {
+    int i = 0;
+ 
+    //Tant que nous ne sommes pas arrivÃ©s a la fin de la chaine, continuer
+    while (pin[i] != '\0')
     {
+        /*si chaine[1] est une minuscule
+         *Car les minuscules se situent entre 97 et 122 inclusivement
+         */
+        if (pin[i]  >= 65 &&  pin[i] <= 90)
 
-        if (aorta[i]  >= 97 &&  aorta[i] <= 122)
 
+            //Convertir en minuscules
+            pin[i] = pin[i] + 32;
 
-            aorta[i] = aorta[i] - 32;
         i++;
 
-         if (aorta[i]  >= 65 &&  aorta[i] <= 90)
+    } }
 
 
-            aorta[i] = aorta[i] + 32;
-        i++;
-}
- // écrivez le corps de cette fonction
- }
-
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-    char plate[] = "innocent AKBASH";
-    printf("%s\n", plate);
-}
+char sum[] = "misty WOLVERINE";
+notch(sum);
+printf("%s\n",sum);}

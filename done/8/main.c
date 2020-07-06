@@ -1,24 +1,31 @@
-#include <stdio.h>
-#include <stdlib.h>
+# include <stdio.h>
 
-#include <string.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-void revue (char * poesy){
-    int i;
-    for (i = 0; poesy[i]!='\0'; i++) {
-     // si les caractères sont en minuscules, convertissez-les en majuscules 
-     // en soustrayant 32 de leur valeur ASCII.
-      if (poesy[i]  >= 97 &&  poesy[i] <= 122) {
-        poesy[i] = poesy[i] - 32; i++; }
-   }
-   printf("\n La chaîne en majuscule = %s", poesy);
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void block (char* least) {
+       int i = 0;
+ 
+    //Tant que nous ne sommes pas arrivés a la fin de la chaine, continuer
+    while (least[i] != '\0')
+    {
+        /*si least[1] est une minuscule
+         *Car les majuscules se situent entre 65 et 90 inclusivement
+         */
+        if (least[i]  >= 65 &&  least[i] <=90)
+
+            //Convertir en minuscules
+            least[i] = least[i] + 32;
+        i++;
+
 }
+ // écrivez le corps de cette fonction
+ }
 
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main(){
-    
-    char merit[] = "ENVIOUS manatee";
-    //printf("%s\n" , revue(merit));
-    revue(merit);
-    return 0;
-}
+ int main () {
+ char nasal[] = "panicky GOAT";
+   block(nasal);
+ printf("%s\n", nasal);
+ }

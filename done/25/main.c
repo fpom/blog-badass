@@ -1,23 +1,26 @@
 # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void clung (char* sorry) {
-// écrivez le corps de cette fonction
-for (int i = 0; i < 16; i++){
-    char A, a, u;
-    if (dingy [i] == a )
-       char a = a+A;
-    if (dingy [i] == u)
-       char u = u+A;
-    }
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void deity (char* louse) {
+ // écrivez le corps de cette fonction
+ 
+ 	
+  int j=0;
+ while(louse[j]!='\0'){
+ 	if(louse[j]=='A' || louse[j]=='E' || louse[j]=='I' || louse[j]=='O' || louse[j]=='U' || louse[j]=='Y') 
+	 louse[j]= louse[j]+32;
+	  j++ ;
+ 	
+ } 
+return louse;
 
-}
+ }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
- char dingy[] = "POISED tuatara";
- printf("%s\n", clung(dingy));
+ int main () {
+ char achoo[] = "BRIGHT dhole";
+ printf("%s\n", deity(achoo));
  }

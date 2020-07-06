@@ -1,11 +1,11 @@
-//let head = 'comfortable'
-//let tail = 'leopard'
-//let STR = 'COMFORTABLE leopard'
-//let algo = 'strvswap'
-//let RESULT = String('CoMFoRTaBLe lEOpArd')
-//let FUN = 'cider'
-//let ARG = 'scald'
-//let TEST = 'greed'
+//let head = String('lonely')
+//let tail = String('chipmunk')
+//let STR = String('LONELY chipmunk')
+//let algo = 'strcswap'
+//let RESULT = String('lOnElY CHiPMuNK')
+//let FUN = 'slink'
+//let ARG = 'geld'
+//let TEST = 'load'
 void FUN (char* ARG) {
   // write this function body
 }

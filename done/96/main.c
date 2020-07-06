@@ -1,27 +1,26 @@
 # include <stdio.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-void siege (char* inset) {
-    char conv[] = "bcdfghjklmnpqrstvwxz";
-    for (int i = 0; i < sizeof(inset)/sizeof(char); i++)
-    {   
-        for (int c = 0; c < sizeof(conv); c++)
-        {  
-            if (inset[i] == conv[c])
-            {       
-                inset[i] = inset[i] + 32 ;
-                break;
-            }
-        }
-    }
-    // écrivez le corps de cette fonction
-}
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void lest (char* crow) {
+  switch (crow) {
+ case "A" ... "Z" :
+ return 0;
+ case "a" ... "z" :
+ return 1;
+ case "0" ... "9" :
+ return 2;
 
-    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ }
+ }
+ // écrivez le corps de cette fonction
 
-int main () {
-    char batty[] = "ANNOYED gecko";
-    printf("%s\n", siege(batty));
-}
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+ int main () {
+ char label[] = "tough QUAIL";
+lest(label);
+ printf("%s\n", lest(label);
+ }

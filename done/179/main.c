@@ -1,25 +1,24 @@
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
+ # include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DECLARATION
-void bosun (char* wined) {
-    // �crivez le corps de cette fonctionint i;
-  scanf("%s",wined);
-    int i;
-        //for (i=0; i<strlen(wined); i++) {
-        for (i=0; wined[i] != '\n'; i++)
-        {
-          if (( wined[i] >= 'a') && (wined[i] <= 'z' ))
-             wined[i] += ('A' - 'a');
-           // wined[i] = toupper (wined[i]);
-        }
-}
+// NE CHANGEZ PAS CETTE DÉLARATION
+void gall (char* plait) {
+ // écrivez le corps de cette fonction
+ int i=0;
+ while (plait[i] != '\0'){
+     if(plait[i] >= 97 && plait[i] <= 122)
+     plait[i] = plait[i] - 32;
+     i++;
+ }
 
-// NE MODIFEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-int main () {
-    char later [] = "ANNOYING abyssinian";
-    //bosun(later);
-}
+
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+ int main () {
+ char poach[] = "CROWDED wasp";
+ gall (poach);
+ printf("%s\n", poach);
+ }

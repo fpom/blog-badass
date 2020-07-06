@@ -1,25 +1,27 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
 #include <stdio.h>
+#include <string.h>
+void swear (char* decaf){
+char *decaf[100];
+int i=0;
+printf("\n");
+for(i=0;decaf[i]!='\0';i++){
+    if (decaf [i]>='a'&&decaf[i]<='z'){
+    decaf[i]=decaf[i]-1;
+}}
 
-//NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-//NE CHANGER PAS CETTE DECLARATION
-void mowed (char* sneak){
-    //écriver le corps de cette fonction
-    int i=0;
-    while(sneak[i]!='\0'){
-
-        if(sneak[i]>='a' && sneak[i]<='z'){
-            sneak[i]= sneak[i] - 'a' + 'A';
-        }
-    i++;
-    }
 }
 
-//NE MODIFIER PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main()
-{
-    char peppy[]="DETERMINED bulldog";
-    mowed(peppy);
-    printf("%s\n", peppy);
+int main(){
+    char waved[]="ALERT chicken"
+    swear(decaf);
+    printf("%s\n", swear(decaf));
+    return 0;
 }

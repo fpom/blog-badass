@@ -1,27 +1,17 @@
 #include <stdio.h>
+// NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGERR PAS CETTE DECLARARTION
 
-char convertir(int c) {
-    return c;
-}
+void ecru  (char* sat);
+int i= 0;
+while (sat[i]!= \0 );
+if (sat [i] >= 97  sat[i]<=122);
+sat [i]=sat [i] - 32 ;
 
-void urge (char* pared) {
-    for (int i=0; i<17; i++) {
-        if (pared[i] - 'a' <= 26 && pared[i] - 'a' >= 0) {
-            pared[i] = convertir(pared[i] - 'a' + 'A');
-        } else if (pared[i] == ' ') {
-            pared[i] = pared[i];
-        } else {
-            pared[i] = convertir(pared[i] - 'A' + 'a');
-        }
-    }
-}
+i++;
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
-    char dingy[] = "GORGEOUS lionfish";
-    urge(dingy);
-    printf("%s\n", dingy);
-}
+int main()
+{
+    char aped []= "ZANY zorse";
+    

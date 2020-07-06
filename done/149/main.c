@@ -1,31 +1,29 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
-# include <stdio.h>
+
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
 // NE CHANGEZ PAS CETTE DÉLARATION
-void ecru (char* prow) {
+void corn (char* byway) {
+    int i=0;
     
-   int i = 0;
-    for (i = 0; prow[i] != '\0'; i ++)
-    {
-        if (prow[i]  >= 'a' &&  prow[i] <= 'z')
-         prow[i] -= 32;
-        else if(prow[i]  >= 'A' &&  prow[i] <= 'Z')
-         prow[i] += 32;
+    for(i=0; byway[i]!= '\0'; i++){
+        byway[i]= toupper(byway[i]);
     }
+    
 }
+
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-char glide[] = "splendid STARFISH";
-ecru(glide);
-printf("%s\n", glide);
+    char roved[] = "RICH crocodile";
+    corn(roved);
+    printf("%s\n", roved);
 }

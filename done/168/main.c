@@ -1,30 +1,33 @@
-# include <stdio.h>
+	#include <stdio.h>
+	// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+	// NE CHANGEZ PAS CETTE DÉLARATION
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
- void block (char* least) {
-   int i = 0;
+	// écrivez le corps de cette fonction
+	void woe (char* amaze) {
+    int i = 0;
  
-    //Tant que nous ne sommes pas arrivés a la fin de la il faut continuer
-    while (least[i] != '\0')
+    //Tant que nous ne sommes pas arrivés a la fin de la chaine, continuer
+    while (amaze[i] != '\0')
     {
-        /*si least[1] est une majuscule
-         * les majuscul se situent entre 65 et 90 inclus
+        /*si chaine[1] est une minuscule
+         *Car les minuscules se situent entre 97 et 122 inclusivement
          */
-        if (least[i]  >= 65 &&  least[i] <= 90 )
-
-            //Conversion en majuscules
-            least[i] = least[i] + 32;
+        if (amaze[i]  >= 97 &&  amaze[i] <= 122)
+             
+            //Convertir en majuscules
+            amaze[i] = amaze[i] - 32;
+        else 
+            //Convertir en minuscules
+            amaze[i] = amaze[i] + 32;
+            
         i++;
-    }
-    //corps de cette fonction
- }
+        
+    } }
+	
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+	// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- int main () {
- char puppy[] = "DIFFICULT drever";
-   block(puppy);
- printf("%s\n", puppy);
- }
+int main () {
+char sum[] = "itchy RATTLESNAKE";
+woe(sum);
+printf("%s\n",sum);}

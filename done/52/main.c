@@ -1,27 +1,27 @@
-/******************************************************************************
+# include <stdio.h>
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-*******************************************************************************/
-#include <stdio.h>
-#include <string.h>
-void swear (char* decaf){
-char *decaf[100];
-int i=0;
-printf("\n");
-for(i=0;decaf[i]!='\0';i++){
-    if (decaf [i]>='a'&&decaf[i]<='z'){
-    decaf[i]=decaf[i]-1;
-}}
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void born (char* crux) {
+ // écrivez le corps de cette fonction
+ int i=0;
+ while (crux[i] != '\0') {
+     if( crux[i]== 97||crux[i]==101||crux[i]==105||crux[i]==111||crux[i]==117||crux[i]==121){
+     crux[i] = crux[i] - 32;}
+     
+     else if(crux[i]== 65||crux[i]==69||crux[i]==73||crux[i]==79||crux[i]==85||crux[i]==89){
+     crux[i] = crux[i] + 32;
+     }
+     i++;
+ }
+ 
+ }
 
-}
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main(){
-    char waved[]="ALERT chicken"
-    swear(decaf);
-    printf("%s\n", swear(decaf));
-    return 0;
-}
+ int main () {
+ char prep[] = "awful BLOODHOUND";
+ born(prep);
+printf("%s\n", prep);
+ }

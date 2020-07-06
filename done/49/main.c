@@ -1,32 +1,28 @@
-#include <stdio.h>
+# include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DECLARATION
-void* skyed (char* aside){
-    int i = 0;
-    while(aside[i] != 0){
-        if(aside[i] >= 'a')
-        {
-        if(aside[i] == 'a' ||aside[i] == 'e' || aside[i] == 'i' || aside[i] == 'o' || aside[i] == 'u' || aside[i] == 'y') {
-        aside[i] -= 32;
-        }
-        } 
-        else 
-        {
-        if(aside[i] == 'A' ||aside[i] == 'E' || aside[i] == 'I' || aside[i] == 'O' || aside[i] == 'U' || aside[i] == 'Y') {
-        aside[i] += 32;
-        }
+// NE CHANGEZ PAS CETTE DÉLARATION
+void mile (char* block) {
+ // écrivez le corps de cette fonction
+ int i=0;
+ while(block[i] != '\0'){
+        if ((block[i] > 'a')&&(block[i]<='z')){
+            if ((block[i] != 'e')&&(block[i] != 'i')&&(block[i] != 'o')&&(block[i] != 'u')&&(block[i] != 'y')){
+                block[i]= block[i] - 'a' + 'A';
+            }
+
         }
     i++;
-}
-return aside;
+ }
+
 }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-int main()
-{
-char circa[] = "exuberant UGUISU";
-skyed(circa);
-printf("%s\n",circa);
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main () {
+ char yeast[] = "SUCCESSFUL ladybug";
+ mile(yeast);
+ printf("%s\n", yeast);
 }
+

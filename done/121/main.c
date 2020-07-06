@@ -1,20 +1,27 @@
-# include <stdio.h>
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- // NE CHANGEZ PAS CETTE DÉLARATION
- void moody (char* there) {
-   int i=0;
-   for(i; i<10; i ++){
-    if(char[i]='I'){
-      char[i]= 'i';
-    }
-    }
- }
+char convertir(int c) {
+    return c;
+}
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+void urge (char* pared) {
+    for (int i=0; i<17; i++) {
+        if (pared[i] - 'a' <= 26 && pared[i] - 'a' >= 0) {
+            pared[i] = convertir(pared[i] - 'a' + 'A');
+        } else if (pared[i] == ' ') {
+            pared[i] = pared[i];
+        } else {
+            pared[i] = convertir(pared[i] - 'A' + 'a');
+        }
+    }
+}
 
- int main () {
- char axle[] = "KIND robin";
- printf("%s\n", moody(axle));
- }
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main () {
+    char dingy[] = "GORGEOUS lionfish";
+    urge(dingy);
+    printf("%s\n", dingy);
+}

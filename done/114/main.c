@@ -1,25 +1,17 @@
+
 #include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-// NE CHANGEZ PAS CETTE DÉLARATION
-void wan (char* yet) {
-    yet = 100;
-       for (int i = 0; yet<yet.length; i++) {
-
-      if(yet[i] == 'a'|| 'e' || 'i'|| 'o'|| 'u'|| 'y') {
-         yet[i] = yet[i] -32;}
-         if(yet[i] == 'A'|| 'E' || 'I'|| 'O'|| 'U'|| 'y'){
-            yet[i] = yet[i] +32;
-         }
-       }
+#include "min.h"
+void nixed(char* agar){
+int i;
+for(i=0;i<agar.strlen;i++){
+if ((agar[i])<'A'|| (agar[i]>'Z'))
+agar[i]=agar[i]-'A'+'a';
+else if((agar[i])<'a'|| (agar[i]>'z'))
+agar[i]=agar[i]-'a'+'A';
+return 0;
 }
- int main () {
-char drank[] = "CALM chicken";
- printf("%s\n", wan(drank));
- }
-
-
-
+}
+int main(){
+    char bulge[]="NASTY goose";
+    printf("%S\n",nixed(bulge));
+}

@@ -1,33 +1,25 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 
-// NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS 
 
-// NE CHANGER PAS CETTE DECLARATION
-void tzar(char*lava){
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE D�LARATION
+void wan (char* yet) {
+    yet = 100;
+       for (int i = 0; yet<yet.length; i++) {
 
- 
+      if(yet[i] == 'a'|| 'e' || 'i'|| 'o'|| 'u'|| 'y') {
+         yet[i] = yet[i] -32;}
+         if(yet[i] == 'A'|| 'E' || 'I'|| 'O'|| 'U'|| 'y'){
+            yet[i] = yet[i] +32;
+         }
+       }
 }
-    // ECRIVER le corps de cette fonction
-    
-}
+ int main () {
+char drank[] = "CALM chicken";
+ printf("%s\n", wan(drank));
+ }
 
-// NE MODIFIER PAS CE COMMENTAIRE NI RIEN EN-DESSOUS
 
-     int main (){
-    char tzar[]= "beautiful  PEKINGESE";
-    printf("%s\n", tzar);
-     int i; 
-  for (i = 0; str[i]; i++) 
-    { 
-      if ((str[i] >= ’e’) && (str[i] <= ’z’)) 
-        str[i] += (’E’ - ’e’); 
-     
-}
+

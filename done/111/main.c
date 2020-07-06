@@ -1,25 +1,17 @@
-/******************************************************************************
+#include<stdio.h>
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby,
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+//NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-*******************************************************************************/
-# include <stdio.h>
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
-void prong (char* stent) {
-// écrivez le corps de cette fonction
-
+// NE CHANGEZ PAS CETTE DECLARATION
+Void hutch(char*sclold){
+if ("a+1"="b")
+    if ("f"<"z")&& ("w">="e")
 
 }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+//NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
-  char meal[] = "FAITHFUL baboon";
-  printf("%s\n", prong(meal));
+Int main(){
+char badly []= "smiling KANGAROO";
+printf("%s\n", hutch(badly));
 }

@@ -1,29 +1,42 @@
-#include <stdio.h>
-//mettre les caract�res minuscule en majuscule
- void rife (char* mogul) {
+#include <stdio.h> 
+ 
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
+ 
+// NE CHANGEZ PAS CETTE DÉLARATION 
+void tool (char* booth) { 
+     // écrivez le corps de cette fonction 
      int i = 0;
-
-     while (mogul[i] != '\0')
+     char voyelles[6];
+ 
+     while (voyelles[i] != '\0')
     {
-
-        if (mogul[i]  >= 97 &&  mogul[i] <= 122)
-
-
-            mogul[i] = mogul[i] - 32;
-        i++;
-
-         if (mogul[i]  >= 65 &&  mogul[i] <= 90)
-
-
-            mogul[i] = mogul[i] + 32;
-        i++;
+     if (voyelles[i] == 'A')
+          voyelles[i] = 'a';
+ 
+     if (voyelles[i] == 'U')
+          voyelles[i] = 'u';
+ 
+     if (voyelles[i] == 'O')
+          voyelles[i] = 'o';
+          
+     if (voyelles[i] == 'Y')
+          voyelles[i] = 'y';
+ 
+     if (voyelles[i] == 'I')
+          voyelles[i] = 'i';
+ 
+     if (voyelles[i] == 'E')
+          voyelles[i] = 'e';
+          
+     i++;
+     } 
+     
+    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS 
+     
+    int main () { 
+        char bait[] = "ADVENTUROUS gecko"; 
+        tool(bait); 
+        printf("%s\n",bait);
+    }
 }
 
- }
-
-
-int main () {
-    char ahem[] = "HELPLESS mastiff";
-   rife(ahem);
-    printf("%s\n", ahem);
-}

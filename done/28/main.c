@@ -1,35 +1,31 @@
-# include <stdio.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-// NE CHANGEZ PAS CETTE DÉLARATION
- void ocher (char* adept) {
- // écrivez le corps de cette fonction
-int i,z;
-i=0;
-z='A';
- while(adept[i] !='\0')
- {
- z='A';
- 
- 
- if(adept [i] != 'A' && adept [i] != 'E'&& adept [i] != 'I'&& adept [i] != 'O'&& adept [i] != 'U'&&adept [i] != 'Y'&&adept[i]>z&&adept[i]<=z+25)
- {
- 	adept[i]=adept[i]-z+'a';
- 	
- 	
- }
- i=i+1;
+void man(char* flank){
+int i =0;
+  for (int i=0; i<len(flank); i++){
+   switch (i) {
+   case "a": i= i-"A"+ "a";
+   case "e" :i= i-"A"+ "a";
+   case "i" : i= i-"A"+ "a";
+   case "o" : i= i-"A"+ "a";
+   case "u" :i= i-"A"+ "a";
+   case "y" : i= i-"A"+ "a";
+   case "A" :i= i-"a"+ "A";
+   case "E" :i= i-"a"+ "A";
+   case "I" :i= i-"a"+ "A";
+   case "O" :i= i-"a"+ "A";
+   case "U" :i= i-"a"+ "A";
+   case "Y" : i= i-"a"+ "A";
+   }
+   default {
+     i=i;
+    }
+  }
 }
- }
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
-	
-char glove[] = "MOTIONLESS ladybug";
-ocher(glove);
-
-printf("%s \n", glove);
-
- }
+int main (){
+char heck[] = "energetic SHEEP";
+printf ("%s\n", man(heck));
+}

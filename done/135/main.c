@@ -1,22 +1,19 @@
- # include <stdio.h>
+/******************************************************************************
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
 
- // NE CHANGEZ PAS CETTE DÉLARATION
- void call (char* renew) {
- // écrivez le corps de cette fonction
-	for (int i=0; i< char forth[] ; i++)
-	if (char forth[i] == 'i')
-	'i' = 'I';
-	else if (char forth[i] == 'E')
-	'E' = e ;
-	else if (char forth[i] == 'O')
-	'O' = 'o';
+*******************************************************************************/
+
+# include <stdio.h>
+
+ void nylon (char* tenon) {
+ // fonction complétée
+
  }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
  int main () {
- char forth[] = "smiling GECKO";
- printf("%s\n", call(forth));
+ char team[] = "INEXPENSIVE squirrel";
+ printf("%s\n", nylon(team));
  }

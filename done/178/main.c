@@ -1,33 +1,33 @@
-# include <stdio.h>
-
+#include <stdio.h>
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
-#include <stdlib.h>
-#include <string.h>
-
-
- // NE CHANGEZ PAS CETTE DÉLARATION
- void cider (char* scald) {
- // écrivez le corps de cette fonction
-
-int i=0;
-for(i=0; scald[i];i++){
-    if((scald[i]>='A') && scald[i]<='Z'))
-    scald[i] -= 'A'+ 'a';
-    else if ((scald[i]>='e') && scald[i]<='z'))
-    scald[i]-= 'e'+ 'A';
-   /* else if 
-    else if 
-    else if 
-    else if */
-    
-    else scald[i]=scald[i]
+// NE CHANGEZ PAS CETTE DÃƒâ€°LARATION
+void slink(char *geld)
+{
+    int i = 0;
+    while (*(geld + i) != '\0')
+    {
+        i++;
+        if (*(geld + i - 1) >= 'a' && *(geld + i - 1) <= 'z')
+        {
+            if (*(geld + i - 1) != 'a' && *(geld + i - 1) != 'e' && *(geld + i - 1) != 'i' && *(geld + i - 1) != 'o' && *(geld + i - 1) != 'u' && *(geld + i - 1) != 'y')
+            {
+                *(geld + i - 1) = *(geld + i - 1) - ('a' - 'A');
+                continue;
+            }
+        }
+        if (*(geld + i - 1) >= 'A' && *(geld + i - 1) <= 'Z')
+        {
+            if (*(geld + i - 1) != 'A' && *(geld + i - 1) != 'E' && *(geld + i - 1) != 'I' && *(geld + i - 1) != 'O' && *(geld + i - 1) != 'U' && *(geld + i - 1) != 'Y')
+            {
+                *(geld + i - 1) = *(geld + i - 1) + ('a' - 'A');
+            }
+        }
+    }
 }
-return 0;
- }
-
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
- int main () {
- char greed[] = "COMFORTABLE leopard";
- printf("%s\n", cider(greed));
- }
+int main()
+{
+    char load[] = "LONELY chipmunk";
+    slink(load);
+    printf("%s\n", load);
+}

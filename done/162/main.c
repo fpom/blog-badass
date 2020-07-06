@@ -1,27 +1,24 @@
 #include <stdio.h>
-#include<stdlib.h>
-#include<string.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 
-// NE CHANGEZ PAS CETTE DÉLARATION
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-char* are (char* vote) {
-    int taille=strlen(vote);
-    for(int i=0;i<taille;i++){
-        if((vote[i])=='A' || vote[i]=='E' ||vote[i]=='I'||vote[i]=='O'||vote[i]=='U'||vote[i]=='Y'){
-           vote[i]=vote[i]+32; 
-        }
-         
+// NE CHANGEZ PAS CETTE DÉCLARATION
+void theta (char* ruing) {
+    
+    int gap = 'a' - 'A';
+    size_t i = 0;
+    while(ruing[i] != '\0')
+    {
+        if(ruing[i] >= 'a' && ruing[i] <= 'z') ruing[i] -= gap; 
+        else if(ruing[i] >= 'A' && ruing[i] <= 'Z') ruing[i] += gap;         
+        i++;
     }
-    return vote;
 }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
- int main () {
-   char sac[] = "CHARMING sheep";
-   printf("%s\n", are(sac));
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main () {
+    char berg[] = "DRAB peacock";
+    theta(berg);
+    printf("%s\n", berg);
 }
-
-
-
-

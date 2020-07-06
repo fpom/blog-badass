@@ -1,31 +1,24 @@
-#include <stdio.h>
-    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-    // NE CHANGEZ PAS CETTE DÃ‰LARATION
+ # include <stdio.h>
 
-    // Ã©crivez le corps de cette fonction
-    void notch (char* pin) {
-    int i = 0;
- 
-    //Tant que nous ne sommes pas arrivÃ©s a la fin de la chaine, continuer
-    while (pin[i] != '\0')
-    {
-        /*si chaine[1] est une minuscule
-         *Car les minuscules se situent entre 97 et 122 inclusivement
-         */
-        if (pin[i]  >= 65 &&  pin[i] <= 90)
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
+// NE CHANGEZ PAS CETTE DÉLARATION
+ void swing (char* skip) {
+    int i;
+    for (i=0; i<strlen(skip);i++){
+        if (skip[i]<91 && skip[i]>64) // code ASCII correspondant aux majuscules
+            skip[i]=tolower(skip[i]);
+        else skip[i]=toupper(skip[i]);
+    }
+ // écrivez le corps de cette fonction
+ }
 
-            //Convertir en minuscules
-            pin[i] = pin[i] + 32;
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-        i++;
+ int main () {
+ char elm[] = "eager AKBASH";
+ swing(elm);
+ printf("%s\n", elm);
 
-    } }
+ }
 
-
-    // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
-char sum[] = "misty WOLVERINE";
-notch(sum);
-printf("%s\n",sum);}

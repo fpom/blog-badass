@@ -1,20 +1,20 @@
-1 # include <stdio.h>
-2
-3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-4
-5 // NE CHANGEZ PAS CETTE DÉLARATION
-6 void ere (char* iffy) {
-7 // écrivez le corps de cette fonction
-8 }scanf(« %s »,mot) ;
-for(i=0;i<strlen(iffy) ; i++)
-iffy[i]=toupper(mot[i]) ;
-and ffy[i]=tolower(mot[i]) ;
-9
-10 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-11
-12 int main () {
-13 char kale[] = "CURIOUS pelican";
-14 printf("%s\n", ere(kale));
-15 }
+# include <stdio.h>
 
-
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+
+ // NE CHANGEZ PAS CETTE D�LARATION
+ void moody (char* there) {
+   int i=0;
+   for(i; i<10; i ++){
+    if(char[i]='I'){
+      char[i]= 'i';
+    }
+    }
+ }
+
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+ int main () {
+ char axle[] = "KIND robin";
+ printf("%s\n", moody(axle));
+ }

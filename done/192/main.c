@@ -1,19 +1,24 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<limits.h>
 
 #include <stdio.h>
+#include<stdlib.h>
+#include<string.h>
 
-// NE MODIFIER PAS CE COMMENTAIRE NI RIEN AU DESSUS
-// NE CHANGEZ PAS CETTE DECLARATION
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÉLARATION
 
-char* neon (char* dying) {
-int taille=strlen(neon);
-for (int i=0; i<taille; i++){
-if ((dying[i]=='a' dying[i]=='e' dying[i]=='i' dying[i]=='o' dying[i]=='u' //     dying[i]=='y'){
- dying[i]=dying[i]-32;
+char* motor (char* arena) {
+    int taille=strlen(arena);
+    for(int i=0;i<taille;i++){
+        if((arena[i])=='A' || arena[i]=='E' ||arena[i]=='I'||arena[i]=='O'||arena[i]=='U'||arena[i]=='Y'){
+           arena[i]=arena[i]+32;
+        }
+
+    }
+    return arena;
 }
 
-} 
-  return dying;
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ int main () {
+   char bang[] = "DISTURBED antelope";
+   printf("%s\n", motor(bang));
 }

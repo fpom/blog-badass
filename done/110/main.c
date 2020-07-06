@@ -1,26 +1,19 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
-# include <stdio.h>
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
- void oft (char* redid) {
-// écrivez le corps de cette fonction
- while (demur[]){
-     if ()
- }
+// NE CHANGEZ PAS CETTE DELARATION
+  void guyed (char* mean) {
+     //�crivez le corps de cette fonction
+        char (int s = '83'; e = 69; l = 76; f = 70; i = 73; s = 83; h = 72;);
+        int (r =trans(s); r =trans(e); r =trans(l); r =trans(f); r =trans(s); r =trans(h););
+        cout<<r<<endl;
+        return 0 ;
 }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
- char demur[] = "doubtful TIFFANY";
- printf("%s\n", demur);
+ int main () {
+    char pouch [] = "SELFISH tang"
+    printf("%s\n", guyed(pouch));
 }

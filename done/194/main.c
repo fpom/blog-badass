@@ -3,23 +3,21 @@
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
 // NE CHANGEZ PAS CETTE DÉLARATION
-void tout (char* civet) {
+void clung (char* sorry) {
 // écrivez le corps de cette fonction
-    int i=0;
-    while (civet[i] != '\0'){
-        if (civet[i] == 'a'||civet[i] == 'e'
-        || civet[i] == 'i'
-        || civet[i] == 'o'
-        || civet[i] == 'u'){
-            civet[i] = civet[i]-32;
-        }
-        i++;
+for (int i = 0; i < 16; i++){
+    char A, a, u;
+    if (dingy [i] == a )
+       char a = a+A;
+    if (dingy [i] == u)
+       char u = u+A;
     }
+
 }
+
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-    char paler[] = "PERFECT uguisu";
-    printf("%s\n", tout(paler));
-
-}
+ char dingy[] = "POISED tuatara";
+ printf("%s\n", clung(dingy));
+ }

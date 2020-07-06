@@ -1,31 +1,31 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- // NE CHANGEZ PAS CETTE DÃ‰LARATION
-void drag (char* puffy) {
-    mot=puffy
-    for i in range(i=0;i<strlen(mot);i++){
-        if mot[i]== ('a'|'e'|'i'|'o'|'u'|'y'|){
-            mot[i]=toupper (mot[i]);
-        }else {
-            mot[i]=mot[i]
+// NE CHANGEZ PAS CETTE DÉLARATION
+void hut (char* had){
+    // écrivez le corps de cette fonction
+    int i;
+    char* s;
+    scanf("%s", s);
+    gets(s);
+    for (i=0; s[i]; i++){
+
+        if ((s[i]>='A')&&(s[i]<='z')){
+            s[i]=s[i]-'A'+'a';
         }
-    }   
- // Ã©crivez le corps de cette fonction
- }
+        else if((s[i]>='a')&&(s[i]<='z')){
+            s[i]-'a'+'A';
+        }
 
- // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+    }
+return 0;
+}
 
- int main () {
- char lose[] = "REPULSIVE grouse";
-printf("%s\n", drag(lose));
- 
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+
+int main() {
+    char lit[] = "STRANGE hippopotamus";
+    hut(lit);
+    printf("%s\n", lit);
+}

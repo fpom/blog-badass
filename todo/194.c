@@ -1,11 +1,11 @@
-//let head = 'perfect'
-//let tail = 'uguisu'
-//let STR = 'PERFECT uguisu'
+//let head = String('poised')
+//let tail = String('tuatara')
+//let STR = String('POISED tuatara')
 //let algo = 'strvup'
-//let RESULT = String('PERFECT UgUIsU')
-//let FUN = 'tout'
-//let ARG = 'civet'
-//let TEST = 'paler'
+//let RESULT = String('POISED tUAtArA')
+//let FUN = 'clung'
+//let ARG = 'sorry'
+//let TEST = 'dingy'
 void FUN (char* ARG) {
   // write this function body
 }

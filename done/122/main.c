@@ -1,33 +1,26 @@
-L'algorithme minimax
-int fonction minimax (int profondeur)
-{
-if (game_over or profondeur = 0)
-return evaluation();
-int meilleur_score;
-move meilleur_coup;
-if (noeud == MAX) { //=Programme
-meilleur_score = -INFINITY;
-for (chaque coup possible m) {
-jouer le coup m
-int score = minimax (profondeur - 1)
-annuler le coup m;
-if (score > meilleur_score) {
-meilleur_score = score;
-meilleur_coup = m ; 4
+//
+//  main.cpp
+//  progra
+//
+//  Created by Eliko on 26/05/2020.
+//  Copyright © 2020 Eliko. All rights reserved.
+//
+
+
+
+ # include <stdio.h>
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS 4
+// NE CHANGEZ PAS CETTE DÉLARATION
+void scale (char* cater) {
+    while('\0'){
+        if(
+        
+    }
+    
+
 }
-}
-}
-else { //type MIN = adversaire
-meilleur_coup = +INFINITY;
-for (chaque coup possible m) {
-jouer le coup m;
-int score = minimax (depth – 1)
-annuler le coup m;
-if (score < meilleur_score) {
-meilleur_score = score;
-meilleur_coup = m ;
-}
-}
-}
-return meilleur_coup ;
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
+ int main () {
+   char head[] = "OUTSTANDING macaw";
+     printf("%s\n", scale(head);
 }

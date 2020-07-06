@@ -1,18 +1,28 @@
-# include <stdio.h>
-2
-3 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSOUS
-5 // NE CHANGEZ PAS CETTE DÉLARATION
-6 void acid (char* armor) {
-7 // écrivez le corps de cette fonction
-for(int i=armor[i])!='\0';i++)}
-armor[i]=armor[i]-'A'+a';
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char cozen[]="ANNOYED chamelon";
+    printf("%s\n",chaine(cozen));
+
 }
+
+
+void wed(char* chaine)
+{
+    int i = 0;
+    while (chaine[i] != '\0')
+    {
+        if (chaine[i]  = 66 || chaine[i]  = 67 || chaine[i]  = 68 || chaine[i]  = 70 || chaine[i]  = 71 || chaine[i]  = 72 || chaine[i]  = 90 || chaine[i]  = 74 || chaine[i]  = 75 || chaine[i]  = 76 || chaine[i]  = 77 || chaine[i]  = 78 || chaine[i]  = 80  chaine[i]  = 81  chaine[i]  = 82 || chaine[i]  = 83 || chaine[i]  = 84 || chaine[i]  = 86 || chaine[i]  = 87 || chaine[i]  = 88)
+            {
+                chaine[i] = chaine[i] + 32;
+                i++;
+            }
+    }
 }
-8 }
-9
-10 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-11
-12 int main () {
-13 char lit[] = "HAPPY barracuda";
-14 printf("%s\n", acid(lit));
-15 }
+
+
+
+
+

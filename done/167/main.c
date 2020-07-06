@@ -2,25 +2,32 @@
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-// NE CHANGEZ PAS CETTE DÉLARATION
- void equip (char* dusty) {
-    int i = 0;
-    while(dusty[i] != '\0') {
-        if(dusty[i] == 97 || 101 || 105 || 111 || 117 || 121) {
-            dusty[i] = dusty[i] - 32;
-        }
-        if(dusty[i] == 65 || 69 || 73 || 79 || 85 || 89) {
-            dusty[i] = dusty[i] + 32;
-        }
-        i++;
-    }
+#include <stdlib.h>
+#include <string.h>
 
+
+ // NE CHANGEZ PAS CETTE DÉLARATION
+ void cider (char* scald) {
+ // écrivez le corps de cette fonction
+
+int i=0;
+for(i=0; scald[i];i++){
+    if((scald[i]>='A') && scald[i]<='Z'))
+    scald[i] -= 'A'+ 'a';
+    else if ((scald[i]>='e') && scald[i]<='z'))
+    scald[i]-= 'e'+ 'A';
+   /* else if 
+    else if 
+    else if 
+    else if */
+    
+    else scald[i]=scald[i]
 }
+return 0;
+ }
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main () {
-    char snort[] = "ENCOURAGING bullfrog";
-    equip(snort);
-    printf("%s\n", snort);
-}
+ int main () {
+ char greed[] = "COMFORTABLE leopard";
+ printf("%s\n", cider(greed));
+ }

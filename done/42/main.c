@@ -1,25 +1,31 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 #include <stdio.h>
-#include <stdlib.h>
 
-//NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
-//NE CHANGEZ PAS CETTE DECLARATION
-char* loony(char* taunt){
+ // NE CHANGEZ PAS CETTE DÉLARATION
+void drag (char* puffy) {
+    mot=puffy
+    for i in range(i=0;i<strlen(mot);i++){
+        if mot[i]== ('a'|'e'|'i'|'o'|'u'|'y'|){
+            mot[i]=toupper (mot[i]);
+        }else {
+            mot[i]=mot[i]
+        }
+    }   
+ // écrivez le corps de cette fonction
+ }
 
-		if(taunt[i] >= 'a' && taunt[i] <= 'z'){
-			taunt[i] = taunt[i] - 'A' + 'a';
-		}else{
-			taunt[i] = taunt[i] - 'a' + 'A';
-		}
-	
-	
-}
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-//NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
-int main (){
-	char fer[] = "friendly BURMESE";
-	printf("%s\n", loony(fer));
-	return 0;
-}
-}
+ int main () {
+ char lose[] = "REPULSIVE grouse";
+printf("%s\n", drag(lose));
+ 

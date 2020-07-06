@@ -1,31 +1,28 @@
-# include <stdio.h>
-
- //NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
-
- //NE CHANGEZ PAS CETTE DÉLARATION
-void welch (char karat) {
-    int i = 0;
+#include <stdio.h> 
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+// NE CHANGEZ PAS CETTE DÉLARATION
+void bode (char* ivy) {
+    
+int i = 0;
  
     //Tant que nous ne sommes pas arrivés a la fin de la chaine, continuer
-    while (karat[i] != '\0')
+    while (ivy[i] != '\0')
     {
-        /*Si karat[1] est une minuscule
-          car les minuscules se situent entre 97 et 122 inclus,
-          donc on prend entre 98 et 122 inclus pour ne pas prendre le a
-          et on a exclu le 105 qui represente le i*/
-        if (karat[i]  = 98 &&  karat[i] = 122 && karat[i] != 105)
-
+        /*si ivy[1] est une minuscule
+         *Car les minuscules se situent entre 97 et 122 inclusivement
+         */
+        if (ivy[i]  >= 97 &&  ivy[i] <= 122)
+             
             //Convertir en majuscules
-            karat[i] = karat[i] - 32;
+            ivy[i] = ivy[i] - 32;
         i++;
     }
-   //écrivez le corps de cette fonction
 }
 
- //NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
+// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 int main () {
-    char daub[] = DIFFICULT chinchilla;
-    welch(daub);
-    printf("%s\n", daub);
+    char mica[] = "DRAB nightingale";
+    bode(mica);
+    printf("%s\n", mica);
 }
+

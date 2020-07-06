@@ -1,11 +1,11 @@
-//let head = 'long'
-//let tail = 'panther'
-//let STR = 'LONG panther'
-//let algo = 'strvswap'
-//let RESULT = String('LoNG pAnthEr')
-//let FUN = 'gamed'
-//let ARG = 'crier'
-//let TEST = 'seed'
+//let head = String('thoughtful')
+//let tail = String('robin')
+//let STR = String('THOUGHTFUL robin')
+//let algo = 'strcup'
+//let RESULT = String('THOUGHTFUL RoBiN')
+//let FUN = 'shift'
+//let ARG = 'slice'
+//let TEST = 'clue'
 void FUN (char* ARG) {
   // write this function body
 }

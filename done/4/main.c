@@ -1,45 +1,21 @@
-#include <stdio.h>
-
- 
+# include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
- 
-
 // NE CHANGEZ PAS CETTE DÉLARATION
-
-void dryly (char* sitar) {
-
-    // écrivez le corps de cette fonction
-
+void past (char* tared) {
+ // écrivez le corps de cette fonction
+for(int i=0;tared[i]!='\0';i++){
+    if(tared[i]>='a'&& tared[i]<='z'){
+        tared[i]=tared[i]-'a'+'A';
+    }
 }
+ }
 
-int i 
+ // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
- 
+ int main () {
+ char unset[] = "good MOLLY";
 
-tolower(SPONGE);
-
-for(i=0; i<sitar(sitar); i++){
-
-    if skip i=tolower 
-
-}
-
- 
-
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
-
- 
-
-int main () {
-
- 
-
-    char boded[100] = "difficult SPONGE";
-
-    lop(plop);
-
-  printf("%s\n", plop);
-
+ printf("%s\n", past(unset));
 }

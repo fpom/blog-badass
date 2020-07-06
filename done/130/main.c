@@ -1,35 +1,24 @@
-# include <stdio.h>
+#include <stdio.h>
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
 
 // NE CHANGEZ PAS CETTE DÉLARATION
-void gloom (char* spoke) {
-  while (chaine[i] != '\0')
+void dent (char* frier) {
 
-     if (chaine[i] == 'a')
-          chaine[i] = 'A';
+    for(int i = 0; frier[i] != '\0'; i++){
 
-     if (chaine[i] == 'e')
-          chaine[i] = 'E';
+        if(frier[i] >= 'A' && frier[i] <='Z'){
 
-     if (chaine[i] == 'i')
-          chaine[i] = 'I';
-
-     if (chaine[i] == 'o')
-          chaine[i] = 'O';
-
-     if (chaine[i] == 'u')
-          chaine[i] = 'U';
-
-     if (chaine[i] == 'y')
-          chaine[i] = 'Y';
-
-// écrivez le corps de cette fonction
+            frier[i] += 32;
+        }
+    }
 }
+
 
 // NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
 int main () {
-char lend[] = "HORRIBLE hippopotamus";
-printf("%s\n", gloom(lend));
+ char faxed[] = "arrogant PEKINGESE";
+ dent(faxed);
+ printf("%s\n", faxed);
 }

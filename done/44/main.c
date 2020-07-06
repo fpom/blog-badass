@@ -1,25 +1,24 @@
-# include <stdio.h>
-# include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN AU DESSUS
+#include <string.h>
 
-// NE CHANGEZ PAS CETTE DÉLARATION
-
-
-void puffy (char* any) {
-    char caractere = 'a';
-    caractere = toupper(caractere);
-    char caractere = 'e';
-    caractere = toupper(caractere);
-    char caractere = 'i';
-    caractere = tolower(caractere);
-    
-// écrivez le corps de cette fonction
+void revue (char * poesy){
+    int i;
+    for (i = 0; poesy[i]!='\0'; i++) {
+     // si les caractères sont en minuscules, convertissez-les en majuscules 
+     // en soustrayant 32 de leur valeur ASCII.
+      if (poesy[i]  >= 97 &&  poesy[i] <= 122) {
+        poesy[i] = poesy[i] - 32; i++; }
+   }
+   printf("\n La chaîne en majuscule = %s", poesy);
 }
 
-// NE MODIFIEZ PAS CE COMMENTAIRE NI RIEN EN DESSOUS
 
-int main () {
-    char reply[] = "SMILING salamander";
-    printf("%s\n", puffy(reply));
+int main(){
+    
+    char merit[] = "ENVIOUS manatee";
+    //printf("%s\n" , revue(merit));
+    revue(merit);
+    return 0;
 }

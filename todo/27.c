@@ -1,11 +1,11 @@
-//let head = 'determined'
-//let tail = 'bulldog'
-//let STR = 'DETERMINED bulldog'
-//let algo = 'strlow'
-//let RESULT = String('DETERMINED BULLDOG')
-//let FUN = 'mowed'
-//let ARG = 'sneak'
-//let TEST = 'peppy'
+//let head = String('alert')
+//let tail = String('chicken')
+//let STR = String('ALERT chicken')
+//let algo = 'strup'
+//let RESULT = String('ALERT CHICKEN')
+//let FUN = 'swear'
+//let ARG = 'decaf'
+//let TEST = 'waved'
 void FUN (char* ARG) {
   // write this function body
 }

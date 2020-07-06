@@ -1,6 +1,6 @@
-//let head = 'anxious'
-//let tail = 'dragonfly'
-//let STR = 'anxious DRAGONFLY'
+//let head = String('anxious')
+//let tail = String('dragonfly')
+//let STR = String('anxious DRAGONFLY')
 //let algo = 'strup'
 //let RESULT = String('ANXIOUS DRAGONFLY')
 //let FUN = 'met'
